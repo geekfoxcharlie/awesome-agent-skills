@@ -1,0 +1,15 @@
+{
+  "site": "https://skillpicker.xyz",
+  "picks_per_topic": 5,
+  "min_picks": 2,
+  "max_appearances": 3,
+  "featured_rank_max": 8,
+  "max_per_axis": {
+    "role": 18,
+    "deliverable": 10,
+    "task": 16,
+    "tool": 9,
+    "agent": 5,
+    "beginner": 2
+  }
+}

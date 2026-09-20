@@ -1,0 +1,68 @@
+{
+  "topic_names": {
+    "role/data-science": [
+      "azure-kusto",
+      "azure-storage",
+      "azure-kusto-irql",
+      "bigquery-ai-ml",
+      "bigquery-basics"
+    ],
+    "role/data-engineers": [
+      "azure-kusto",
+      "azure-storage"
+    ],
+    "role/cybersecurity": [
+      "azure-kusto-irql",
+      "azure-kusto"
+    ],
+    "task/data-analysis": [
+      "azure-kusto",
+      "azure-storage"
+    ],
+    "task/devops": [
+      "azure-diagnostics",
+      "azure-deploy",
+      "azure-prepare",
+      "azure-devops-cli"
+    ],
+    "role/architects": [
+      "improve-codebase-architecture",
+      "grill-with-docs",
+      "tdd"
+    ],
+    "role/engineering": [
+      "finding-google-skills",
+      "data-manager-api-audience-ingestion",
+      "using-superpowers"
+    ],
+    "agent/claude-code": [
+      "caveman"
+    ],
+    "task/content-writing": [
+      "internal-comms"
+    ],
+    "task/code-review": [
+      "review"
+    ],
+    "role/human-resources": [
+      "humanity"
+    ],
+    "role/teachers": [
+      "vietnamese-education-copy"
+    ],
+    "role/equity-research": [
+      "equity-researcher",
+      "llmquant-equities"
+    ],
+    "role/project-management": [
+      "n8n-project-management",
+      "project-management-guru-adhd"
+    ],
+    "role/job-seekers": [
+      "resume/cv creator"
+    ],
+    "role/legal": [
+      "korean-law-search"
+    ]
+  }
+}

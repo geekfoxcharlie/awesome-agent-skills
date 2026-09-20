@@ -1,0 +1,54 @@
+{
+  "skills": [
+    {
+      "candidate_id": "github:vercel-labs/skills/skills/find-skills/SKILL.md",
+      "blurb": "Find and install the right agent skill for a task.",
+      "blurb_zh": "为任务找到并安装合适的 Agent Skill。"
+    },
+    {
+      "candidate_id": "github:anthropics/skills/skills/frontend-design/SKILL.md",
+      "blurb": "Distinctive UI that does not look like default AI chrome.",
+      "blurb_zh": "做出不像默认 AI 界面的独特 UI。"
+    },
+    {
+      "candidate_id": "github:addyosmani/agent-skills/skills/test-driven-development/SKILL.md",
+      "blurb": "Test-driven development: red, green, refactor.",
+      "blurb_zh": "测试驱动开发：红、绿、重构。"
+    },
+    {
+      "candidate_id": "github:anthropics/skills/skills/pptx/SKILL.md",
+      "blurb": "Create and edit PowerPoint decks from notes or from scratch.",
+      "blurb_zh": "从笔记或从零创建、编辑 PowerPoint 演示文稿。"
+    },
+    {
+      "candidate_id": "github:anthropics/skills/skills/xlsx/SKILL.md",
+      "blurb": "Read, analyze, and write Excel workbooks.",
+      "blurb_zh": "读取、分析和编写 Excel 工作簿。"
+    },
+    {
+      "candidate_id": "skills_sh:coreyhaines31/marketingskills/seo-audit",
+      "blurb": "Diagnose why a site is not ranking and what to fix.",
+      "blurb_zh": "诊断网站为什么不排名、该修什么。"
+    },
+    {
+      "candidate_id": "skills_sh:coreyhaines31/marketingskills/copywriting",
+      "blurb": "Marketing copy for homepages, landing pages, and ads.",
+      "blurb_zh": "首页、落地页和广告的营销文案。"
+    },
+    {
+      "candidate_id": "github:mattpocock/skills/skills/engineering/code-review/SKILL.md",
+      "blurb": "Review a diff against the repo's own standards and the spec.",
+      "blurb_zh": "按仓库自身规范和规格审查 diff。"
+    },
+    {
+      "candidate_id": "skills_sh:firecrawl/firecrawl-workflows/firecrawl-deep-research",
+      "blurb": "Multi-source research with citations and contrary views.",
+      "blurb_zh": "多来源研究，带引用和反对意见。"
+    },
+    {
+      "candidate_id": "github:anthropics/skills/skills/webapp-testing/SKILL.md",
+      "blurb": "Playwright checks against a local web app.",
+      "blurb_zh": "针对本地 Web 应用的 Playwright 检查。"
+    }
+  ]
+}

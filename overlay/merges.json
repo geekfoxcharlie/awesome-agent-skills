@@ -1,0 +1,114 @@
+{
+  "families": [
+    {
+      "canonical": "deliverable/resume",
+      "title": "Resume & CV",
+      "title_zh": "简历与 CV",
+      "fold": [
+        "deliverable/resume-writing",
+        "deliverable/resume-building",
+        "deliverable/resume-tailoring",
+        "deliverable/cv"
+      ]
+    },
+    {
+      "canonical": "deliverable/powerpoint",
+      "title": "PowerPoint & presentations",
+      "title_zh": "PowerPoint 与演示文稿",
+      "fold": [
+        "deliverable/ppt-generation",
+        "deliverable/presentations",
+        "deliverable/making-presentations",
+        "deliverable/html-presentation"
+      ]
+    },
+    {
+      "canonical": "deliverable/academic-writing",
+      "title": "Academic writing",
+      "title_zh": "学术写作",
+      "fold": [
+        "deliverable/research-paper-writing",
+        "deliverable/literature-review"
+      ]
+    },
+    {
+      "canonical": "deliverable/documentation",
+      "title": "Documentation",
+      "title_zh": "文档",
+      "fold": ["deliverable/writing-documentation"]
+    },
+    {
+      "canonical": "deliverable/technical-writing",
+      "title": "Technical writing",
+      "title_zh": "技术写作",
+      "fold": ["deliverable/report-writing"]
+    },
+    {
+      "canonical": "task/web-design",
+      "title": "Web design",
+      "title_zh": "Web 设计",
+      "fold": [
+        "task/website-design",
+        "task/building-websites",
+        "task/website-building"
+      ]
+    },
+    {
+      "canonical": "task/app-development",
+      "title": "App development",
+      "title_zh": "应用开发",
+      "fold": [
+        "task/mobile-app-development",
+        "task/android-development"
+      ]
+    },
+    {
+      "canonical": "task/content-writing",
+      "title": "Content creation",
+      "title_zh": "内容创作",
+      "fold": []
+    },
+    {
+      "canonical": "task/stock-analysis",
+      "title": "Stock analysis",
+      "title_zh": "股票分析",
+      "fold": ["task/stock-trading"]
+    },
+    {
+      "canonical": "role/engineering",
+      "title": "Engineering",
+      "title_zh": "工程",
+      "fold": ["role/developers", "role/backend-developer"]
+    },
+    {
+      "canonical": "role/human-resources",
+      "title": "HR",
+      "title_zh": "人力资源",
+      "fold": []
+    },
+    {
+      "canonical": "role/legal",
+      "title": "Legal",
+      "title_zh": "法务",
+      "fold": ["role/lawyers"]
+    },
+    {
+      "canonical": "role/teachers",
+      "title": "Teachers",
+      "title_zh": "教师",
+      "fold": ["role/education"]
+    },
+    {
+      "canonical": "role/real-estate",
+      "title": "Real estate",
+      "title_zh": "房地产",
+      "fold": ["role/real-estate-agents"]
+    },
+    {
+      "canonical": "beginner/token-optimization",
+      "title": "Token optimization",
+      "title_zh": "令牌优化",
+      "fold": ["beginner/less-token-usage"]
+    }
+  ]
+}

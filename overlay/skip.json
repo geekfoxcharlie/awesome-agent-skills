@@ -1,0 +1,20 @@
+[
+  "role/managers",
+  "role/private-equity",
+  "role/students",
+  "role/small-business",
+  "role/business-development",
+  "role/finance",
+  "beginner/students",
+  "beginner/learning",
+  "beginner/human-writing",
+  "beginner/studying",
+  "tool/html",
+  "tool/excel",
+  "task/hacking",
+  "task/web-app-development",
+  "task/travel-planning",
+  "task/personal-finance",
+  "agent/vscode",
+  "agent/claude-cowork"
+]
