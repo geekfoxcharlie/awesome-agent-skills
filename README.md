@@ -6,7 +6,7 @@
 
 A curated list of Agent Skills — SKILL.md packages for Claude Code, Codex, Cursor, and other coding agents — organized by role, task, and output.
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Topics](https://img.shields.io/badge/topics-58-0A66C2) ![Picks](https://img.shields.io/badge/curated_picks-287-0A66C2) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Topics](https://img.shields.io/badge/topics-59-0A66C2) ![Picks](https://img.shields.io/badge/curated_picks-292-0A66C2) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 
@@ -58,7 +58,7 @@ Ten agent skills worth installing this week. Not the ten highest install counts 
 - [By output](#by-output) — 10 jobs
 - [By task](#by-task) — 16 jobs
 - [By tool](#by-tool) — 9 jobs
-- [By agent](#by-agent) — 3 jobs
+- [By agent](#by-agent) — 4 jobs
 - [Getting started](#getting-started) — 2 jobs
 - [How this list is made](#how-this-list-is-made)
 
@@ -86,27 +86,6 @@ Agent skills for Engineering. Also covers Developers, Backend Developer.
 
 - **[improve-code-quality](https://skillpicker.xyz/skill/improve-code-quality-l6svlu/)** — Guided nine-phase journey from an untested prototype to production-ready code, orchestrating testing, clean code…
   `npx skills add wondelai/skills@improve-code-quality`
-
-### Marketing
-
-Agent skills for Marketing.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/marketing/)**
-
-- **[campaign-plan](https://skillpicker.xyz/skill/campaign-plan-ipfvnt/)** — Generates a full campaign brief with objectives, audience, messaging, channel strategy, content calendar…
-  `npx skills add anthropics/knowledge-work-plugins@campaign-plan`
-
-- **[marketing-plan](https://skillpicker.xyz/skill/marketing-plan-58xgvn/)** — Generates an exhaustive 13-section AARRR-structured marketing plan customized to budget, team, and stage…
-  `npx skills add coreyhaines31/marketingskills@marketing-plan`
-
-- **[email-marketing-bible](https://skillpicker.xyz/skill/email-marketing-bible-1dz5ccg/)** — Email marketing skill covering lifecycle and campaign copy, 19 industry playbooks.
-  `npx skills add CosmoBlk/email-marketing-bible@email-marketing-bible`
-
-- **[seo-audit](https://skillpicker.xyz/skill/seo-audit-gw0gle/)** — Expert SEO audit skill identifying technical, on-page, and content issues with actionable recommendations to improve…
-  `npx skills add coreyhaines31/marketingskills@seo-audit`
-
-- **[seo](https://skillpicker.xyz/skill/seo-x95zmm/)** — Comprehensive SEO analysis skill orchestrating 24 sub-skills for audits, schema, technical SEO, content quality…
-  `npx skills add agricidaniel/claude-seo@seo`
 
 ### Designers
 
@@ -150,26 +129,26 @@ Agent skills for Job Seekers.
 - **[product-sense-interview-answer](https://skillpicker.xyz/skill/product-sense-interview-answer-seth1f/)** — Coaches PM candidates through product-sense interview questions using a six-part answer spine: clarify, rationale…
   `npx skills add deanpeters/product-manager-skills@product-sense-interview-answer`
 
-### Writers
+### Legal
 
-Agent skills for Writers.
+Agent skills for Legal.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/writers/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/legal/)**
 
-- **[content-research-writer](https://skillpicker.xyz/skill/content-research-writer-12s8d4v/)** — Acts as a writing partner for blog posts, articles, and newsletters, handling research, outlining, hooks, citations…
-  `npx skills add composiohq/awesome-claude-skills@content-research-writer`
+- **[review-contract](https://skillpicker.xyz/skill/review-contract-1h4ihcu/)** — Reviews contracts against an organization's negotiation playbook, flagging deviations, generating redlines…
+  `npx skills add anthropics/knowledge-work-plugins@review-contract`
 
-- **[humanizer](https://skillpicker.xyz/skill/humanizer-1xr98jr/)** — Rewrite AI-sounding text so it reads like the writer without changing what it says.
-  `npx skills add blader/humanizer@humanizer`
+- **[vendor-agreement-review](https://skillpicker.xyz/skill/vendor-agreement-review-qyg9v6/)** — Reviews inbound vendor agreements against a team playbook, flags deviations, assesses risk, generates specific…
+  `npx skills add anthropics/claude-for-legal@vendor-agreement-review`
 
-- **[no-ai-slop](https://skillpicker.xyz/skill/no-ai-slop-1obdsa8/)** — Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop…
-  `npx skills add petergyang/no-ai-slop@no-ai-slop`
+- **[review](https://skillpicker.xyz/skill/review-ittef8/)** — Reviews inbound agreements against a playbook, identifies agreement structure, routes to the right review skill…
+  `npx skills add anthropics/claude-for-legal@review`
 
-- **[doc-coauthoring](https://skillpicker.xyz/skill/doc-coauthoring-1uje9wh/)** — Guide users through a structured workflow for co-authoring documentation.
-  `npx skills add anthropics/skills@doc-coauthoring`
+- **[legal-document-analyzer](https://skillpicker.xyz/skill/legal-document-analyzer-1nbvbz8/)** — Builds agents for legal document analysis, contract review, and compliance checking.
+  `npx skills add qodex-ai/ai-agent-skills@legal-document-analyzer`
 
-- **[copy-editing](https://skillpicker.xyz/skill/copy-editing-qkt1d8/)** — Systematic editing passes for existing copy directly serve the Revise facet of writing.
-  `npx skills add coreyhaines31/marketingskills@copy-editing`
+- **[legal-risk-assessment](https://skillpicker.xyz/skill/legal-risk-assessment-kbjw8n/)** — Assesses and classifies legal risks using a severity-by-likelihood framework with escalation criteria.
+  `npx skills add anthropics/knowledge-work-plugins@legal-risk-assessment`
 
 ### Business
 
@@ -192,185 +171,26 @@ Agent skills for Business.
 - **[business-pulse](https://skillpicker.xyz/skill/business-pulse-y3ltvv/)** — Produces a one-page cross-functional business snapshot for SMB owners covering cash, sales, pipeline, commitments…
   `npx skills add anthropics/knowledge-work-plugins@business-pulse`
 
-### Construction
+### Marketing
 
-Agent skills for Construction.
+Agent skills for Marketing.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/construction/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/marketing/)**
 
-- **[construction-expert](https://skillpicker.xyz/skill/construction-expert-k3hv0n/)** — Expert guidance for construction management, project planning, BIM, safety compliance, and construction technology…
-  `npx skills add personamanagmentlayer/pcl@construction-expert`
+- **[campaign-plan](https://skillpicker.xyz/skill/campaign-plan-ipfvnt/)** — Generates a full campaign brief with objectives, audience, messaging, channel strategy, content calendar…
+  `npx skills add anthropics/knowledge-work-plugins@campaign-plan`
 
-- **[open-construction-estimate](https://skillpicker.xyz/skill/open-construction-estimate-1sk2tv1/)** — Accesses open construction pricing databases to match BIM elements to standardized work items and calculate costs…
-  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@open-construction-estimate`
+- **[marketing-plan](https://skillpicker.xyz/skill/marketing-plan-58xgvn/)** — Generates an exhaustive 13-section AARRR-structured marketing plan customized to budget, team, and stage…
+  `npx skills add coreyhaines31/marketingskills@marketing-plan`
 
-- **[warranty-tracker](https://skillpicker.xyz/skill/warranty-tracker-1zppxb/)** — Centralized construction warranty tracking system that monitors expiration dates, stores documentation, and manages…
-  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@warranty-tracker`
+- **[email-marketing-bible](https://skillpicker.xyz/skill/email-marketing-bible-1dz5ccg/)** — Email marketing skill covering lifecycle and campaign copy, 19 industry playbooks.
+  `npx skills add CosmoBlk/email-marketing-bible@email-marketing-bible`
 
-- **[unit-price-database-manager](https://skillpicker.xyz/skill/unit-price-database-manager-5hc6dw/)** — Manages construction unit price databases: updating prices, tracking vendors, applying location factors…
-  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@unit-price-database-manager`
+- **[seo-audit](https://skillpicker.xyz/skill/seo-audit-gw0gle/)** — Expert SEO audit skill identifying technical, on-page, and content issues with actionable recommendations to improve…
+  `npx skills add coreyhaines31/marketingskills@seo-audit`
 
-- **[rfi-management](https://skillpicker.xyz/skill/rfi-management-1vnmzo3/)** — Complete RFI management system for construction: create, route, track, and analyze Requests for Information with…
-  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@rfi-management`
-
-### Architects
-
-Agent skills for Architects.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/architects/)**
-
-- **[archviz-storyboard](https://skillpicker.xyz/skill/archviz-storyboard-h98hym/)** — Create architectural visualization storyboards, moodboards, detail boards, film-sequence boards, and keyframe plans.
-  `npx skills add felipealmeidasid/Pack-skills-for-archviz@archviz-storyboard`
-
-- **[create-real-estate-worlds](https://skillpicker.xyz/skill/create-real-estate-worlds-1j59al7/)** — Create cinematic real estate world bibles, visual DNA systems, scene libraries, and architecture prompt packs.
-  `npx skills add felipealmeidasid/Pack-skills-for-archviz@create-real-estate-worlds`
-
-### Equity Research
-
-Agent skills for Equity Research.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/equity-research/)**
-
-- **[equity-research](https://skillpicker.xyz/skill/equity-research-1angzxl/)** — Generates equity research snapshots combining IBES consensus estimates, company fundamentals, historical prices…
-  `npx skills add anthropics/financial-services@equity-research`
-
-- **[initiating-coverage](https://skillpicker.xyz/skill/initiating-coverage-mxlok7/)** — Produces institutional-quality equity research initiation reports through a 5-task workflow: company research…
-  `npx skills add anthropics/financial-services@initiating-coverage`
-
-- **[dcf-valuation](https://skillpicker.xyz/skill/dcf-valuation-138bg4w/)** — Builds Discounted Cash Flow valuation models: projects free cash flow, calculates WACC, estimates terminal value…
-  `npx skills add claude-office-skills/skills@dcf-valuation`
-
-- **[quantitative-valuation](https://skillpicker.xyz/skill/quantitative-valuation-1g33tk7/)** — Estimates intrinsic value using DCF, dividend discount models, comparable multiples, and residual income, covering…
-  `npx skills add joellewis/finance_skills@quantitative-valuation`
-
-- **[financial-analysis-dcf](https://skillpicker.xyz/skill/financial-analysis-dcf-q6e1ui/)** — Estimates intrinsic value per share via DCF using SEC EDGAR financials, FRED risk-free rate, and Yahoo beta…
-  `npx skills add pionex-official/pionex-skills@financial-analysis-dcf`
-
-### Legal
-
-Agent skills for Legal.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/legal/)**
-
-- **[review-contract](https://skillpicker.xyz/skill/review-contract-1h4ihcu/)** — Reviews contracts against an organization's negotiation playbook, flagging deviations, generating redlines…
-  `npx skills add anthropics/knowledge-work-plugins@review-contract`
-
-- **[vendor-agreement-review](https://skillpicker.xyz/skill/vendor-agreement-review-qyg9v6/)** — Reviews inbound vendor agreements against a team playbook, flags deviations, assesses risk, generates specific…
-  `npx skills add anthropics/claude-for-legal@vendor-agreement-review`
-
-- **[review](https://skillpicker.xyz/skill/review-ittef8/)** — Reviews inbound agreements against a playbook, identifies agreement structure, routes to the right review skill…
-  `npx skills add anthropics/claude-for-legal@review`
-
-- **[legal-document-analyzer](https://skillpicker.xyz/skill/legal-document-analyzer-1nbvbz8/)** — Builds agents for legal document analysis, contract review, and compliance checking.
-  `npx skills add qodex-ai/ai-agent-skills@legal-document-analyzer`
-
-- **[legal-risk-assessment](https://skillpicker.xyz/skill/legal-risk-assessment-kbjw8n/)** — Assesses and classifies legal risks using a severity-by-likelihood framework with escalation criteria.
-  `npx skills add anthropics/knowledge-work-plugins@legal-risk-assessment`
-
-### Teachers
-
-Agent skills for Teachers.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/teachers/)**
-
-- **[k12-lesson-plan-creation](https://skillpicker.xyz/skill/k12-lesson-plan-creation-2noqnm/)** — Creates a lesson plan, student-facing materials, and observation template.
-  `npx skills add anthropics/k12-teacher-skills@k12-lesson-plan-creation`
-
-- **[k12-lesson-differentiation](https://skillpicker.xyz/skill/k12-lesson-differentiation-gd9sxg/)** — Adapts an existing K-12 lesson (math, ELA, science, or social studies) for students at different proficiency levels…
-  `npx skills add anthropics/k12-teacher-skills@k12-lesson-differentiation`
-
-- **[teaching-lesson-plan](https://skillpicker.xyz/skill/teaching-lesson-plan-c2k3jp/)** — Designs a structured lesson plan for any subject or audience with learning objectives, activities, timing…
-  `npx skills add mohitagw15856/pm-claude-skills@teaching-lesson-plan`
-
-- **[alterlab-teaching-design](https://skillpicker.xyz/skill/alterlab-teaching-design-ugu2ie/)** — Designs courses and teaching materials using backward design, constructive alignment, and Bloom's taxonomy…
-  `npx skills add alterlab-ieu/alterlab-academic-skills@alterlab-teaching-design`
-
-- **[k12-core-literacy-planning](https://skillpicker.xyz/skill/k12-core-literacy-planning-txstbd/)** — Chinese K-12 core-literacy course design for a single OpenMAIC classroom.
-  `npx skills add THU-MAIC/OpenMAIC@k12-core-literacy-planning`
-
-### HR
-
-Agent skills for Human Resources.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/human-resources/)**
-
-- **[human-resources](https://skillpicker.xyz/skill/human-resources-1r7vlt3/)** — Comprehensive HR skill covering talent acquisition, onboarding, engagement, performance management, learning, and HR…
-  `npx skills add josavicentevw/ai-agent-skills@human-resources`
-
-- **[hr-automation](https://skillpicker.xyz/skill/hr-automation-1b7ff4x/)** — Automates HR workflows including recruiting pipelines, onboarding, performance reviews, time-off, and offboarding…
-  `npx skills add claude-office-skills/skills@hr-automation`
-
-- **[employment-contract-templates](https://skillpicker.xyz/skill/employment-contract-templates-177fglr/)** — Templates and patterns for creating employment contracts, offer letters, employee handbooks, and HR policies…
-  `npx skills add wshobson/agents@employment-contract-templates`
-
-- **[recruiting-pipeline](https://skillpicker.xyz/skill/recruiting-pipeline-164eju0/)** — Tracks and manages recruiting pipeline stages from sourcing through offer acceptance, with stage definitions…
-  `npx skills add anthropics/knowledge-work-plugins@recruiting-pipeline`
-
-- **[policy-drafting](https://skillpicker.xyz/skill/policy-drafting-yefm70/)** — Drafts employment policies with state supplements where law differs across jurisdictions, covering topics like…
-  `npx skills add anthropics/claude-for-legal@policy-drafting`
-
-### Product Managers
-
-Agent skills for Product Managers.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/product-managers/)**
-
-- **[roadmap-planning](https://skillpicker.xyz/skill/roadmap-planning-1d21qvi/)** — Guides PMs through strategic roadmap planning, orchestrating prioritization, epic definition, stakeholder alignment…
-  `npx skills add deanpeters/product-manager-skills@roadmap-planning`
-
-- **[user-story](https://skillpicker.xyz/skill/user-story-194b627/)** — Creates user stories combining Mike Cohn's format with Gherkin acceptance criteria, translating user needs into…
-  `npx skills add deanpeters/product-manager-skills@user-story`
-
-- **[outcome-roadmap](https://skillpicker.xyz/skill/outcome-roadmap-1lj9lo2/)** — Rewrites output-focused roadmaps into outcome-focused ones, converting initiatives into outcome statements…
-  `npx skills add phuryn/pm-skills@outcome-roadmap`
-
-- **[continuous-discovery](https://skillpicker.xyz/skill/continuous-discovery-1719pd0/)** — Builds a weekly customer discovery cadence using Opportunity Solution Trees, assumption mapping, and interview…
-  `npx skills add wondelai/skills@continuous-discovery`
-
-- **[product-manager-toolkit](https://skillpicker.xyz/skill/product-manager-toolkit-1iq8u43/)** — Comprehensive PM toolkit covering RICE prioritization, customer interview analysis, PRD templates, discovery…
-  `npx skills add alirezarezvani/claude-skills@product-manager-toolkit`
-
-### Accounting
-
-Agent skills for Accounting.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/accounting/)**
-
-- **[accounting](https://skillpicker.xyz/skill/accounting-1g8ky8j/)** — Guides solo founders through bookkeeping setup, revenue and expense tracking, tax preparation, accounting software…
-  `npx skills add whawkinsiv/solo-founder-skills@accounting`
-
-- **[accountant-expert](https://skillpicker.xyz/skill/accountant-expert-1yce4no/)** — Expert guidance on accounting systems, financial reporting, and tax compliance, with double-entry bookkeeping code…
-  `npx skills add personamanagmentlayer/pcl@accountant-expert`
-
-- **[month-end-close](https://skillpicker.xyz/skill/month-end-close-lueyz2/)** — Provides a structured month-end close checklist: pulling transactions, categorizing uncategorized items, detecting…
-  `npx skills add openaccountant/skills@month-end-close`
-
-- **[profit-loss](https://skillpicker.xyz/skill/profit-loss-dos2u3/)** — Builds a standard profit and loss statement showing revenue, COGS, gross profit, operating expenses, and net income…
-  `npx skills add openaccountant/skills@profit-loss`
-
-- **[import-transactions](https://skillpicker.xyz/skill/import-transactions-1ivq1yo/)** — Imports financial transactions from CSV, OFX, or QIF bank exports, auto-detecting format and bank, previewing parsed…
-  `npx skills add openaccountant/skills@import-transactions`
-
-### Cybersecurity
-
-Agent skills for Cybersecurity.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/cybersecurity/)**
-
-- **[security-threat-model](https://skillpicker.xyz/skill/security-threat-model-8qddzg/)** — Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths…
-  `npx skills add openai/skills@security-threat-model`
-
-- **[security-review](https://skillpicker.xyz/skill/security-review-19i9v33/)** — Security code review for vulnerabilities with confidence-based reporting, tracing data flows and filtering false…
-  `npx skills add getsentry/skills@security-review`
-
-- **[stride-threat-modeling](https://skillpicker.xyz/skill/stride-threat-modeling-16cjsx3/)** — Runs a STRIDE-based threat modeling workshop: diagram the system, enumerate threats per element, rank them…
-  `npx skills add securityskills/skills@stride-threat-modeling`
-
-- **[cybersecurity](https://skillpicker.xyz/skill/cybersecurity-16eoj3c/)** — OSS-only cybersecurity skill covering OWASP Top 10, pentest, vulnerability testing, threat modeling (STRIDE…
-  `npx skills add secondsky/claude-skills@cybersecurity`
-
-- **[security-best-practices](https://skillpicker.xyz/skill/security-best-practices-1rbb8hr/)** — Perform language and framework specific security best-practice reviews and suggest improvements.
-  `npx skills add openai/skills@security-best-practices`
+- **[seo](https://skillpicker.xyz/skill/seo-x95zmm/)** — Comprehensive SEO analysis skill orchestrating 24 sub-skills for audits, schema, technical SEO, content quality…
+  `npx skills add agricidaniel/claude-seo@seo`
 
 ### Data Science
 
@@ -393,26 +213,101 @@ Agent skills for Data Science.
 - **[google-cloud-solution-agentic-ai-data-science-workflow](https://skillpicker.xyz/skill/google-cloud-solution-agentic-ai-data-science-workflow-1sengoh/)** — Designs a tailored multi-product agentic data science architecture on Google Cloud that incorporates opinionated…
   `npx skills add google/skills@google-cloud-solution-agentic-ai-data-science-workflow`
 
-### Business Analyst
+### Teachers
 
-Agent skills for Business Analyst.
+Agent skills for Teachers.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/role/business-analyst/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/teachers/)**
 
-- **[business-requirements-analyst](https://skillpicker.xyz/skill/business-requirements-analyst-14oijya/)** — Complete methodology for software and business requirements gathering: business vision, stakeholders, processes…
-  `npx skills add gmdaos/business-requirements-analyst@business-requirements-analyst`
+- **[k12-lesson-plan-creation](https://skillpicker.xyz/skill/k12-lesson-plan-creation-2noqnm/)** — Creates a lesson plan, student-facing materials, and observation template.
+  `npx skills add anthropics/k12-teacher-skills@k12-lesson-plan-creation`
 
-- **[requirements elicitation](https://skillpicker.xyz/skill/requirements-elicitation-5cwgln/)** — Guides professional requirements elicitation sessions using interviews, workshops, document analysis, observation…
-  `npx skills add "danhvb/my-ba-skills@requirements elicitation"`
+- **[k12-lesson-differentiation](https://skillpicker.xyz/skill/k12-lesson-differentiation-gd9sxg/)** — Adapts an existing K-12 lesson (math, ELA, science, or social studies) for students at different proficiency levels…
+  `npx skills add anthropics/k12-teacher-skills@k12-lesson-differentiation`
 
-- **[stakeholder analysis](https://skillpicker.xyz/skill/stakeholder-analysis-auk3xi/)** — Identifies and analyzes project stakeholders using power/interest grids, RACI matrices, stakeholder registers…
-  `npx skills add "danhvb/my-ba-skills@stakeholder analysis"`
+- **[teaching-lesson-plan](https://skillpicker.xyz/skill/teaching-lesson-plan-c2k3jp/)** — Designs a structured lesson plan for any subject or audience with learning objectives, activities, timing…
+  `npx skills add mohitagw15856/pm-claude-skills@teaching-lesson-plan`
 
-- **[requirements-analysis](https://skillpicker.xyz/skill/requirements-analysis-1yyuv92/)** — Diagnostic skill that helps distinguish stated wants from underlying problems, discover real constraints, and avoid…
-  `npx skills add jwynia/agent-skills@requirements-analysis`
+- **[alterlab-teaching-design](https://skillpicker.xyz/skill/alterlab-teaching-design-ugu2ie/)** — Designs courses and teaching materials using backward design, constructive alignment, and Bloom's taxonomy…
+  `npx skills add alterlab-ieu/alterlab-academic-skills@alterlab-teaching-design`
 
-- **[elicit](https://skillpicker.xyz/skill/elicit-1jadjss/)** — Runs a structured discovery session to elicit requirements and build an Allium specification through conversation…
-  `npx skills add juxt/allium@elicit`
+- **[k12-core-literacy-planning](https://skillpicker.xyz/skill/k12-core-literacy-planning-txstbd/)** — Chinese K-12 core-literacy course design for a single OpenMAIC classroom.
+  `npx skills add THU-MAIC/OpenMAIC@k12-core-literacy-planning`
+
+### Architects
+
+Agent skills for Architects.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/architects/)**
+
+- **[archviz-storyboard](https://skillpicker.xyz/skill/archviz-storyboard-h98hym/)** — Create architectural visualization storyboards, moodboards, detail boards, film-sequence boards, and keyframe plans.
+  `npx skills add felipealmeidasid/Pack-skills-for-archviz@archviz-storyboard`
+
+- **[create-real-estate-worlds](https://skillpicker.xyz/skill/create-real-estate-worlds-1j59al7/)** — Create cinematic real estate world bibles, visual DNA systems, scene libraries, and architecture prompt packs.
+  `npx skills add felipealmeidasid/Pack-skills-for-archviz@create-real-estate-worlds`
+
+### Accounting
+
+Agent skills for Accounting.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/accounting/)**
+
+- **[accounting](https://skillpicker.xyz/skill/accounting-1g8ky8j/)** — Guides solo founders through bookkeeping setup, revenue and expense tracking, tax preparation, accounting software…
+  `npx skills add whawkinsiv/solo-founder-skills@accounting`
+
+- **[accountant-expert](https://skillpicker.xyz/skill/accountant-expert-1yce4no/)** — Expert guidance on accounting systems, financial reporting, and tax compliance, with double-entry bookkeeping code…
+  `npx skills add personamanagmentlayer/pcl@accountant-expert`
+
+- **[month-end-close](https://skillpicker.xyz/skill/month-end-close-lueyz2/)** — Provides a structured month-end close checklist: pulling transactions, categorizing uncategorized items, detecting…
+  `npx skills add openaccountant/skills@month-end-close`
+
+- **[profit-loss](https://skillpicker.xyz/skill/profit-loss-dos2u3/)** — Builds a standard profit and loss statement showing revenue, COGS, gross profit, operating expenses, and net income…
+  `npx skills add openaccountant/skills@profit-loss`
+
+- **[import-transactions](https://skillpicker.xyz/skill/import-transactions-1ivq1yo/)** — Imports financial transactions from CSV, OFX, or QIF bank exports, auto-detecting format and bank, previewing parsed…
+  `npx skills add openaccountant/skills@import-transactions`
+
+### Equity Research
+
+Agent skills for Equity Research.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/equity-research/)**
+
+- **[equity-research](https://skillpicker.xyz/skill/equity-research-1angzxl/)** — Generates equity research snapshots combining IBES consensus estimates, company fundamentals, historical prices…
+  `npx skills add anthropics/financial-services@equity-research`
+
+- **[initiating-coverage](https://skillpicker.xyz/skill/initiating-coverage-mxlok7/)** — Produces institutional-quality equity research initiation reports through a 5-task workflow: company research…
+  `npx skills add anthropics/financial-services@initiating-coverage`
+
+- **[dcf-valuation](https://skillpicker.xyz/skill/dcf-valuation-138bg4w/)** — Builds Discounted Cash Flow valuation models: projects free cash flow, calculates WACC, estimates terminal value…
+  `npx skills add claude-office-skills/skills@dcf-valuation`
+
+- **[quantitative-valuation](https://skillpicker.xyz/skill/quantitative-valuation-1g33tk7/)** — Estimates intrinsic value using DCF, dividend discount models, comparable multiples, and residual income, covering…
+  `npx skills add joellewis/finance_skills@quantitative-valuation`
+
+- **[financial-analysis-dcf](https://skillpicker.xyz/skill/financial-analysis-dcf-q6e1ui/)** — Estimates intrinsic value per share via DCF using SEC EDGAR financials, FRED risk-free rate, and Yahoo beta…
+  `npx skills add pionex-official/pionex-skills@financial-analysis-dcf`
+
+### Product Managers
+
+Agent skills for Product Managers.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/product-managers/)**
+
+- **[roadmap-planning](https://skillpicker.xyz/skill/roadmap-planning-1d21qvi/)** — Guides PMs through strategic roadmap planning, orchestrating prioritization, epic definition, stakeholder alignment…
+  `npx skills add deanpeters/product-manager-skills@roadmap-planning`
+
+- **[user-story](https://skillpicker.xyz/skill/user-story-194b627/)** — Creates user stories combining Mike Cohn's format with Gherkin acceptance criteria, translating user needs into…
+  `npx skills add deanpeters/product-manager-skills@user-story`
+
+- **[outcome-roadmap](https://skillpicker.xyz/skill/outcome-roadmap-1lj9lo2/)** — Rewrites output-focused roadmaps into outcome-focused ones, converting initiatives into outcome statements…
+  `npx skills add phuryn/pm-skills@outcome-roadmap`
+
+- **[continuous-discovery](https://skillpicker.xyz/skill/continuous-discovery-1719pd0/)** — Builds a weekly customer discovery cadence using Opportunity Solution Trees, assumption mapping, and interview…
+  `npx skills add wondelai/skills@continuous-discovery`
+
+- **[product-manager-toolkit](https://skillpicker.xyz/skill/product-manager-toolkit-1iq8u43/)** — Comprehensive PM toolkit covering RICE prioritization, customer interview analysis, PRD templates, discovery…
+  `npx skills add alirezarezvani/claude-skills@product-manager-toolkit`
 
 ### Sales
 
@@ -435,9 +330,156 @@ Agent skills for Sales.
 - **[sales-outreach](https://skillpicker.xyz/skill/sales-outreach-1b6r1bm/)** — Writes cold emails, call scripts, LinkedIn touches, and sequences grounded in one specific dated signal pulled from…
   `npx skills add crustdata/skills@sales-outreach`
 
+### Construction
+
+Agent skills for Construction.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/construction/)**
+
+- **[construction-expert](https://skillpicker.xyz/skill/construction-expert-k3hv0n/)** — Expert guidance for construction management, project planning, BIM, safety compliance, and construction technology…
+  `npx skills add personamanagmentlayer/pcl@construction-expert`
+
+- **[open-construction-estimate](https://skillpicker.xyz/skill/open-construction-estimate-1sk2tv1/)** — Accesses open construction pricing databases to match BIM elements to standardized work items and calculate costs…
+  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@open-construction-estimate`
+
+- **[warranty-tracker](https://skillpicker.xyz/skill/warranty-tracker-1zppxb/)** — Centralized construction warranty tracking system that monitors expiration dates, stores documentation, and manages…
+  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@warranty-tracker`
+
+- **[unit-price-database-manager](https://skillpicker.xyz/skill/unit-price-database-manager-5hc6dw/)** — Manages construction unit price databases: updating prices, tracking vendors, applying location factors…
+  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@unit-price-database-manager`
+
+- **[rfi-management](https://skillpicker.xyz/skill/rfi-management-1vnmzo3/)** — Complete RFI management system for construction: create, route, track, and analyze Requests for Information with…
+  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@rfi-management`
+
+### HR
+
+Agent skills for Human Resources.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/human-resources/)**
+
+- **[human-resources](https://skillpicker.xyz/skill/human-resources-1r7vlt3/)** — Comprehensive HR skill covering talent acquisition, onboarding, engagement, performance management, learning, and HR…
+  `npx skills add josavicentevw/ai-agent-skills@human-resources`
+
+- **[hr-automation](https://skillpicker.xyz/skill/hr-automation-1b7ff4x/)** — Automates HR workflows including recruiting pipelines, onboarding, performance reviews, time-off, and offboarding…
+  `npx skills add claude-office-skills/skills@hr-automation`
+
+- **[employment-contract-templates](https://skillpicker.xyz/skill/employment-contract-templates-177fglr/)** — Templates and patterns for creating employment contracts, offer letters, employee handbooks, and HR policies…
+  `npx skills add wshobson/agents@employment-contract-templates`
+
+- **[recruiting-pipeline](https://skillpicker.xyz/skill/recruiting-pipeline-164eju0/)** — Tracks and manages recruiting pipeline stages from sourcing through offer acceptance, with stage definitions…
+  `npx skills add anthropics/knowledge-work-plugins@recruiting-pipeline`
+
+- **[policy-drafting](https://skillpicker.xyz/skill/policy-drafting-yefm70/)** — Drafts employment policies with state supplements where law differs across jurisdictions, covering topics like…
+  `npx skills add anthropics/claude-for-legal@policy-drafting`
+
+### Business Analyst
+
+Agent skills for Business Analyst.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/business-analyst/)**
+
+- **[business-requirements-analyst](https://skillpicker.xyz/skill/business-requirements-analyst-14oijya/)** — Complete methodology for software and business requirements gathering: business vision, stakeholders, processes…
+  `npx skills add gmdaos/business-requirements-analyst@business-requirements-analyst`
+
+- **[requirements elicitation](https://skillpicker.xyz/skill/requirements-elicitation-5cwgln/)** — Guides professional requirements elicitation sessions using interviews, workshops, document analysis, observation…
+  `npx skills add "danhvb/my-ba-skills@requirements elicitation"`
+
+- **[stakeholder analysis](https://skillpicker.xyz/skill/stakeholder-analysis-auk3xi/)** — Identifies and analyzes project stakeholders using power/interest grids, RACI matrices, stakeholder registers…
+  `npx skills add "danhvb/my-ba-skills@stakeholder analysis"`
+
+- **[requirements-analysis](https://skillpicker.xyz/skill/requirements-analysis-1yyuv92/)** — Diagnostic skill that helps distinguish stated wants from underlying problems, discover real constraints, and avoid…
+  `npx skills add jwynia/agent-skills@requirements-analysis`
+
+- **[elicit](https://skillpicker.xyz/skill/elicit-1jadjss/)** — Runs a structured discovery session to elicit requirements and build an Allium specification through conversation…
+  `npx skills add juxt/allium@elicit`
+
+### Cybersecurity
+
+Agent skills for Cybersecurity.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/cybersecurity/)**
+
+- **[security-threat-model](https://skillpicker.xyz/skill/security-threat-model-8qddzg/)** — Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths…
+  `npx skills add openai/skills@security-threat-model`
+
+- **[security-review](https://skillpicker.xyz/skill/security-review-19i9v33/)** — Security code review for vulnerabilities with confidence-based reporting, tracing data flows and filtering false…
+  `npx skills add getsentry/skills@security-review`
+
+- **[stride-threat-modeling](https://skillpicker.xyz/skill/stride-threat-modeling-16cjsx3/)** — Runs a STRIDE-based threat modeling workshop: diagram the system, enumerate threats per element, rank them…
+  `npx skills add securityskills/skills@stride-threat-modeling`
+
+- **[cybersecurity](https://skillpicker.xyz/skill/cybersecurity-16eoj3c/)** — OSS-only cybersecurity skill covering OWASP Top 10, pentest, vulnerability testing, threat modeling (STRIDE…
+  `npx skills add secondsky/claude-skills@cybersecurity`
+
+- **[security-best-practices](https://skillpicker.xyz/skill/security-best-practices-1rbb8hr/)** — Perform language and framework specific security best-practice reviews and suggest improvements.
+  `npx skills add openai/skills@security-best-practices`
+
+### Writers
+
+Agent skills for Writers.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/role/writers/)**
+
+- **[content-research-writer](https://skillpicker.xyz/skill/content-research-writer-12s8d4v/)** — Acts as a writing partner for blog posts, articles, and newsletters, handling research, outlining, hooks, citations…
+  `npx skills add composiohq/awesome-claude-skills@content-research-writer`
+
+- **[humanizer](https://skillpicker.xyz/skill/humanizer-1xr98jr/)** — Rewrite AI-sounding text so it reads like the writer without changing what it says.
+  `npx skills add blader/humanizer@humanizer`
+
+- **[no-ai-slop](https://skillpicker.xyz/skill/no-ai-slop-1obdsa8/)** — Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop…
+  `npx skills add petergyang/no-ai-slop@no-ai-slop`
+
+- **[doc-coauthoring](https://skillpicker.xyz/skill/doc-coauthoring-1uje9wh/)** — Guide users through a structured workflow for co-authoring documentation.
+  `npx skills add anthropics/skills@doc-coauthoring`
+
+- **[copy-editing](https://skillpicker.xyz/skill/copy-editing-qkt1d8/)** — Systematic editing passes for existing copy directly serve the Revise facet of writing.
+  `npx skills add coreyhaines31/marketingskills@copy-editing`
+
 ## By output
 
 Agent skills for a thing you need to ship.
+
+### Excel
+
+Agent skills for Excel.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/deliverable/excel/)**
+
+- **[xlsx](https://skillpicker.xyz/skill/xlsx-19o7j8k/)** — Built specifically for creating, editing, and analyzing .xlsx spreadsheets with formulas, formatting, and charts.
+  `npx skills add anthropics/skills@xlsx`
+
+- **[excel-automation](https://skillpicker.xyz/skill/excel-automation-1pixg5k/)** — Excel automation via xlwings covering formulas, charts, tables, and live workbook control.
+  `npx skills add claude-office-skills/skills@excel-automation`
+
+- **[excel analysis](https://skillpicker.xyz/skill/excel-analysis-pocp7f/)** — Analyze Excel spreadsheets, create pivot tables, generate charts, and perform data analysis.
+  `npx skills add "davila7/claude-code-templates@excel analysis"`
+
+- **[audit-xls](https://skillpicker.xyz/skill/audit-xls-pmv2a1/)** — Audit a spreadsheet for formula accuracy, errors, and common mistakes.
+  `npx skills add anthropics/financial-services@audit-xls`
+
+- **[clean-data-xls](https://skillpicker.xyz/skill/clean-data-xls-9x5ppq/)** — Clean up messy spreadsheet data — trim whitespace, fix inconsistent casing, convert numbers-stored-as-text…
+  `npx skills add anthropics/financial-services@clean-data-xls`
+
+### YouTube Videos
+
+Agent skills for YouTube Videos.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/deliverable/youtube-videos/)**
+
+- **[youtube-seo](https://skillpicker.xyz/skill/youtube-seo-1rxe00s/)** — Guides YouTube video and channel optimization for search and discovery, covering titles, descriptions, tags…
+  `npx skills add kostja94/marketing-skills@youtube-seo`
+
+- **[youtube](https://skillpicker.xyz/skill/youtube-l90xxq/)** — Ultimate YouTube creator skill covering channel audits, video SEO, retention scripts, hooks, thumbnail briefs…
+  `npx skills add agricidaniel/claude-youtube@youtube`
+
+- **[youtube-pipeline](https://skillpicker.xyz/skill/youtube-pipeline-1euxqlv/)** — Complete YouTube video production pipeline from ideation to distribution, covering strategy, packaging, scripting…
+  `npx skills add j-star-films-studios/vibecode-protocol-suite@youtube-pipeline`
+
+- **[youtube automation](https://skillpicker.xyz/skill/youtube-automation-1l88vta/)** — Automates YouTube content workflows including video upload, metadata optimization, analytics tracking, comment…
+  `npx skills add "claude-office-skills/skills@youtube automation"`
+
+- **[youtube-scriptwriting](https://skillpicker.xyz/skill/youtube-scriptwriting-30jvnx/)** — Transforms raw ideas into polished YouTube scripts through a checkpoint workflow covering research, hooks, story…
+  `npx skills add cdeistopened/skill-stack@youtube-scriptwriting`
 
 ### Resume & CV
 
@@ -481,26 +523,26 @@ Agent skills for PowerPoint. Also covers HTML Presentation.
 - **[baoyu-slide-deck](https://skillpicker.xyz/skill/baoyu-slide-deck-1obnsw2/)** — Generates professional slide deck images from content: creates outlines with style instructions, then generates…
   `npx skills add jimliu/baoyu-skills@baoyu-slide-deck`
 
-### Excel
+### LinkedIn Posts
 
-Agent skills for Excel.
+Agent skills for LinkedIn Posts.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/deliverable/excel/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/deliverable/linkedin-posts/)**
 
-- **[xlsx](https://skillpicker.xyz/skill/xlsx-19o7j8k/)** — Built specifically for creating, editing, and analyzing .xlsx spreadsheets with formulas, formatting, and charts.
-  `npx skills add anthropics/skills@xlsx`
+- **[linkedin-posts](https://skillpicker.xyz/skill/linkedin-posts-173o8gv/)** — Guides LinkedIn post copy creation and optimization, covering post types, feed ranking signals, platform…
+  `npx skills add kostja94/marketing-skills@linkedin-posts`
 
-- **[excel-automation](https://skillpicker.xyz/skill/excel-automation-1pixg5k/)** — Excel automation via xlwings covering formulas, charts, tables, and live workbook control.
-  `npx skills add claude-office-skills/skills@excel-automation`
+- **[linkedin-ghostwriting](https://skillpicker.xyz/skill/linkedin-ghostwriting-q05lv0/)** — B2B LinkedIn ghostwriting skill covering strategic interview, hook engineering, post body structure, formatting…
+  `npx skills add samber/cc-skills@linkedin-ghostwriting`
 
-- **[excel analysis](https://skillpicker.xyz/skill/excel-analysis-pocp7f/)** — Analyze Excel spreadsheets, create pivot tables, generate charts, and perform data analysis.
-  `npx skills add "davila7/claude-code-templates@excel analysis"`
+- **[writing-linkedin-posts](https://skillpicker.xyz/skill/writing-linkedin-posts-f2ikgf/)** — Writes engaging, authentic LinkedIn posts like a Top Voice, covering hook types, post anatomy, storytelling…
+  `npx skills add jamesgray007/hoai-course@writing-linkedin-posts`
 
-- **[audit-xls](https://skillpicker.xyz/skill/audit-xls-pmv2a1/)** — Audit a spreadsheet for formula accuracy, errors, and common mistakes.
-  `npx skills add anthropics/financial-services@audit-xls`
+- **[linkedin-marketing](https://skillpicker.xyz/skill/linkedin-marketing-1kzfeiw/)** — Bundle of 11 LinkedIn content skills covering viral post writing, comment drafting, hook extraction, humanizing…
+  `npx skills add sergebulaev/linkedin-skills@linkedin-marketing`
 
-- **[clean-data-xls](https://skillpicker.xyz/skill/clean-data-xls-9x5ppq/)** — Clean up messy spreadsheet data — trim whitespace, fix inconsistent casing, convert numbers-stored-as-text…
-  `npx skills add anthropics/financial-services@clean-data-xls`
+- **[linkedin-content](https://skillpicker.xyz/skill/linkedin-content-15j341e/)** — Creates high-performing LinkedIn posts and content strategy, covering 2026 algorithm signals, hook formulas, post…
+  `npx skills add openclaudia/openclaudia-skills@linkedin-content`
 
 ### Writing a Book
 
@@ -565,26 +607,26 @@ Agent skills for Dashboard Design.
 - **[grafana-dashboards](https://skillpicker.xyz/skill/grafana-dashboards-1mnwsls/)** — Creates production Grafana dashboards for real-time visualization of system and application metrics, covering panel…
   `npx skills add wshobson/agents@grafana-dashboards`
 
-### LinkedIn Posts
+### Logo Design
 
-Agent skills for LinkedIn Posts.
+Agent skills for Logo Design.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/deliverable/linkedin-posts/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/deliverable/logo-design/)**
 
-- **[linkedin-posts](https://skillpicker.xyz/skill/linkedin-posts-173o8gv/)** — Guides LinkedIn post copy creation and optimization, covering post types, feed ranking signals, platform…
-  `npx skills add kostja94/marketing-skills@linkedin-posts`
+- **[svg logo designer](https://skillpicker.xyz/skill/svg-logo-designer-biv0ma/)** — Creates professional SVG logos from descriptions, generating multiple variations across layouts, styles…
+  `npx skills add "rknall/claude-skills@svg logo designer"`
 
-- **[linkedin-ghostwriting](https://skillpicker.xyz/skill/linkedin-ghostwriting-q05lv0/)** — B2B LinkedIn ghostwriting skill covering strategic interview, hook engineering, post body structure, formatting…
-  `npx skills add samber/cc-skills@linkedin-ghostwriting`
+- **[logo-generator](https://skillpicker.xyz/skill/logo-generator-12bq84e/)** — Generates professional SVG logos and showcase images, producing 6+ design variants from product info, iterating on…
+  `npx skills add op7418/logo-generator-skill@logo-generator`
 
-- **[writing-linkedin-posts](https://skillpicker.xyz/skill/writing-linkedin-posts-f2ikgf/)** — Writes engaging, authentic LinkedIn posts like a Top Voice, covering hook types, post anatomy, storytelling…
-  `npx skills add jamesgray007/hoai-course@writing-linkedin-posts`
+- **[brand-identity](https://skillpicker.xyz/skill/brand-identity-r1hb8a/)** — Comprehensive guide to brand strategy and identity design, covering brand purpose, positioning, archetypes, logo…
+  `npx skills add travisjneuman/.claude@brand-identity`
 
-- **[linkedin-marketing](https://skillpicker.xyz/skill/linkedin-marketing-1kzfeiw/)** — Bundle of 11 LinkedIn content skills covering viral post writing, comment drafting, hook extraction, humanizing…
-  `npx skills add sergebulaev/linkedin-skills@linkedin-marketing`
+- **[muapi-logo-branding](https://skillpicker.xyz/skill/muapi-logo-branding-1nvtaju/)** — Designs a professional logo with a full branding package: primary logo, dark/light/icon variations, color palette…
+  `npx skills add samuraigpt/generative-media-skills@muapi-logo-branding`
 
-- **[linkedin-content](https://skillpicker.xyz/skill/linkedin-content-15j341e/)** — Creates high-performing LinkedIn posts and content strategy, covering 2026 algorithm signals, hook formulas, post…
-  `npx skills add openclaudia/openclaudia-skills@linkedin-content`
+- **[ip-as-logo](https://skillpicker.xyz/skill/ip-as-logo-1y19o7g/)** — Generates extremely simple, cute personified square character marks as logo/IP symbols, proposing directions and…
+  `npx skills add s1dashu/ip-as-logo-skill@ip-as-logo`
 
 ### Documentation
 
@@ -607,93 +649,9 @@ Agent skills for Documentation.
 - **[api-documentation-generator](https://skillpicker.xyz/skill/api-documentation-generator-qjblsw/)** — Generates developer-friendly API documentation from code, covering endpoints, parameters, examples, authentication…
   `npx skills add sickn33/agentic-awesome-skills@api-documentation-generator`
 
-### Logo Design
-
-Agent skills for Logo Design.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/deliverable/logo-design/)**
-
-- **[svg logo designer](https://skillpicker.xyz/skill/svg-logo-designer-biv0ma/)** — Creates professional SVG logos from descriptions, generating multiple variations across layouts, styles…
-  `npx skills add "rknall/claude-skills@svg logo designer"`
-
-- **[logo-generator](https://skillpicker.xyz/skill/logo-generator-12bq84e/)** — Generates professional SVG logos and showcase images, producing 6+ design variants from product info, iterating on…
-  `npx skills add op7418/logo-generator-skill@logo-generator`
-
-- **[brand-identity](https://skillpicker.xyz/skill/brand-identity-r1hb8a/)** — Comprehensive guide to brand strategy and identity design, covering brand purpose, positioning, archetypes, logo…
-  `npx skills add travisjneuman/.claude@brand-identity`
-
-- **[muapi-logo-branding](https://skillpicker.xyz/skill/muapi-logo-branding-1nvtaju/)** — Designs a professional logo with a full branding package: primary logo, dark/light/icon variations, color palette…
-  `npx skills add samuraigpt/generative-media-skills@muapi-logo-branding`
-
-- **[ip-as-logo](https://skillpicker.xyz/skill/ip-as-logo-1y19o7g/)** — Generates extremely simple, cute personified square character marks as logo/IP symbols, proposing directions and…
-  `npx skills add s1dashu/ip-as-logo-skill@ip-as-logo`
-
-### Essay Writing
-
-Agent skills for Essay Writing.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/deliverable/essay-writing/)**
-
-- **[essay](https://skillpicker.xyz/skill/essay-pcekni/)** — A professional essay writing pipeline guiding authors through six steps: brief, outline, draft, revise, review…
-  `npx skills add clyderankin/essay-skills@essay`
-
-- **[document-writing](https://skillpicker.xyz/skill/document-writing-55k6qf/)** — Provides expert conventions for document and essay writing in English, Japanese, and Traditional Chinese, covering…
-  `npx skills add shino369/claude-code-personal-workspace@document-writing`
-
-- **[doc-coauthoring](https://skillpicker.xyz/skill/doc-coauthoring-1uje9wh/)** — Guide users through a structured workflow for co-authoring documentation.
-  `npx skills add anthropics/skills@doc-coauthoring`
-
-- **[no-ai-slop](https://skillpicker.xyz/skill/no-ai-slop-1obdsa8/)** — Edit drafts into sharper, more human writing while preserving the writer's personal voice, or detect AI-slop…
-  `npx skills add petergyang/no-ai-slop@no-ai-slop`
-
-- **[writing-beats](https://skillpicker.xyz/skill/writing-beats-1ss05/)** — Writing, exploit; assemble raw material into a journey of beats, grounding each term before a beat leans on it.
-  `npx skills add mattpocock/skills@writing-beats`
-
 ## By task
 
 Agent skills for a job to be done.
-
-### Trading
-
-Agent skills for Trading.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/task/trading/)**
-
-- **[breakout-trade-planner](https://skillpicker.xyz/skill/breakout-trade-planner-11c80dy/)** — Generates Minervini-style breakout trade plans from VCP screener output with worst-case risk calculation, portfolio…
-  `npx skills add tradermonty/claude-trading-skills@breakout-trade-planner`
-
-- **[trade-hypothesis-ideator](https://skillpicker.xyz/skill/trade-hypothesis-ideator-1rgb87b/)** — Generates falsifiable trade strategy hypotheses from market data, trade logs, and journals, producing ranked…
-  `npx skills add tradermonty/claude-trading-skills@trade-hypothesis-ideator`
-
-- **[trading-plan-generator](https://skillpicker.xyz/skill/trading-plan-generator-o8py4c/)** — Generates comprehensive trading plans covering risk management, position sizing, entry/exit rules, trade management…
-  `npx skills add jamesrochabrun/skills@trading-plan-generator`
-
-- **[thesis-tracker](https://skillpicker.xyz/skill/thesis-tracker-4w7gf/)** — Maintains and updates investment theses for positions and watchlist names, tracking data points, catalysts, thesis…
-  `npx skills add anthropics/financial-services@thesis-tracker`
-
-- **[trading-analysis](https://skillpicker.xyz/skill/trading-analysis-ib8386/)** — Generates institutional-grade investment reports for stocks and ETFs with real-time data, 10+ technical indicators…
-  `npx skills add gracefullight/stock-checker@trading-analysis`
-
-### Testing
-
-Agent skills for Testing.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/task/testing/)**
-
-- **[playwright-best-practices](https://skillpicker.xyz/skill/playwright-best-practices-qk2wk9/)** — Comprehensive Playwright guidance covering E2E, component, API, visual, accessibility, and security testing, flaky…
-  `npx skills add currents-dev/playwright-best-practices-skill@playwright-best-practices`
-
-- **[golang-testing](https://skillpicker.xyz/skill/golang-testing-ewyn2q/)** — Production-ready Go testing: table-driven tests, testify, parallel tests, fuzzing, goleak, snapshots, coverage…
-  `npx skills add samber/cc-skills-golang@golang-testing`
-
-- **[vitest](https://skillpicker.xyz/skill/vitest-mljxx7/)** — Vitest fast unit testing framework powered by Vite with Jest-compatible API.
-  `npx skills add antfu/skills@vitest`
-
-- **[unit-testing](https://skillpicker.xyz/skill/unit-testing-dwe540/)** — Writes unit tests with Jest, Vitest, or pytest covering test doubles, AAA, coverage gating, snapshots, and mutation…
-  `npx skills add petrkindlmann/qa-skills@unit-testing`
-
-- **[qa-testing-playwright](https://skillpicker.xyz/skill/qa-testing-playwright-1c5zl9h/)** — Builds and debugs Playwright E2E suites covering locator strategy, flake triage, CI hardening, and sharding.
-  `npx skills add vasilyu1983/ai-agents-public@qa-testing-playwright`
 
 ### Web design
 
@@ -716,110 +674,173 @@ Agent skills for Web Design.
 - **[high-end-visual-design](https://skillpicker.xyz/skill/high-end-visual-design-4qtqbc/)** — Teaches high-end agency-style web design with specific fonts, spacing, shadows, card structures, and motion…
   `npx skills add leonxlnx/taste-skill@high-end-visual-design`
 
-### Content creation
+### Video Editing
 
-Agent skills for Content Writing.
+Agent skills for Video Editing.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/task/content-writing/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/task/video-editing/)**
 
-- **[content-writing](https://skillpicker.xyz/skill/content-writing-12ykdx4/)** — Guides content writing using Ann Handley's 'Everybody Writes' methodology: blog posts, email, social, website copy…
-  `npx skills add guia-matthieu/clawfu-skills@content-writing`
+- **[video-editing](https://skillpicker.xyz/skill/video-editing-1ngk1oj/)** — AI-assisted video editing workflows for cutting, structuring, and augmenting real footage through FFmpeg, Remotion…
+  `npx skills add affaan-m/ecc@video-editing`
 
-- **[content-creation](https://skillpicker.xyz/skill/content-creation-16qkrec/)** — Guidelines and templates for creating marketing content across channels: blog posts, social media, email…
-  `npx skills add anthropics/knowledge-work-plugins@content-creation`
+- **[claude-video](https://skillpicker.xyz/skill/claude-video-wyrivb/)** — AI-powered video production suite covering editing, transcoding, captioning, analysis, shortform pipeline…
+  `npx skills add agricidaniel/claude-video@claude-video`
 
-- **[blog](https://skillpicker.xyz/skill/blog-m3yc40/)** — Full-lifecycle blog engine with 31 sub-skills covering writing, rewriting, analysis, outlines, audits, schema…
-  `npx skills add agricidaniel/claude-blog@blog`
+- **[ffmpeg-video-editor](https://skillpicker.xyz/skill/ffmpeg-video-editor-drgs0f/)** — Translates natural-language video editing requests into FFmpeg commands for cutting, trimming, converting…
+  `npx skills add sundial-org/awesome-openclaw-skills@ffmpeg-video-editor`
 
-- **[blog-write](https://skillpicker.xyz/skill/blog-write-1674hqi/)** — Writes complete blog articles from a topic or brief with template selection, answer-first formatting, sourced…
-  `npx skills add agricidaniel/claude-blog@blog-write`
+- **[video-processing-editing](https://skillpicker.xyz/skill/video-processing-editing-1v1w11n/)** — FFmpeg-based video editing automation covering cutting, trimming, concatenation, transitions, audio mixing…
+  `npx skills add curiositech/some_claude_skills@video-processing-editing`
 
-- **[blog-post](https://skillpicker.xyz/skill/blog-post-17jf590/)** — Writes and structures long-form blog posts and tutorials with research delegation, SEO optimization, and required…
-  `npx skills add langchain-ai/deepagents@blog-post`
+- **[editor](https://skillpicker.xyz/skill/editor-17vn025/)** — AI-native local video editor wrapping FFmpeg in 19 deterministic tools for trimming, splicing, captions, zoom…
+  `npx skills add makemyclip/editor@editor`
 
-### Stock analysis
+### 3D Modeling
 
-Agent skills for Stock Analysis.
+Agent skills for 3D Modeling.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/task/stock-analysis/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/task/3d-modeling/)**
 
-- **[stock-analysis](https://skillpicker.xyz/skill/stock-analysis-1kxbxhb/)** — Analyzes US stocks and cryptocurrencies via Yahoo Finance, covering earnings, fundamentals, analyst sentiment…
-  `npx skills add gracefullight/stock-checker@stock-analysis`
+- **[3d-modeling](https://skillpicker.xyz/skill/3d-modeling-m0f5rw/)** — Senior 3D artist guidance on production topology, UV mapping, retopology, LODs, sculpting, and DCC workflows across…
+  `npx skills add omer-metin/skills-for-antigravity@3d-modeling`
 
-- **[equity-research](https://skillpicker.xyz/skill/equity-research-1angzxl/)** — Builds equity research snapshots from IBES consensus, company fundamentals, historical prices, and macro data…
-  `npx skills add anthropics/financial-services@equity-research`
+- **[blender](https://skillpicker.xyz/skill/blender-18wnm12/)** — Creates professional 3D models, parametric designs, furniture, and architectural elements in Blender via MCP…
+  `npx skills add jithinolickal/blender@blender`
 
-- **[stock-research-executor](https://skillpicker.xyz/skill/stock-research-executor-1feac9m/)** — Executes an 8-phase stock investment due diligence process covering business foundation, industry, financials…
-  `npx skills add liangdabiao/claude-code-stock-deep-research-agent@stock-research-executor`
+- **[modeling](https://skillpicker.xyz/skill/modeling-17va8b2/)** — Covers 3D modeling fundamentals, hard-surface vs organic workflows, subdivision, sculpting, topology, edge flow…
+  `npx skills add monumentalsystems/atlas-agent-teams@modeling`
 
-- **[company-valuation](https://skillpicker.xyz/skill/company-valuation-eo2hfo/)** — Estimates intrinsic value of public companies via DCF, peer multiples, and sum-of-parts, blending to an implied…
-  `npx skills add himself65/finance-skills@company-valuation`
+- **[3d-asset-production](https://skillpicker.xyz/skill/3d-asset-production-1pt9ouz/)** — Turns generated, scanned, or modeled 3D output into production-ready assets: topology repair, scale/axes, UVs, PBR…
+  `npx skills add calesthio/generative-media-skills@3d-asset-production`
 
-- **[daily-stock-analysis](https://skillpicker.xyz/skill/daily-stock-analysis-12imrex/)** — LLM-powered stock analysis system for A-share, HK, and US markets that fetches quotes, news, and fundamentals…
-  `npx skills add reason-machines/trending-skills@daily-stock-analysis`
+- **[blender-3d-modeling](https://skillpicker.xyz/skill/blender-3d-modeling-f309uj/)** — Creates 3D geometry procedurally with Blender's Python API: meshes from vertex data, bmesh editing, modifiers…
+  `npx skills add andrew1326/dominations@blender-3d-modeling`
 
-### Web Development
+### Audio and Voice
 
-Agent skills for Web Development.
+Agent skills for Audio and Voice.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/task/web-development/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/task/audio-voice/)**
 
-- **[web-development](https://skillpicker.xyz/skill/web-development-1822no1/)** — Web development guidelines covering Bootstrap, Django, HTMX, and general web best practices including performance…
-  `npx skills add mindrally/skills@web-development`
+- **[text-to-speech](https://skillpicker.xyz/skill/text-to-speech-12uj8x6/)** — Converts text to speech using ElevenLabs voice AI, supporting 70+ languages, multiple models, voice settings…
+  `npx skills add elevenlabs/skills@text-to-speech`
 
-- **[aspnet-core](https://skillpicker.xyz/skill/aspnet-core-lh6mdg/)** — Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web…
-  `npx skills add openai/skills@aspnet-core`
+- **[speech](https://skillpicker.xyz/skill/speech-nol9xh/)** — Generates spoken audio from text via the OpenAI Audio API using a bundled CLI, covering narration, voiceover…
+  `npx skills add openai/skills@speech`
 
-- **[fullstack-dev](https://skillpicker.xyz/skill/fullstack-dev-mjjna4/)** — Full-stack backend architecture and frontend-backend integration guide covering REST APIs, service layers, auth…
-  `npx skills add minimax-ai/skills@fullstack-dev`
+- **[transcribe](https://skillpicker.xyz/skill/transcribe-1iidhue/)** — Transcribe audio files to text with optional diarization and known-speaker hints.
+  `npx skills add openai/skills@transcribe`
 
-- **[vue-best-practices](https://skillpicker.xyz/skill/vue-best-practices-t91b6m/)** — MUST be used for Vue.js tasks.
-  `npx skills add vuejs-ai/skills@vue-best-practices`
+- **[qianwen-audio-tts](https://skillpicker.xyz/skill/qianwen-audio-tts-1l99s3x/)** — Synthesizes speech from text with Qwen TTS models, supporting voiceovers, narration, and TTS applications via HTTP…
+  `npx skills add qianwen-ai/qianwen-ai@qianwen-audio-tts`
 
-- **[fullstack-guardian](https://skillpicker.xyz/skill/fullstack-guardian-1lf62ru/)** — Builds security-focused full-stack web applications with integrated frontend, backend, and layered security across…
-  `npx skills add jeffallan/claude-skills@fullstack-guardian`
+- **[qwencloud-audio-tts](https://skillpicker.xyz/skill/qwencloud-audio-tts-1tqhwjn/)** — Synthesizes speech from text with Qwen TTS models, supporting voiceovers, narration, and TTS applications via HTTP…
+  `npx skills add qwencloud/qwencloud-ai@qwencloud-audio-tts`
 
-### Data Analysis
+### Image Generation
 
-Agent skills for Data Analysis.
+Agent skills for Image Generation.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/task/data-analysis/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/task/image-generation/)**
 
-- **[data-analysis](https://skillpicker.xyz/skill/data-analysis-1obfi9m/)** — Analyzes uploaded Excel/CSV files using DuckDB, supporting schema inspection, SQL querying, statistical summaries…
-  `npx skills add bytedance/deer-flow@data-analysis`
+- **[imagegen](https://skillpicker.xyz/skill/imagegen-72r05t/)** — Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations…
+  `npx skills add openai/skills@imagegen`
 
-- **[data-analysis-jupyter](https://skillpicker.xyz/skill/data-analysis-jupyter-1pfay7u/)** — Provides expert guidance for data analysis, visualization, and Jupyter Notebook development using pandas…
-  `npx skills add mindrally/skills@data-analysis-jupyter`
+- **[ai-image-generation](https://skillpicker.xyz/skill/ai-image-generation-1kj3iri/)** — Generate AI images with GPT-Image-2, FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI.
+  `npx skills add 101-skills/superpowers@ai-image-generation`
 
-- **[analyzing-data](https://skillpicker.xyz/skill/analyzing-data-10tpojh/)** — Answers business questions by querying the data warehouse with SQL, with pattern/concept caching and a persistent…
-  `npx skills add astronomer/agents@analyzing-data`
+- **[image-edit](https://skillpicker.xyz/skill/image-edit-1qccjw9/)** — Routes image editing on RunComfy to the right model (Nano Banana Edit, GPT Image 2 Edit, Flux Kontext, Z-Image…
+  `npx skills add prime-skills/runcomfy-agent-skills@image-edit`
 
-- **[pandas data analysis](https://skillpicker.xyz/skill/pandas-data-analysis-1wi5bxx/)** — Teaches data manipulation, analysis, and visualization with Pandas, NumPy, and Matplotlib, covering cleaning…
-  `npx skills add "pluginagentmarketplace/custom-plugin-python@pandas data analysis"`
+- **[image](https://skillpicker.xyz/skill/image-3lgful/)** — Marketing-focused image skill covering AI generation, editing, design tools, and optimization for blog heroes…
+  `npx skills add coreyhaines31/marketingskills@image`
 
-- **[analytics-data-analysis](https://skillpicker.xyz/skill/analytics-data-analysis-18qe5mn/)** — Provides guidelines for analytics, data analysis, and visualization using pandas, matplotlib, seaborn, and Jupyter…
-  `npx skills add mindrally/skills@analytics-data-analysis`
+- **[qianwen-image-generation](https://skillpicker.xyz/skill/qianwen-image-generation-1giwxf3/)** — Generates and edits images with Wan and Qwen Image models, supporting text-to-image, style transfer, subject…
+  `npx skills add qianwen-ai/qianwen-ai@qianwen-image-generation`
 
-### Market Research
+### Testing
 
-Agent skills for Market Research.
+Agent skills for Testing.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/task/market-research/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/task/testing/)**
 
-- **[market-research](https://skillpicker.xyz/skill/market-research-1edqgnv/)** — Conducts market research, competitive analysis, investor diligence, and market sizing with source attribution and…
-  `npx skills add affaan-m/ecc@market-research`
+- **[playwright-best-practices](https://skillpicker.xyz/skill/playwright-best-practices-qk2wk9/)** — Comprehensive Playwright guidance covering E2E, component, API, visual, accessibility, and security testing, flaky…
+  `npx skills add currents-dev/playwright-best-practices-skill@playwright-best-practices`
 
-- **[market-research-reports](https://skillpicker.xyz/skill/market-research-reports-1qlvpy5/)** — Builds evidence-traceable market research reports and assumption-driven market sizing or forecast scenarios with…
-  `npx skills add k-dense-ai/scientific-agent-skills@market-research-reports`
+- **[golang-testing](https://skillpicker.xyz/skill/golang-testing-ewyn2q/)** — Production-ready Go testing: table-driven tests, testify, parallel tests, fuzzing, goleak, snapshots, coverage…
+  `npx skills add samber/cc-skills-golang@golang-testing`
 
-- **[firecrawl-market-research](https://skillpicker.xyz/skill/firecrawl-market-research-ub7dly/)** — Extracts market, financial, earnings, and company metrics via Firecrawl, producing sourced market research reports…
-  `npx skills add firecrawl/firecrawl-workflows@firecrawl-market-research`
+- **[vitest](https://skillpicker.xyz/skill/vitest-mljxx7/)** — Vitest fast unit testing framework powered by Vite with Jest-compatible API.
+  `npx skills add antfu/skills@vitest`
 
-- **[market-sizing-analysis](https://skillpicker.xyz/skill/market-sizing-analysis-1rvs1k0/)** — Calculates TAM/SAM/SOM market opportunity using top-down, bottom-up, and value theory methodologies for…
-  `npx skills add wshobson/agents@market-sizing-analysis`
+- **[unit-testing](https://skillpicker.xyz/skill/unit-testing-dwe540/)** — Writes unit tests with Jest, Vitest, or pytest covering test doubles, AAA, coverage gating, snapshots, and mutation…
+  `npx skills add petrkindlmann/qa-skills@unit-testing`
 
-- **[competitor-analysis](https://skillpicker.xyz/skill/competitor-analysis-b9k4m4/)** — Analyzes competitors with strengths, weaknesses, and differentiation opportunities, mapping the competitive…
-  `npx skills add phuryn/pm-skills@competitor-analysis`
+- **[qa-testing-playwright](https://skillpicker.xyz/skill/qa-testing-playwright-1c5zl9h/)** — Builds and debugs Playwright E2E suites covering locator strategy, flake triage, CI hardening, and sharding.
+  `npx skills add vasilyu1983/ai-agents-public@qa-testing-playwright`
+
+### Trading
+
+Agent skills for Trading.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/task/trading/)**
+
+- **[breakout-trade-planner](https://skillpicker.xyz/skill/breakout-trade-planner-11c80dy/)** — Generates Minervini-style breakout trade plans from VCP screener output with worst-case risk calculation, portfolio…
+  `npx skills add tradermonty/claude-trading-skills@breakout-trade-planner`
+
+- **[trade-hypothesis-ideator](https://skillpicker.xyz/skill/trade-hypothesis-ideator-1rgb87b/)** — Generates falsifiable trade strategy hypotheses from market data, trade logs, and journals, producing ranked…
+  `npx skills add tradermonty/claude-trading-skills@trade-hypothesis-ideator`
+
+- **[trading-plan-generator](https://skillpicker.xyz/skill/trading-plan-generator-o8py4c/)** — Generates comprehensive trading plans covering risk management, position sizing, entry/exit rules, trade management…
+  `npx skills add jamesrochabrun/skills@trading-plan-generator`
+
+- **[thesis-tracker](https://skillpicker.xyz/skill/thesis-tracker-4w7gf/)** — Maintains and updates investment theses for positions and watchlist names, tracking data points, catalysts, thesis…
+  `npx skills add anthropics/financial-services@thesis-tracker`
+
+- **[trading-analysis](https://skillpicker.xyz/skill/trading-analysis-ib8386/)** — Generates institutional-grade investment reports for stocks and ETFs with real-time data, 10+ technical indicators…
+  `npx skills add gracefullight/stock-checker@trading-analysis`
+
+### Video Generation
+
+Agent skills for Video Generation.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/task/video-generation/)**
+
+- **[kling-cli](https://skillpicker.xyz/skill/kling-cli-1ay9llh/)** — Official Kling CLI skill for image/video generation, reusable Elements, and motion control via MCP…
+  `npx skills add klingai-tech/skills@kling-cli`
+
+- **[ai-video-generation](https://skillpicker.xyz/skill/ai-video-generation-178fbrm/)** — Generate AI videos with Google Veo, Seedance 2.0, HappyHorse, Wan, Grok and 40+ models via inference.sh CLI.
+  `npx skills add 101-skills/superpowers@ai-video-generation`
+
+- **[image-to-video](https://skillpicker.xyz/skill/image-to-video-1uk89tj/)** — Routes image-to-video animation across RunComfy models (HappyHorse, Wan, Seedance) with per-model prompting patterns…
+  `npx skills add genmedia-labs/skills@image-to-video`
+
+- **[kling-3-0](https://skillpicker.xyz/skill/kling-3-0-2z8hr7/)** — Covers all six Kling 3.0 endpoints on RunComfy across Standard, Pro, and 4K tiers for text-to-video and…
+  `npx skills add prime-skills/runcomfy-agent-skills@kling-3-0`
+
+- **[videoagent-video-studio](https://skillpicker.xyz/skill/videoagent-video-studio-1q45fbv/)** — Generates short AI videos from text or images across 7 backends (minimax, kling, veo, hunyuan, grok, seedance) with…
+  `npx skills add pexoai/pexo-skills@videoagent-video-studio`
+
+### Music Generation
+
+Agent skills for Music Generation.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/task/music-generation/)**
+
+- **[music-generation](https://skillpicker.xyz/skill/music-generation-pa2sfd/)** — Generates songs (vocal or instrumental) from a style/mood prompt and optional lyrics via the MiniMax music API…
+  `npx skills add bytedance/deer-flow@music-generation`
+
+- **[ai-music](https://skillpicker.xyz/skill/ai-music-2dzyba/)** — Routes across RunComfy music models (ElevenLabs, ACE Step, ACE Step 1.5) for vocal songs, instrumentals, and audio…
+  `npx skills add genmedia-labs/skills@ai-music`
+
+- **[elevenlabs-music-generation](https://skillpicker.xyz/skill/elevenlabs-music-generation-ty96cl/)** — Generates full songs and instrumental tracks with ElevenLabs Music via the RunComfy CLI, covering style prompts…
+  `npx skills add prime-skills/runcomfy-agent-skills@elevenlabs-music-generation`
+
+- **[suno-music-creator](https://skillpicker.xyz/skill/suno-music-creator-aa3sho/)** — Professional Suno AI V5 and Suno Studio workflow for songs, playlists, jingles, and instrumentals with style…
+  `npx skills add schwepps/skills@suno-music-creator`
+
+- **[music](https://skillpicker.xyz/skill/music-6ogri4/)** — ListenHub music toolkit powered by Mureka for generating, remixing, extending, and analyzing music including…
+  `npx skills add marswaveai/skills@music`
 
 ### App development
 
@@ -842,26 +863,26 @@ Agent skills for App Development. Also covers Android Development.
 - **[emil-design-eng](https://skillpicker.xyz/skill/emil-design-eng-1pm1uxg/)** — Encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and invisible details that…
   `npx skills add emilkowalski/skills@emil-design-eng`
 
-### SEO
+### Stock analysis
 
-Agent skills for SEO.
+Agent skills for Stock Analysis.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/task/seo/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/task/stock-analysis/)**
 
-- **[seo](https://skillpicker.xyz/skill/seo-x95zmm/)** — Universal SEO analysis skill orchestrating 24 sub-skills and 18 sub-agents for full audits, technical SEO, schema…
-  `npx skills add agricidaniel/claude-seo@seo`
+- **[stock-analysis](https://skillpicker.xyz/skill/stock-analysis-1kxbxhb/)** — Analyzes US stocks and cryptocurrencies via Yahoo Finance, covering earnings, fundamentals, analyst sentiment…
+  `npx skills add gracefullight/stock-checker@stock-analysis`
 
-- **[seo-audit](https://skillpicker.xyz/skill/seo-audit-1y4wn3r/)** — Purpose-built SEO audit skill covering technical, on-page, content quality, links, and measurement facets.
-  `npx skills add coreyhaines31/marketingskills@seo-audit`
+- **[equity-research](https://skillpicker.xyz/skill/equity-research-1angzxl/)** — Builds equity research snapshots from IBES consensus, company fundamentals, historical prices, and macro data…
+  `npx skills add anthropics/financial-services@equity-research`
 
-- **[seo-geo](https://skillpicker.xyz/skill/seo-geo-k20wt3/)** — SEO/GEO optimization skill covering website audits, keyword research, schema markup, and AI search engine…
-  `npx skills add resciencelab/opc-skills@seo-geo`
+- **[stock-research-executor](https://skillpicker.xyz/skill/stock-research-executor-1feac9m/)** — Executes an 8-phase stock investment due diligence process covering business foundation, industry, financials…
+  `npx skills add liangdabiao/claude-code-stock-deep-research-agent@stock-research-executor`
 
-- **[seo-technical](https://skillpicker.xyz/skill/seo-technical-1alolb8/)** — Technical SEO audit skill covering crawlability, indexability, security, URL structure, mobile, Core Web Vitals…
-  `npx skills add agricidaniel/claude-seo@seo-technical`
+- **[company-valuation](https://skillpicker.xyz/skill/company-valuation-eo2hfo/)** — Estimates intrinsic value of public companies via DCF, peer multiples, and sum-of-parts, blending to an implied…
+  `npx skills add himself65/finance-skills@company-valuation`
 
-- **[programmatic-seo](https://skillpicker.xyz/skill/programmatic-seo-tdbdya/)** — Programmatic SEO page generation at scale, directly serving SEO optimization and keyword targeting.
-  `npx skills add coreyhaines31/marketingskills@programmatic-seo`
+- **[daily-stock-analysis](https://skillpicker.xyz/skill/daily-stock-analysis-12imrex/)** — LLM-powered stock analysis system for A-share, HK, and US markets that fetches quotes, news, and fundamentals…
+  `npx skills add reason-machines/trending-skills@daily-stock-analysis`
 
 ### Academic Research
 
@@ -884,47 +905,26 @@ Agent skills for Academic Research.
 - **[academic-researcher](https://skillpicker.xyz/skill/academic-researcher-k7l8yg/)** — Creates peer-reviewed research papers, literature reviews, and theses with source discovery, IMRaD structure…
   `npx skills add silupanda/academic-researcher@academic-researcher`
 
-### App Design
+### SEO
 
-Agent skills for App Design.
+Agent skills for SEO.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/task/app-design/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/task/seo/)**
 
-- **[frontend-design](https://skillpicker.xyz/skill/frontend-design-bruzsa/)** — Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one.
-  `npx skills add anthropics/skills@frontend-design`
+- **[seo](https://skillpicker.xyz/skill/seo-x95zmm/)** — Universal SEO analysis skill orchestrating 24 sub-skills and 18 sub-agents for full audits, technical SEO, schema…
+  `npx skills add agricidaniel/claude-seo@seo`
 
-- **[design-mobile-apps](https://skillpicker.xyz/skill/design-mobile-apps-10x6ydh/)** — Designs mobile app UI screens via the Sleek API, creating projects from plain-language descriptions and returning…
-  `npx skills add designed-by-ai/skills@design-mobile-apps`
+- **[seo-audit](https://skillpicker.xyz/skill/seo-audit-1y4wn3r/)** — Purpose-built SEO audit skill covering technical, on-page, content quality, links, and measurement facets.
+  `npx skills add coreyhaines31/marketingskills@seo-audit`
 
-- **[penpot-build-screen](https://skillpicker.xyz/skill/penpot-build-screen-1snsqt4/)** — Design production-grade screens in Penpot from a brief, as a senior visual designer — reusing the existing design…
-  `npx skills add penpot/penpot-ai-kit@penpot-build-screen`
+- **[seo-geo](https://skillpicker.xyz/skill/seo-geo-k20wt3/)** — SEO/GEO optimization skill covering website audits, keyword research, schema markup, and AI search engine…
+  `npx skills add resciencelab/opc-skills@seo-geo`
 
-- **[figma-implement-design](https://skillpicker.xyz/skill/figma-implement-design-1mnitrk/)** — Translates Figma designs into production-ready application code with 1:1 visual fidelity.
-  `npx skills add openai/skills@figma-implement-design`
+- **[seo-technical](https://skillpicker.xyz/skill/seo-technical-1alolb8/)** — Technical SEO audit skill covering crawlability, indexability, security, URL structure, mobile, Core Web Vitals…
+  `npx skills add agricidaniel/claude-seo@seo-technical`
 
-- **[ui-ux-pro-max](https://skillpicker.xyz/skill/ui-ux-pro-max-q40x27/)** — Searchable UI/UX design intelligence for web, mobile, and desktop covering styles, palettes, font pairings, UX…
-  `npx skills add nextlevelbuilder/ui-ux-pro-max-skill@ui-ux-pro-max`
-
-### Brainstorming
-
-Agent skills for Brainstorming.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/task/brainstorming/)**
-
-- **[brainstorming](https://skillpicker.xyz/skill/brainstorming-94u45g/)** — Expands seeds and escapes convergent ideation across any domain using escape-velocity and seed-expansion protocols…
-  `npx skills add jwynia/agent-skills@brainstorming`
-
-- **[product-brainstorming](https://skillpicker.xyz/skill/product-brainstorming-10w7q8e/)** — Acts as a sharp product thinking partner, running problem exploration, solution ideation, and assumption testing…
-  `npx skills add anthropics/knowledge-work-plugins@product-brainstorming`
-
-- **[bmad-brainstorming](https://skillpicker.xyz/skill/bmad-brainstorming-8zc1ik/)** — Runs a full brainstorming session with three stances (facilitator, creative partner, ideate-for-me), diverse…
-  `npx skills add bmad-code-org/bmad-method@bmad-brainstorming`
-
-- **[brainstorm-ideas-new](https://skillpicker.xyz/skill/brainstorm-ideas-new-y1sl52/)** — Brainstorms feature ideas for a new product from PM, Designer, and Engineer perspectives, then prioritizes the top…
-  `npx skills add phuryn/pm-skills@brainstorm-ideas-new`
-
-- **[brainstorm-ideas-existing](https://skillpicker.xyz/skill/brainstorm-ideas-existing-1bwz93h/)** — Brainstorms product ideas for an existing product using PM, Designer, and Engineer viewpoints, then prioritizes the…
-  `npx skills add phuryn/pm-skills@brainstorm-ideas-existing`
+- **[programmatic-seo](https://skillpicker.xyz/skill/programmatic-seo-tdbdya/)** — Programmatic SEO page generation at scale, directly serving SEO optimization and keyword targeting.
+  `npx skills add coreyhaines31/marketingskills@programmatic-seo`
 
 ### Code Review
 
@@ -1014,6 +1014,48 @@ Agent skills for Obsidian.
 - **[obsidian-notes-creator](https://skillpicker.xyz/skill/obsidian-notes-creator-1xpa9cm/)** — Create high-quality Obsidian study notes with analogies, diagrams, and structured explanations, handling single…
   `npx skills add szeyu/vibe-study-skills@obsidian-notes-creator`
 
+### LinkedIn
+
+Agent skills for LinkedIn.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/tool/linkedin/)**
+
+- **[linkedin-posts](https://skillpicker.xyz/skill/linkedin-posts-173o8gv/)** — Guides LinkedIn post copy creation and optimization, covering post types (photo, video, article, document, poll…
+  `npx skills add kostja94/marketing-skills@linkedin-posts`
+
+- **[linkedin automation](https://skillpicker.xyz/skill/linkedin-automation-m46csx/)** — Automates LinkedIn marketing and B2B lead generation: content publishing pipelines, lead-gen search and outreach…
+  `npx skills add "claude-office-skills/skills@linkedin automation"`
+
+- **[linkedin-profile-optimizer](https://skillpicker.xyz/skill/linkedin-profile-optimizer-11w3w7u/)** — Optimizes a LinkedIn profile for searchability, recruiter visibility, and engagement, covering headline, About…
+  `npx skills add paramchoudhary/resumeskills@linkedin-profile-optimizer`
+
+- **[ads-linkedin](https://skillpicker.xyz/skill/ads-linkedin-19gzu9b/)** — Audits LinkedIn Ads accounts across measurement, Insight Tag and conversions, professional audiences, lead…
+  `npx skills add agricidaniel/claude-ads@ads-linkedin`
+
+- **[social](https://skillpicker.xyz/skill/social-zzyift/)** — Social media content skill explicitly covering LinkedIn posts, carousels, scheduling, and listening.
+  `npx skills add coreyhaines31/marketingskills@social`
+
+### Blender
+
+Agent skills for Blender.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/tool/blender/)**
+
+- **[blender](https://skillpicker.xyz/skill/blender-9cek2k/)** — Lets an agent operate Blender through the Flue shell-to-application bridge, piping Python into bpy to inspect…
+  `npx skills add sfkislev/flue@blender`
+
+- **[blender-modeling](https://skillpicker.xyz/skill/blender-modeling-b1i0u1/)** — Creates and edits 3D meshes in Blender via natural language and bpy code: primitives, hard-surface modeling, mesh…
+  `npx skills add roble3/cc-blender-skill@blender-modeling`
+
+- **[blender-animation](https://skillpicker.xyz/skill/blender-animation-1gw02kw/)** — Animates objects, cameras, lights, and properties in Blender: keyframes, F-curves, easing, shape keys, drivers…
+  `npx skills add roble3/cc-blender-skill@blender-animation`
+
+- **[blender-mcp](https://skillpicker.xyz/skill/blender-mcp-2vnzs/)** — Expert guidance for driving Blender via MCP tools: scene inspection, bpy scripting, GLTF/GLB export, material and…
+  `npx skills add vladmdgolam/agent-skills@blender-mcp`
+
+- **[blender-motion-state-inspection](https://skillpicker.xyz/skill/blender-motion-state-inspection-1g8s1fr/)** — Inspects Blender characters, rigs, poses, and retargeted motion by extracting structured bpy facts (bones, bounding…
+  `npx skills add affaan-m/ecc@blender-motion-state-inspection`
+
 ### Higgsfield
 
 Agent skills for Higgsfield.
@@ -1034,27 +1076,6 @@ Agent skills for Higgsfield.
 
 - **[video-inpainting](https://skillpicker.xyz/skill/video-inpainting-n6kgic/)** — Region edits across video frames on RunComfy via the `runcomfy` CLI — remove an object that appears across many…
   `npx skills add prime-skills/runcomfy-agent-skills@video-inpainting`
-
-### Meta Ads
-
-Agent skills for Meta Ads.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/tool/meta-ads/)**
-
-- **[meta-ads](https://skillpicker.xyz/skill/meta-ads-krurah/)** — Pulls, analyzes, manages, and creates Meta ads (Facebook, Instagram, Messenger, Threads, CTWA) via the Marketing…
-  `npx skills add hoodini/ai-agents-skills@meta-ads`
-
-- **[meta-ads-strategy](https://skillpicker.xyz/skill/meta-ads-strategy-19undnv/)** — Runs Facebook and Instagram ads end-to-end — strategy, creative, copy, campaign structure, targeting, budgeting…
-  `npx skills add adkit/ads-skills@meta-ads-strategy`
-
-- **[metaads](https://skillpicker.xyz/skill/metaads-1y50j6j/)** — Meta media buyer skill that publishes, manages, and analyzes Facebook/Instagram campaigns via the Marketing API…
-  `npx skills add mfwarren/entrepreneur-claude-skills@metaads`
-
-- **[facebook-ads](https://skillpicker.xyz/skill/facebook-ads-1iiuvyl/)** — Expert Meta Ads guidance for auditing, building, and optimizing campaigns — objectives, audiences, creative…
-  `npx skills add thatrebeccarae/claude-marketing@facebook-ads`
-
-- **[meta-ads-campaign-builder](https://skillpicker.xyz/skill/meta-ads-campaign-builder-1et4d7c/)** — Builds complete Meta Ads campaign architecture — objective selection, audience targeting, ad set structure…
-  `npx skills add gooseworks-ai/goose-skills@meta-ads-campaign-builder`
 
 ### Home Assistant
 
@@ -1077,47 +1098,26 @@ Agent skills for Home Assistant.
 - **[homeassistant-config](https://skillpicker.xyz/skill/homeassistant-config-1wmtf5d/)** — Creates and manages Home Assistant YAML configuration including automations, scripts, templates, blueprints…
   `npx skills add esjavadex/claude-homeassistant-plugins@homeassistant-config`
 
-### LinkedIn
+### Meta Ads
 
-Agent skills for LinkedIn.
+Agent skills for Meta Ads.
 
-**[See all on SkillPicker →](https://skillpicker.xyz/for/tool/linkedin/)**
+**[See all on SkillPicker →](https://skillpicker.xyz/for/tool/meta-ads/)**
 
-- **[linkedin-posts](https://skillpicker.xyz/skill/linkedin-posts-173o8gv/)** — Guides LinkedIn post copy creation and optimization, covering post types (photo, video, article, document, poll…
-  `npx skills add kostja94/marketing-skills@linkedin-posts`
+- **[meta-ads](https://skillpicker.xyz/skill/meta-ads-krurah/)** — Pulls, analyzes, manages, and creates Meta ads (Facebook, Instagram, Messenger, Threads, CTWA) via the Marketing…
+  `npx skills add hoodini/ai-agents-skills@meta-ads`
 
-- **[linkedin automation](https://skillpicker.xyz/skill/linkedin-automation-m46csx/)** — Automates LinkedIn marketing and B2B lead generation: content publishing pipelines, lead-gen search and outreach…
-  `npx skills add "claude-office-skills/skills@linkedin automation"`
+- **[meta-ads-strategy](https://skillpicker.xyz/skill/meta-ads-strategy-19undnv/)** — Runs Facebook and Instagram ads end-to-end — strategy, creative, copy, campaign structure, targeting, budgeting…
+  `npx skills add adkit/ads-skills@meta-ads-strategy`
 
-- **[linkedin-profile-optimizer](https://skillpicker.xyz/skill/linkedin-profile-optimizer-11w3w7u/)** — Optimizes a LinkedIn profile for searchability, recruiter visibility, and engagement, covering headline, About…
-  `npx skills add paramchoudhary/resumeskills@linkedin-profile-optimizer`
+- **[metaads](https://skillpicker.xyz/skill/metaads-1y50j6j/)** — Meta media buyer skill that publishes, manages, and analyzes Facebook/Instagram campaigns via the Marketing API…
+  `npx skills add mfwarren/entrepreneur-claude-skills@metaads`
 
-- **[ads-linkedin](https://skillpicker.xyz/skill/ads-linkedin-19gzu9b/)** — Audits LinkedIn Ads accounts across measurement, Insight Tag and conversions, professional audiences, lead…
-  `npx skills add agricidaniel/claude-ads@ads-linkedin`
+- **[facebook-ads](https://skillpicker.xyz/skill/facebook-ads-1iiuvyl/)** — Expert Meta Ads guidance for auditing, building, and optimizing campaigns — objectives, audiences, creative…
+  `npx skills add thatrebeccarae/claude-marketing@facebook-ads`
 
-- **[social](https://skillpicker.xyz/skill/social-zzyift/)** — Social media content skill explicitly covering LinkedIn posts, carousels, scheduling, and listening.
-  `npx skills add coreyhaines31/marketingskills@social`
-
-### HubSpot
-
-Agent skills for HubSpot.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/tool/hubspot/)**
-
-- **[hubspot](https://skillpicker.xyz/skill/hubspot-kj6z7z/)** — Manages HubSpot CRM contacts, companies, deals, owners, associations, properties, and CMS content via the HubSpot…
-  `npx skills add openclaudia/openclaudia-skills@hubspot`
-
-- **[ticket-resolution](https://skillpicker.xyz/skill/ticket-resolution-kzotz2/)** — Creates, triages, advances, and closes HubSpot support tickets via the hubspot CLI — pipeline discovery…
-  `npx skills add hubspot/agent-cli-skills@ticket-resolution`
-
-- **[crm-lookup](https://skillpicker.xyz/skill/crm-lookup-1nhlkx0/)** — Finds specific HubSpot CRM records by ID, email, domain, or name fragment and traverses associations to build the…
-  `npx skills add hubspot/agent-cli-skills@crm-lookup`
-
-- **[hubspot-integration](https://skillpicker.xyz/skill/hubspot-integration-m52dnb/)** — Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch…
-  `npx skills add sickn33/agentic-awesome-skills@hubspot-integration`
-
-- **[crm-automation](https://skillpicker.xyz/skill/crm-automation-1qz3tix/)** — Automates CRM workflows for HubSpot, Salesforce, and Pipedrive — lead capture, enrichment, scoring, deal stage…
-  `npx skills add claude-office-skills/skills@crm-automation`
+- **[meta-ads-campaign-builder](https://skillpicker.xyz/skill/meta-ads-campaign-builder-1et4d7c/)** — Builds complete Meta Ads campaign architecture — objective selection, audience targeting, ad set structure…
+  `npx skills add gooseworks-ai/goose-skills@meta-ads-campaign-builder`
 
 ### Etsy
 
@@ -1140,6 +1140,27 @@ Agent skills for Etsy.
 - **[etsy-shop-setup](https://skillpicker.xyz/skill/etsy-shop-setup-15h86fq/)** — Etsy shop launch guide covering policies, branding, first listings, SEO foundation, and payment setup.
   `npx skills add nexscope-ai/ecommerce-skills@etsy-shop-setup`
 
+### HubSpot
+
+Agent skills for HubSpot.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/tool/hubspot/)**
+
+- **[hubspot](https://skillpicker.xyz/skill/hubspot-kj6z7z/)** — Manages HubSpot CRM contacts, companies, deals, owners, associations, properties, and CMS content via the HubSpot…
+  `npx skills add openclaudia/openclaudia-skills@hubspot`
+
+- **[ticket-resolution](https://skillpicker.xyz/skill/ticket-resolution-kzotz2/)** — Creates, triages, advances, and closes HubSpot support tickets via the hubspot CLI — pipeline discovery…
+  `npx skills add hubspot/agent-cli-skills@ticket-resolution`
+
+- **[crm-lookup](https://skillpicker.xyz/skill/crm-lookup-1nhlkx0/)** — Finds specific HubSpot CRM records by ID, email, domain, or name fragment and traverses associations to build the…
+  `npx skills add hubspot/agent-cli-skills@crm-lookup`
+
+- **[hubspot-integration](https://skillpicker.xyz/skill/hubspot-integration-m52dnb/)** — Expert patterns for HubSpot CRM integration including OAuth authentication, CRM objects, associations, batch…
+  `npx skills add sickn33/agentic-awesome-skills@hubspot-integration`
+
+- **[crm-automation](https://skillpicker.xyz/skill/crm-automation-1qz3tix/)** — Automates CRM workflows for HubSpot, Salesforce, and Pipedrive — lead capture, enrichment, scoring, deal stage…
+  `npx skills add claude-office-skills/skills@crm-automation`
+
 ### TikTok
 
 Agent skills for TikTok.
@@ -1160,27 +1181,6 @@ Agent skills for TikTok.
 
 - **[tiktok-scraper](https://skillpicker.xyz/skill/tiktok-scraper-1ct0edy/)** — Apify-based TikTok scraper with four actors covering posts, profiles, comments, and location feeds, returning JSON…
   `npx skills add apidojo-io/social-media-skills@tiktok-scraper`
-
-### Blender
-
-Agent skills for Blender.
-
-**[See all on SkillPicker →](https://skillpicker.xyz/for/tool/blender/)**
-
-- **[blender](https://skillpicker.xyz/skill/blender-9cek2k/)** — Lets an agent operate Blender through the Flue shell-to-application bridge, piping Python into bpy to inspect…
-  `npx skills add sfkislev/flue@blender`
-
-- **[blender-modeling](https://skillpicker.xyz/skill/blender-modeling-b1i0u1/)** — Creates and edits 3D meshes in Blender via natural language and bpy code: primitives, hard-surface modeling, mesh…
-  `npx skills add roble3/cc-blender-skill@blender-modeling`
-
-- **[blender-animation](https://skillpicker.xyz/skill/blender-animation-1gw02kw/)** — Animates objects, cameras, lights, and properties in Blender: keyframes, F-curves, easing, shape keys, drivers…
-  `npx skills add roble3/cc-blender-skill@blender-animation`
-
-- **[blender-mcp](https://skillpicker.xyz/skill/blender-mcp-2vnzs/)** — Expert guidance for driving Blender via MCP tools: scene inspection, bpy scripting, GLTF/GLB export, material and…
-  `npx skills add vladmdgolam/agent-skills@blender-mcp`
-
-- **[blender-motion-state-inspection](https://skillpicker.xyz/skill/blender-motion-state-inspection-1g8s1fr/)** — Inspects Blender characters, rigs, poses, and retargeted motion by extracting structured bpy facts (bones, bounding…
-  `npx skills add affaan-m/ecc@blender-motion-state-inspection`
 
 ## By agent
 
@@ -1206,6 +1206,27 @@ Agent skills for Claude Code.
 
 - **[skill development](https://skillpicker.xyz/skill/skill-development-1r3bxl3/)** — Guidance for creating effective skills for Claude Code plugins, covering skill structure, progressive disclosure…
   `npx skills add "anthropics/claude-code@skill development"`
+
+### WorkBuddy
+
+Agent skills for WorkBuddy.
+
+**[See all on SkillPicker →](https://skillpicker.xyz/for/agent/workbuddy/)**
+
+- **[workbuddy-cli-model-bridge](https://skillpicker.xyz/skill/workbuddy-cli-model-bridge-11ko89m/)** — Installs, audits, repairs, and manages a loopback CLIProxyAPI bridge that registers subscription-backed CLI models…
+  `npx skills add zjp1997720/zhijian-skills@workbuddy-cli-model-bridge`
+
+- **[international-ai-deploy](https://skillpicker.xyz/skill/international-ai-deploy-1cr22fu/)** — A WorkBuddy skill that configures and deploys international AI models (GPT, Claude, Gemini) by generating model…
+  `npx skills add hangtiger/international-ai-deploy-skill@international-ai-deploy`
+
+- **[openclaw-assets-to-workbuddy](https://skillpicker.xyz/skill/openclaw-assets-to-workbuddy-l4g1gu/)** — Migrates OpenClaw personal assets into WorkBuddy locations, covering SOUL.md, IDENTITY.md, USER.md, memory, skills…
+  `npx skills add bighardperson/computer-science-skills-collection@openclaw-assets-to-workbuddy`
+
+- **[soia-env-workbuddy-install](https://skillpicker.xyz/skill/soia-env-workbuddy-install-c0l2r5/)** — Installs, verifies, or updates the WorkBuddy desktop client from official sources, with signature checks, progress…
+  `npx skills add soia-team/soia-open-env-skills@soia-env-workbuddy-install`
+
+- **[workbuddy-channel-setup](https://skillpicker.xyz/skill/workbuddy-channel-setup-1hgyszp/)** — Automates WorkBuddy channel integration setup for Feishu and QQ Bot using playwright-cli, covering app creation…
+  `npx skills add fengjiehzi/skills@workbuddy-channel-setup`
 
 ### Antigravity
 
@@ -1299,7 +1320,7 @@ Agent skills for Token Optimization. Also covers Less Token Usage.
 
 These are Agent Skills: folders with a `SKILL.md` that a coding agent loads for a specific job. Topics come from observed search demand. A skill appears here only when it matches that job directly. Ranking uses relevance first, then reported popularity — never safety, and never as an endorsement.
 
-This README is a curated snapshot (2026-09-19). Duplicate job names are merged, clone-named skills are collapsed, and each skill appears in at most a few sections. The rest of the index — search, filters, evidence excerpts, and every ranked list — is on **[skillpicker.xyz](https://skillpicker.xyz)**.
+This README is a curated snapshot (2026-10-03). Duplicate job names are merged, clone-named skills are collapsed, and each skill appears in at most a few sections. The rest of the index — search, filters, evidence excerpts, and every ranked list — is on **[skillpicker.xyz](https://skillpicker.xyz)**.
 
 > Agent skills are reviewed for **relevance, not safety**. Read the upstream `SKILL.md` before you run one.
 

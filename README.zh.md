@@ -6,7 +6,7 @@
 
 一份 Agent Skill 精选清单——给 Claude Code、Codex、Cursor 等编程 Agent 用的 SKILL.md 技能包，按角色、任务和产出整理。
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Topics](https://img.shields.io/badge/topics-58-0A66C2) ![Picks](https://img.shields.io/badge/curated_picks-287-0A66C2) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) ![Topics](https://img.shields.io/badge/topics-59-0A66C2) ![Picks](https://img.shields.io/badge/curated_picks-292-0A66C2) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 
@@ -58,7 +58,7 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - [按产出](#按产出) — 10 个工作
 - [按任务](#按任务) — 16 个工作
 - [按工具](#按工具) — 9 个工作
-- [按 Agent](#按-agent) — 3 个工作
+- [按 Agent](#按-agent) — 4 个工作
 - [入门](#入门) — 2 个工作
 - [这份列表怎么来的](#这份列表怎么来的)
 
@@ -86,27 +86,6 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 
 - **[improve-code-quality](https://skillpicker.xyz/zh/skill/improve-code-quality-l6svlu/)** — 从未经测试的原型到生产就绪代码的九阶段引导之旅，统筹测试、整洁代码、重构、架构和可靠性技能。
   `npx skills add wondelai/skills@improve-code-quality`
-
-### 市场营销
-
-面向「市场营销」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/marketing/)**
-
-- **[campaign-plan](https://skillpicker.xyz/zh/skill/campaign-plan-ipfvnt/)** — 为发布和推广生成完整的营销活动简报，包含目标、受众、信息、渠道策略、内容日历和成功指标。
-  `npx skills add anthropics/knowledge-work-plugins@campaign-plan`
-
-- **[marketing-plan](https://skillpicker.xyz/zh/skill/marketing-plan-58xgvn/)** — 生成一份详尽的 13 节 AARRR 结构营销计划，根据预算、团队和阶段定制，并与 139 个创意库交叉引用。
-  `npx skills add coreyhaines31/marketingskills@marketing-plan`
-
-- **[email-marketing-bible](https://skillpicker.xyz/zh/skill/email-marketing-bible-1dz5ccg/)** — 电子邮件营销 skill，涵盖生命周期和 campaign 文案，19 个行业 playbook。
-  `npx skills add CosmoBlk/email-marketing-bible@email-marketing-bible`
-
-- **[seo-audit](https://skillpicker.xyz/zh/skill/seo-audit-gw0gle/)** — 专家级 SEO 审计技能，识别技术、页面和内容问题，并提供可操作建议以提升自然搜索表现。
-  `npx skills add coreyhaines31/marketingskills@seo-audit`
-
-- **[seo](https://skillpicker.xyz/zh/skill/seo-x95zmm/)** — 全面的 SEO 分析 Skill，编排 24 个子 Skill，跨行业进行审计、schema、技术 SEO、内容质量和 GEO。
-  `npx skills add agricidaniel/claude-seo@seo`
 
 ### 设计师
 
@@ -150,26 +129,26 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[product-sense-interview-answer](https://skillpicker.xyz/zh/skill/product-sense-interview-answer-seth1f/)** — 通过六段式答题框架辅导 PM 候选人应对产品感面试题：澄清、理由、目标、细分、痛点和方案选择。
   `npx skills add deanpeters/product-manager-skills@product-sense-interview-answer`
 
-### 作家
+### 法务
 
-面向「作家」的 Agent Skills。
+面向「法务」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/writers/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/legal/)**
 
-- **[content-research-writer](https://skillpicker.xyz/zh/skill/content-research-writer-12s8d4v/)** — 面向博客文章、长文和简报的写作伙伴，负责调研、列提纲、撰写钩子、引用和章节反馈。
-  `npx skills add composiohq/awesome-claude-skills@content-research-writer`
+- **[review-contract](https://skillpicker.xyz/zh/skill/review-contract-1h4ihcu/)** — 依据组织的谈判手册审查合同，标记偏差、生成红线修订，并提供业务影响分析及按优先级排序的谈判策略。
+  `npx skills add anthropics/knowledge-work-plugins@review-contract`
 
-- **[humanizer](https://skillpicker.xyz/zh/skill/humanizer-1xr98jr/)** — 重写听起来像 AI 的文本，使其读起来像作者本人，同时不改变原意。在编辑或审阅文章以发现 AI 痕迹时使用：不是 X 而是 Y 的对比、单行收尾、套路化开头…
-  `npx skills add blader/humanizer@humanizer`
+- **[vendor-agreement-review](https://skillpicker.xyz/zh/skill/vendor-agreement-review-qyg9v6/)** — 依据团队实战手册审查收到的供应商协议，标记偏差，评估风险，生成具体的红线修改措辞，并路由给正确的审批人。
+  `npx skills add anthropics/claude-for-legal@vendor-agreement-review`
 
-- **[no-ai-slop](https://skillpicker.xyz/zh/skill/no-ai-slop-1obdsa8/)** — 将草稿编辑得更精炼、更像人写的，同时保留作者的个人风格；或在不重写的情况下检测 AI 味模式。适用于用户希望草稿更清晰、更直接、更有观点，或更少 AI 感，或…
-  `npx skills add petergyang/no-ai-slop@no-ai-slop`
+- **[review](https://skillpicker.xyz/zh/skill/review-ittef8/)** — 依据 playbook 审查收到的协议，识别协议结构，路由到合适的审查 skill，并将输出整合为单一备忘录。
+  `npx skills add anthropics/claude-for-legal@review`
 
-- **[doc-coauthoring](https://skillpicker.xyz/zh/skill/doc-coauthoring-1uje9wh/)** — 引导用户通过结构化工作流共同撰写文档。当用户想要撰写文档、提案、技术规格、决策文档或类似结构化内容时使用。此工作流帮助用户高效传递上下文、通过迭代完善内容，并…
-  `npx skills add anthropics/skills@doc-coauthoring`
+- **[legal-document-analyzer](https://skillpicker.xyz/zh/skill/legal-document-analyzer-1nbvbz8/)** — 构建用于法律文档分析、合同审查和合规检查的 Agent。处理文档解析、风险识别、法律研究和报告生成。
+  `npx skills add qodex-ai/ai-agent-skills@legal-document-analyzer`
 
-- **[copy-editing](https://skillpicker.xyz/zh/skill/copy-editing-qkt1d8/)** — 当用户想要编辑、审阅或改进现有营销文案，或更新过时内容时使用。也适用于用户提到“编辑这段文案”“审阅我的文案”“文案反馈”“校对”“润色一下”“让它更好”“文…
-  `npx skills add coreyhaines31/marketingskills@copy-editing`
+- **[legal-risk-assessment](https://skillpicker.xyz/zh/skill/legal-risk-assessment-kbjw8n/)** — 使用严重程度与可能性框架评估和分类法律风险，并设定升级标准。涵盖合同风险、交易风险敞口，以及何时升级至高级法律顾问。
+  `npx skills add anthropics/knowledge-work-plugins@legal-risk-assessment`
 
 ### 商业
 
@@ -192,185 +171,26 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[business-pulse](https://skillpicker.xyz/zh/skill/business-pulse-y3ltvv/)** — 为中小企业主生成一页式跨职能业务快照，涵盖来自已连接工具的现金、销售、销售管道、承诺事项和关注清单项目。
   `npx skills add anthropics/knowledge-work-plugins@business-pulse`
 
-### 建筑施工
+### 市场营销
 
-面向「建筑施工」的 Agent Skills。
+面向「市场营销」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/construction/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/marketing/)**
 
-- **[construction-expert](https://skillpicker.xyz/zh/skill/construction-expert-k3hv0n/)** — 提供施工管理、项目规划、BIM、安全合规和建筑技术方面的专业指导，包括进度安排、估算和标准。
-  `npx skills add personamanagmentlayer/pcl@construction-expert`
+- **[campaign-plan](https://skillpicker.xyz/zh/skill/campaign-plan-ipfvnt/)** — 为发布和推广生成完整的营销活动简报，包含目标、受众、信息、渠道策略、内容日历和成功指标。
+  `npx skills add anthropics/knowledge-work-plugins@campaign-plan`
 
-- **[open-construction-estimate](https://skillpicker.xyz/zh/skill/open-construction-estimate-1sk2tv1/)** — 访问开放的建筑定价数据库，将 BIM 元素匹配到标准化工作项，并使用 55,000+ 公开单价计算成本。
-  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@open-construction-estimate`
+- **[marketing-plan](https://skillpicker.xyz/zh/skill/marketing-plan-58xgvn/)** — 生成一份详尽的 13 节 AARRR 结构营销计划，根据预算、团队和阶段定制，并与 139 个创意库交叉引用。
+  `npx skills add coreyhaines31/marketingskills@marketing-plan`
 
-- **[warranty-tracker](https://skillpicker.xyz/zh/skill/warranty-tracker-1zppxb/)** — 集中式建筑保修跟踪系统，监控到期日期、存储文档并管理各建筑系统的索赔。
-  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@warranty-tracker`
+- **[email-marketing-bible](https://skillpicker.xyz/zh/skill/email-marketing-bible-1dz5ccg/)** — 电子邮件营销 skill，涵盖生命周期和 campaign 文案，19 个行业 playbook。
+  `npx skills add CosmoBlk/email-marketing-bible@email-marketing-bible`
 
-- **[unit-price-database-manager](https://skillpicker.xyz/zh/skill/unit-price-database-manager-5hc6dw/)** — 管理建筑单价数据库：更新价格、跟踪供应商、应用地区系数，并维护用于估算的历史记录。
-  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@unit-price-database-manager`
+- **[seo-audit](https://skillpicker.xyz/zh/skill/seo-audit-gw0gle/)** — 专家级 SEO 审计技能，识别技术、页面和内容问题，并提供可操作建议以提升自然搜索表现。
+  `npx skills add coreyhaines31/marketingskills@seo-audit`
 
-- **[rfi-management](https://skillpicker.xyz/zh/skill/rfi-management-1vnmzo3/)** — 面向建筑行业的完整 RFI 管理系统：创建、流转、追踪和分析信息请求，并支持截止日期跟踪和通知。
-  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@rfi-management`
-
-### 建筑师
-
-面向「建筑师」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/architects/)**
-
-- **[archviz-storyboard](https://skillpicker.xyz/zh/skill/archviz-storyboard-h98hym/)** — 创建建筑可视化分镜、情绪板、细节板、影片序列板和关键帧计划。
-  `npx skills add felipealmeidasid/Pack-skills-for-archviz@archviz-storyboard`
-
-- **[create-real-estate-worlds](https://skillpicker.xyz/zh/skill/create-real-estate-worlds-1j59al7/)** — 创建电影级房地产世界圣经、视觉DNA系统、场景库和架构提示包。
-  `npx skills add felipealmeidasid/Pack-skills-for-archviz@create-real-estate-worlds`
-
-### 股票研究
-
-面向「股票研究」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/equity-research/)**
-
-- **[equity-research](https://skillpicker.xyz/zh/skill/equity-research-1angzxl/)** — 生成股票研究快照，将 IBES 一致预期、公司基本面、历史价格和宏观背景整合为结构化表格，并给出含评级与合理价值区间的投资论点。
-  `npx skills add anthropics/financial-services@equity-research`
-
-- **[initiating-coverage](https://skillpicker.xyz/zh/skill/initiating-coverage-mxlok7/)** — 通过 5 项任务的工作流生成机构级股票研究首次覆盖报告：公司研究、财务建模、估值分析、图表生成和最终报告组装。
-  `npx skills add anthropics/financial-services@initiating-coverage`
-
-- **[dcf-valuation](https://skillpicker.xyz/zh/skill/dcf-valuation-138bg4w/)** — 构建贴现现金流估值模型：预测自由现金流、计算 WACC、估算终值、运行敏感性分析，并生成估值摘要。直接服务于股权估值。
-  `npx skills add claude-office-skills/skills@dcf-valuation`
-
-- **[quantitative-valuation](https://skillpicker.xyz/zh/skill/quantitative-valuation-1g33tk7/)** — 使用 DCF、股利折现模型、可比倍数和剩余收益估算内在价值，涵盖 WACC、终值、CAPM 和敏感性分析。直接服务于股权估值。
-  `npx skills add joellewis/finance_skills@quantitative-valuation`
-
-- **[financial-analysis-dcf](https://skillpicker.xyz/zh/skill/financial-analysis-dcf-q6e1ui/)** — 使用 SEC EDGAR 财务数据、FRED 无风险利率和 Yahoo beta，通过 DCF 估算每股内在价值，计算 WACC、终值和 5x5 敏感性表。
-  `npx skills add pionex-official/pionex-skills@financial-analysis-dcf`
-
-### 法务
-
-面向「法务」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/legal/)**
-
-- **[review-contract](https://skillpicker.xyz/zh/skill/review-contract-1h4ihcu/)** — 依据组织的谈判手册审查合同，标记偏差、生成红线修订，并提供业务影响分析及按优先级排序的谈判策略。
-  `npx skills add anthropics/knowledge-work-plugins@review-contract`
-
-- **[vendor-agreement-review](https://skillpicker.xyz/zh/skill/vendor-agreement-review-qyg9v6/)** — 依据团队实战手册审查收到的供应商协议，标记偏差，评估风险，生成具体的红线修改措辞，并路由给正确的审批人。
-  `npx skills add anthropics/claude-for-legal@vendor-agreement-review`
-
-- **[review](https://skillpicker.xyz/zh/skill/review-ittef8/)** — 依据 playbook 审查收到的协议，识别协议结构，路由到合适的审查 skill，并将输出整合为单一备忘录。
-  `npx skills add anthropics/claude-for-legal@review`
-
-- **[legal-document-analyzer](https://skillpicker.xyz/zh/skill/legal-document-analyzer-1nbvbz8/)** — 构建用于法律文档分析、合同审查和合规检查的 Agent。处理文档解析、风险识别、法律研究和报告生成。
-  `npx skills add qodex-ai/ai-agent-skills@legal-document-analyzer`
-
-- **[legal-risk-assessment](https://skillpicker.xyz/zh/skill/legal-risk-assessment-kbjw8n/)** — 使用严重程度与可能性框架评估和分类法律风险，并设定升级标准。涵盖合同风险、交易风险敞口，以及何时升级至高级法律顾问。
-  `npx skills add anthropics/knowledge-work-plugins@legal-risk-assessment`
-
-### 教师
-
-面向「教师」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/teachers/)**
-
-- **[k12-lesson-plan-creation](https://skillpicker.xyz/zh/skill/k12-lesson-plan-creation-2noqnm/)** — 创建课程计划、面向学生的材料和观察模板。在向教师询问任何关于年级、科目、主题、标准或时间的澄清问题之前，先加载此技能。当 K-12 教师需要从零开始构建数学…
-  `npx skills add anthropics/k12-teacher-skills@k12-lesson-plan-creation`
-
-- **[k12-lesson-differentiation](https://skillpicker.xyz/zh/skill/k12-lesson-differentiation-gd9sxg/)** — 将现有的 K-12 课程（数学、英语语言艺术、科学或社会研究）适配到不同熟练程度的学生（低于/达到/高于年级水平）。在向教师询问任何关于课程、分层或学生水平的…
-  `npx skills add anthropics/k12-teacher-skills@k12-lesson-differentiation`
-
-- **[teaching-lesson-plan](https://skillpicker.xyz/zh/skill/teaching-lesson-plan-c2k3jp/)** — 为任意学科或受众设计结构化教案，包含学习目标、活动、时间安排、评估和差异化教学。
-  `npx skills add mohitagw15856/pm-claude-skills@teaching-lesson-plan`
-
-- **[alterlab-teaching-design](https://skillpicker.xyz/zh/skill/alterlab-teaching-design-ugu2ie/)** — 运用逆向设计、建构对齐和布鲁姆分类法设计课程与教学材料，生成评分标准、评估、教学大纲和教案。
-  `npx skills add alterlab-ieu/alterlab-academic-skills@alterlab-teaching-design`
-
-- **[k12-core-literacy-planning](https://skillpicker.xyz/zh/skill/k12-core-literacy-planning-txstbd/)** — 面向单个 OpenMAIC 课堂的中国 K-12 核心素养课程设计。适用于教师询问 中小学课程、核心素养、素养导向、2022 课标、真实情境、任务群、表现性评…
-  `npx skills add THU-MAIC/OpenMAIC@k12-core-literacy-planning`
-
-### 人力资源
-
-面向「人力资源」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/human-resources/)**
-
-- **[human-resources](https://skillpicker.xyz/zh/skill/human-resources-1r7vlt3/)** — 全面的 HR 技能，涵盖人才招聘、入职、敬业度、绩效管理、学习，以及 HR 运营/合规，并附模板。
-  `npx skills add josavicentevw/ai-agent-skills@human-resources`
-
-- **[hr-automation](https://skillpicker.xyz/zh/skill/hr-automation-1b7ff4x/)** — 自动化 HR 工作流，包括招聘管道、入职、绩效评估、休假和离职，并提供 ATS/HRIS 集成模式。
-  `npx skills add claude-office-skills/skills@hr-automation`
-
-- **[employment-contract-templates](https://skillpicker.xyz/zh/skill/employment-contract-templates-177fglr/)** — 遵循法律最佳实践，创建雇佣合同、录用通知书、员工手册和 HR 政策的模板与模式。
-  `npx skills add wshobson/agents@employment-contract-templates`
-
-- **[recruiting-pipeline](https://skillpicker.xyz/zh/skill/recruiting-pipeline-164eju0/)** — 跟踪和管理招聘流程各阶段，从寻源到接受录用，包含阶段定义、指标和 ATS 集成。
-  `npx skills add anthropics/knowledge-work-plugins@recruiting-pipeline`
-
-- **[policy-drafting](https://skillpicker.xyz/zh/skill/policy-drafting-yefm70/)** — 起草雇佣政策，并在各司法管辖区法律不同的地方提供州补充，涵盖远程工作、休假和薪酬透明度等主题。
-  `npx skills add anthropics/claude-for-legal@policy-drafting`
-
-### 产品经理
-
-面向「产品经理」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/product-managers/)**
-
-- **[roadmap-planning](https://skillpicker.xyz/zh/skill/roadmap-planning-1d21qvi/)** — 指导 PM 进行战略路线图规划，统筹优先级排序、史诗定义、利益相关者对齐和发布排序，形成成果驱动的路线图。
-  `npx skills add deanpeters/product-manager-skills@roadmap-planning`
-
-- **[user-story](https://skillpicker.xyz/zh/skill/user-story-194b627/)** — 创建用户故事，结合 Mike Cohn 的格式与 Gherkin 验收标准，将用户需求转化为可开发、带可测试条件的工作。
-  `npx skills add deanpeters/product-manager-skills@user-story`
-
-- **[outcome-roadmap](https://skillpicker.xyz/zh/skill/outcome-roadmap-1lj9lo2/)** — 将关注输出的路线图改写为关注成果的路线图，把举措转化为反映用户和业务影响的成果陈述，并包含成功指标。
-  `npx skills add phuryn/pm-skills@outcome-roadmap`
-
-- **[continuous-discovery](https://skillpicker.xyz/zh/skill/continuous-discovery-1719pd0/)** — 利用机会解决方案树、假设映射和访谈快照建立每周客户发现节奏，将研究与路线图关联。
-  `npx skills add wondelai/skills@continuous-discovery`
-
-- **[product-manager-toolkit](https://skillpicker.xyz/zh/skill/product-manager-toolkit-1iq8u43/)** — 全面的 PM 工具包，涵盖 RICE 优先级排序、客户访谈分析、PRD 模板、发现框架和上市策略。
-  `npx skills add alirezarezvani/claude-skills@product-manager-toolkit`
-
-### 会计
-
-面向「会计」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/accounting/)**
-
-- **[accounting](https://skillpicker.xyz/zh/skill/accounting-1g8ky8j/)** — 指导独立创始人完成记账设置、收入和支出跟踪、税务准备、会计软件选择，以及面向自举企业的 SaaS 收入确认。
-  `npx skills add whawkinsiv/solo-founder-skills@accounting`
-
-- **[accountant-expert](https://skillpicker.xyz/zh/skill/accountant-expert-1yce4no/)** — 关于会计系统、财务报告和税务合规的专业指导，包含复式记账代码、财务报表生成以及 GAAP/IFRS 概念。
-  `npx skills add personamanagmentlayer/pcl@accountant-expert`
-
-- **[month-end-close](https://skillpicker.xyz/zh/skill/month-end-close-lueyz2/)** — 提供结构化的月末结账清单：拉取交易、对未分类项目分类、检测异常、与银行对账单对账，并生成摘要。
-  `npx skills add openaccountant/skills@month-end-close`
-
-- **[profit-loss](https://skillpicker.xyz/zh/skill/profit-loss-dos2u3/)** — 构建标准损益表，展示收入、COGS、毛利润、运营费用和净收入，并计算毛利率和净利率。
-  `npx skills add openaccountant/skills@profit-loss`
-
-- **[import-transactions](https://skillpicker.xyz/zh/skill/import-transactions-1ivq1yo/)** — 从 CSV、OFX 或 QIF 银行导出文件导入财务交易，自动检测格式和银行，预览解析后的交易，去重并分类新记录。
-  `npx skills add openaccountant/skills@import-transactions`
-
-### 网络安全
-
-面向「网络安全」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/cybersecurity/)**
-
-- **[security-threat-model](https://skillpicker.xyz/zh/skill/security-threat-model-8qddzg/)** — 基于代码仓库的威胁建模，枚举信任边界、资产、攻击者能力、滥用路径和缓解措施，并撰写简洁的 Markdown 威胁模型。仅当用户明确要求对代码库或路径进行威胁建…
-  `npx skills add openai/skills@security-threat-model`
-
-- **[security-review](https://skillpicker.xyz/zh/skill/security-review-19i9v33/)** — 针对漏洞的安全代码审查，提供基于置信度的报告，追踪数据流并依据 OWASP 指南过滤误报。
-  `npx skills add getsentry/skills@security-review`
-
-- **[stride-threat-modeling](https://skillpicker.xyz/zh/skill/stride-threat-modeling-16cjsx3/)** — 运行基于 STRIDE 的威胁建模工作坊：绘制系统图、按元素枚举威胁、排序，并推动缓解措施进入待办列表。
-  `npx skills add securityskills/skills@stride-threat-modeling`
-
-- **[cybersecurity](https://skillpicker.xyz/zh/skill/cybersecurity-16eoj3c/)** — 仅限开源软件的网络安全技能，涵盖 OWASP Top 10、渗透测试、漏洞测试、威胁建模（STRIDE、ATT&CK）、Sigma 规则、SAST 和 AI/…
-  `npx skills add secondsky/claude-skills@cybersecurity`
-
-- **[security-best-practices](https://skillpicker.xyz/zh/skill/security-best-practices-1rbb8hr/)** — 针对特定语言和框架执行安全最佳实践审查并提出改进建议。仅在用户明确要求安全最佳实践指导、安全审查/报告或默认安全编码帮助时触发。仅支持的语言（python、j…
-  `npx skills add openai/skills@security-best-practices`
+- **[seo](https://skillpicker.xyz/zh/skill/seo-x95zmm/)** — 全面的 SEO 分析 Skill，编排 24 个子 Skill，跨行业进行审计、schema、技术 SEO、内容质量和 GEO。
+  `npx skills add agricidaniel/claude-seo@seo`
 
 ### 数据科学
 
@@ -393,26 +213,101 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[google-cloud-solution-agentic-ai-data-science-workflow](https://skillpicker.xyz/zh/skill/google-cloud-solution-agentic-ai-data-science-workflow-1sengoh/)** — 在 Google Cloud 上设计量身定制的多产品 Agent 数据科学架构，融入有明确主张的最佳实践。适用于为基于 Agent 的数据分析或 ML 工作负…
   `npx skills add google/skills@google-cloud-solution-agentic-ai-data-science-workflow`
 
-### 业务分析师
+### 教师
 
-面向「业务分析师」的 Agent Skills。
+面向「教师」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/business-analyst/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/teachers/)**
 
-- **[business-requirements-analyst](https://skillpicker.xyz/zh/skill/business-requirements-analyst-14oijya/)** — 软件与业务需求收集的完整方法论：业务愿景、利益相关者、流程、功能与非功能需求、数据模型、集成、风险、可追溯性和路线图。
-  `npx skills add gmdaos/business-requirements-analyst@business-requirements-analyst`
+- **[k12-lesson-plan-creation](https://skillpicker.xyz/zh/skill/k12-lesson-plan-creation-2noqnm/)** — 创建课程计划、面向学生的材料和观察模板。在向教师询问任何关于年级、科目、主题、标准或时间的澄清问题之前，先加载此技能。当 K-12 教师需要从零开始构建数学…
+  `npx skills add anthropics/k12-teacher-skills@k12-lesson-plan-creation`
 
-- **[requirements elicitation](https://skillpicker.xyz/zh/skill/requirements-elicitation-5cwgln/)** — 指导专业的需求获取会议，使用访谈、工作坊、文档分析、观察和调查，覆盖 Web、移动、ERP、CRM 和电商项目。
-  `npx skills add "danhvb/my-ba-skills@requirements elicitation"`
+- **[k12-lesson-differentiation](https://skillpicker.xyz/zh/skill/k12-lesson-differentiation-gd9sxg/)** — 将现有的 K-12 课程（数学、英语语言艺术、科学或社会研究）适配到不同熟练程度的学生（低于/达到/高于年级水平）。在向教师询问任何关于课程、分层或学生水平的…
+  `npx skills add anthropics/k12-teacher-skills@k12-lesson-differentiation`
 
-- **[stakeholder analysis](https://skillpicker.xyz/zh/skill/stakeholder-analysis-auk3xi/)** — 使用权力/利益网格、RACI 矩阵、利益相关者登记表和沟通规划来识别和分析项目利益相关者，以在项目生命周期内管理参与度。
-  `npx skills add "danhvb/my-ba-skills@stakeholder analysis"`
+- **[teaching-lesson-plan](https://skillpicker.xyz/zh/skill/teaching-lesson-plan-c2k3jp/)** — 为任意学科或受众设计结构化教案，包含学习目标、活动、时间安排、评估和差异化教学。
+  `npx skills add mohitagw15856/pm-claude-skills@teaching-lesson-plan`
 
-- **[requirements-analysis](https://skillpicker.xyz/zh/skill/requirements-analysis-1yyuv92/)** — 诊断型 skill，帮助区分表面需求与底层问题、发现真实约束，并在各需求状态下避免过早进入解决方案思维。
-  `npx skills add jwynia/agent-skills@requirements-analysis`
+- **[alterlab-teaching-design](https://skillpicker.xyz/zh/skill/alterlab-teaching-design-ugu2ie/)** — 运用逆向设计、建构对齐和布鲁姆分类法设计课程与教学材料，生成评分标准、评估、教学大纲和教案。
+  `npx skills add alterlab-ieu/alterlab-academic-skills@alterlab-teaching-design`
 
-- **[elicit](https://skillpicker.xyz/zh/skill/elicit-1jadjss/)** — 运行结构化发现会话，通过对话引出需求并构建 Allium 规范，揭示歧义并捕获领域行为，而不规定实现。
-  `npx skills add juxt/allium@elicit`
+- **[k12-core-literacy-planning](https://skillpicker.xyz/zh/skill/k12-core-literacy-planning-txstbd/)** — 面向单个 OpenMAIC 课堂的中国 K-12 核心素养课程设计。适用于教师询问 中小学课程、核心素养、素养导向、2022 课标、真实情境、任务群、表现性评…
+  `npx skills add THU-MAIC/OpenMAIC@k12-core-literacy-planning`
+
+### 建筑师
+
+面向「建筑师」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/architects/)**
+
+- **[archviz-storyboard](https://skillpicker.xyz/zh/skill/archviz-storyboard-h98hym/)** — 创建建筑可视化分镜、情绪板、细节板、影片序列板和关键帧计划。
+  `npx skills add felipealmeidasid/Pack-skills-for-archviz@archviz-storyboard`
+
+- **[create-real-estate-worlds](https://skillpicker.xyz/zh/skill/create-real-estate-worlds-1j59al7/)** — 创建电影级房地产世界圣经、视觉DNA系统、场景库和架构提示包。
+  `npx skills add felipealmeidasid/Pack-skills-for-archviz@create-real-estate-worlds`
+
+### 会计
+
+面向「会计」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/accounting/)**
+
+- **[accounting](https://skillpicker.xyz/zh/skill/accounting-1g8ky8j/)** — 指导独立创始人完成记账设置、收入和支出跟踪、税务准备、会计软件选择，以及面向自举企业的 SaaS 收入确认。
+  `npx skills add whawkinsiv/solo-founder-skills@accounting`
+
+- **[accountant-expert](https://skillpicker.xyz/zh/skill/accountant-expert-1yce4no/)** — 关于会计系统、财务报告和税务合规的专业指导，包含复式记账代码、财务报表生成以及 GAAP/IFRS 概念。
+  `npx skills add personamanagmentlayer/pcl@accountant-expert`
+
+- **[month-end-close](https://skillpicker.xyz/zh/skill/month-end-close-lueyz2/)** — 提供结构化的月末结账清单：拉取交易、对未分类项目分类、检测异常、与银行对账单对账，并生成摘要。
+  `npx skills add openaccountant/skills@month-end-close`
+
+- **[profit-loss](https://skillpicker.xyz/zh/skill/profit-loss-dos2u3/)** — 构建标准损益表，展示收入、COGS、毛利润、运营费用和净收入，并计算毛利率和净利率。
+  `npx skills add openaccountant/skills@profit-loss`
+
+- **[import-transactions](https://skillpicker.xyz/zh/skill/import-transactions-1ivq1yo/)** — 从 CSV、OFX 或 QIF 银行导出文件导入财务交易，自动检测格式和银行，预览解析后的交易，去重并分类新记录。
+  `npx skills add openaccountant/skills@import-transactions`
+
+### 股票研究
+
+面向「股票研究」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/equity-research/)**
+
+- **[equity-research](https://skillpicker.xyz/zh/skill/equity-research-1angzxl/)** — 生成股票研究快照，将 IBES 一致预期、公司基本面、历史价格和宏观背景整合为结构化表格，并给出含评级与合理价值区间的投资论点。
+  `npx skills add anthropics/financial-services@equity-research`
+
+- **[initiating-coverage](https://skillpicker.xyz/zh/skill/initiating-coverage-mxlok7/)** — 通过 5 项任务的工作流生成机构级股票研究首次覆盖报告：公司研究、财务建模、估值分析、图表生成和最终报告组装。
+  `npx skills add anthropics/financial-services@initiating-coverage`
+
+- **[dcf-valuation](https://skillpicker.xyz/zh/skill/dcf-valuation-138bg4w/)** — 构建贴现现金流估值模型：预测自由现金流、计算 WACC、估算终值、运行敏感性分析，并生成估值摘要。直接服务于股权估值。
+  `npx skills add claude-office-skills/skills@dcf-valuation`
+
+- **[quantitative-valuation](https://skillpicker.xyz/zh/skill/quantitative-valuation-1g33tk7/)** — 使用 DCF、股利折现模型、可比倍数和剩余收益估算内在价值，涵盖 WACC、终值、CAPM 和敏感性分析。直接服务于股权估值。
+  `npx skills add joellewis/finance_skills@quantitative-valuation`
+
+- **[financial-analysis-dcf](https://skillpicker.xyz/zh/skill/financial-analysis-dcf-q6e1ui/)** — 使用 SEC EDGAR 财务数据、FRED 无风险利率和 Yahoo beta，通过 DCF 估算每股内在价值，计算 WACC、终值和 5x5 敏感性表。
+  `npx skills add pionex-official/pionex-skills@financial-analysis-dcf`
+
+### 产品经理
+
+面向「产品经理」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/product-managers/)**
+
+- **[roadmap-planning](https://skillpicker.xyz/zh/skill/roadmap-planning-1d21qvi/)** — 指导 PM 进行战略路线图规划，统筹优先级排序、史诗定义、利益相关者对齐和发布排序，形成成果驱动的路线图。
+  `npx skills add deanpeters/product-manager-skills@roadmap-planning`
+
+- **[user-story](https://skillpicker.xyz/zh/skill/user-story-194b627/)** — 创建用户故事，结合 Mike Cohn 的格式与 Gherkin 验收标准，将用户需求转化为可开发、带可测试条件的工作。
+  `npx skills add deanpeters/product-manager-skills@user-story`
+
+- **[outcome-roadmap](https://skillpicker.xyz/zh/skill/outcome-roadmap-1lj9lo2/)** — 将关注输出的路线图改写为关注成果的路线图，把举措转化为反映用户和业务影响的成果陈述，并包含成功指标。
+  `npx skills add phuryn/pm-skills@outcome-roadmap`
+
+- **[continuous-discovery](https://skillpicker.xyz/zh/skill/continuous-discovery-1719pd0/)** — 利用机会解决方案树、假设映射和访谈快照建立每周客户发现节奏，将研究与路线图关联。
+  `npx skills add wondelai/skills@continuous-discovery`
+
+- **[product-manager-toolkit](https://skillpicker.xyz/zh/skill/product-manager-toolkit-1iq8u43/)** — 全面的 PM 工具包，涵盖 RICE 优先级排序、客户访谈分析、PRD 模板、发现框架和上市策略。
+  `npx skills add alirezarezvani/claude-skills@product-manager-toolkit`
 
 ### 销售
 
@@ -435,9 +330,156 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[sales-outreach](https://skillpicker.xyz/zh/skill/sales-outreach-1b6r1bm/)** — 撰写冷邮件、电话话术、LinkedIn 触达和序列，基于从 Crustdata 提取的某个具体带日期的信号，绝不使用通用模板。
   `npx skills add crustdata/skills@sales-outreach`
 
+### 建筑施工
+
+面向「建筑施工」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/construction/)**
+
+- **[construction-expert](https://skillpicker.xyz/zh/skill/construction-expert-k3hv0n/)** — 提供施工管理、项目规划、BIM、安全合规和建筑技术方面的专业指导，包括进度安排、估算和标准。
+  `npx skills add personamanagmentlayer/pcl@construction-expert`
+
+- **[open-construction-estimate](https://skillpicker.xyz/zh/skill/open-construction-estimate-1sk2tv1/)** — 访问开放的建筑定价数据库，将 BIM 元素匹配到标准化工作项，并使用 55,000+ 公开单价计算成本。
+  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@open-construction-estimate`
+
+- **[warranty-tracker](https://skillpicker.xyz/zh/skill/warranty-tracker-1zppxb/)** — 集中式建筑保修跟踪系统，监控到期日期、存储文档并管理各建筑系统的索赔。
+  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@warranty-tracker`
+
+- **[unit-price-database-manager](https://skillpicker.xyz/zh/skill/unit-price-database-manager-5hc6dw/)** — 管理建筑单价数据库：更新价格、跟踪供应商、应用地区系数，并维护用于估算的历史记录。
+  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@unit-price-database-manager`
+
+- **[rfi-management](https://skillpicker.xyz/zh/skill/rfi-management-1vnmzo3/)** — 面向建筑行业的完整 RFI 管理系统：创建、流转、追踪和分析信息请求，并支持截止日期跟踪和通知。
+  `npx skills add datadrivenconstruction/ddc_skills_for_ai_agents_in_construction@rfi-management`
+
+### 人力资源
+
+面向「人力资源」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/human-resources/)**
+
+- **[human-resources](https://skillpicker.xyz/zh/skill/human-resources-1r7vlt3/)** — 全面的 HR 技能，涵盖人才招聘、入职、敬业度、绩效管理、学习，以及 HR 运营/合规，并附模板。
+  `npx skills add josavicentevw/ai-agent-skills@human-resources`
+
+- **[hr-automation](https://skillpicker.xyz/zh/skill/hr-automation-1b7ff4x/)** — 自动化 HR 工作流，包括招聘管道、入职、绩效评估、休假和离职，并提供 ATS/HRIS 集成模式。
+  `npx skills add claude-office-skills/skills@hr-automation`
+
+- **[employment-contract-templates](https://skillpicker.xyz/zh/skill/employment-contract-templates-177fglr/)** — 遵循法律最佳实践，创建雇佣合同、录用通知书、员工手册和 HR 政策的模板与模式。
+  `npx skills add wshobson/agents@employment-contract-templates`
+
+- **[recruiting-pipeline](https://skillpicker.xyz/zh/skill/recruiting-pipeline-164eju0/)** — 跟踪和管理招聘流程各阶段，从寻源到接受录用，包含阶段定义、指标和 ATS 集成。
+  `npx skills add anthropics/knowledge-work-plugins@recruiting-pipeline`
+
+- **[policy-drafting](https://skillpicker.xyz/zh/skill/policy-drafting-yefm70/)** — 起草雇佣政策，并在各司法管辖区法律不同的地方提供州补充，涵盖远程工作、休假和薪酬透明度等主题。
+  `npx skills add anthropics/claude-for-legal@policy-drafting`
+
+### 业务分析师
+
+面向「业务分析师」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/business-analyst/)**
+
+- **[business-requirements-analyst](https://skillpicker.xyz/zh/skill/business-requirements-analyst-14oijya/)** — 软件与业务需求收集的完整方法论：业务愿景、利益相关者、流程、功能与非功能需求、数据模型、集成、风险、可追溯性和路线图。
+  `npx skills add gmdaos/business-requirements-analyst@business-requirements-analyst`
+
+- **[requirements elicitation](https://skillpicker.xyz/zh/skill/requirements-elicitation-5cwgln/)** — 指导专业的需求获取会议，使用访谈、工作坊、文档分析、观察和调查，覆盖 Web、移动、ERP、CRM 和电商项目。
+  `npx skills add "danhvb/my-ba-skills@requirements elicitation"`
+
+- **[stakeholder analysis](https://skillpicker.xyz/zh/skill/stakeholder-analysis-auk3xi/)** — 使用权力/利益网格、RACI 矩阵、利益相关者登记表和沟通规划来识别和分析项目利益相关者，以在项目生命周期内管理参与度。
+  `npx skills add "danhvb/my-ba-skills@stakeholder analysis"`
+
+- **[requirements-analysis](https://skillpicker.xyz/zh/skill/requirements-analysis-1yyuv92/)** — 诊断型 skill，帮助区分表面需求与底层问题、发现真实约束，并在各需求状态下避免过早进入解决方案思维。
+  `npx skills add jwynia/agent-skills@requirements-analysis`
+
+- **[elicit](https://skillpicker.xyz/zh/skill/elicit-1jadjss/)** — 运行结构化发现会话，通过对话引出需求并构建 Allium 规范，揭示歧义并捕获领域行为，而不规定实现。
+  `npx skills add juxt/allium@elicit`
+
+### 网络安全
+
+面向「网络安全」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/cybersecurity/)**
+
+- **[security-threat-model](https://skillpicker.xyz/zh/skill/security-threat-model-8qddzg/)** — 基于代码仓库的威胁建模，枚举信任边界、资产、攻击者能力、滥用路径和缓解措施，并撰写简洁的 Markdown 威胁模型。仅当用户明确要求对代码库或路径进行威胁建…
+  `npx skills add openai/skills@security-threat-model`
+
+- **[security-review](https://skillpicker.xyz/zh/skill/security-review-19i9v33/)** — 针对漏洞的安全代码审查，提供基于置信度的报告，追踪数据流并依据 OWASP 指南过滤误报。
+  `npx skills add getsentry/skills@security-review`
+
+- **[stride-threat-modeling](https://skillpicker.xyz/zh/skill/stride-threat-modeling-16cjsx3/)** — 运行基于 STRIDE 的威胁建模工作坊：绘制系统图、按元素枚举威胁、排序，并推动缓解措施进入待办列表。
+  `npx skills add securityskills/skills@stride-threat-modeling`
+
+- **[cybersecurity](https://skillpicker.xyz/zh/skill/cybersecurity-16eoj3c/)** — 仅限开源软件的网络安全技能，涵盖 OWASP Top 10、渗透测试、漏洞测试、威胁建模（STRIDE、ATT&CK）、Sigma 规则、SAST 和 AI/…
+  `npx skills add secondsky/claude-skills@cybersecurity`
+
+- **[security-best-practices](https://skillpicker.xyz/zh/skill/security-best-practices-1rbb8hr/)** — 针对特定语言和框架执行安全最佳实践审查并提出改进建议。仅在用户明确要求安全最佳实践指导、安全审查/报告或默认安全编码帮助时触发。仅支持的语言（python、j…
+  `npx skills add openai/skills@security-best-practices`
+
+### 作家
+
+面向「作家」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/role/writers/)**
+
+- **[content-research-writer](https://skillpicker.xyz/zh/skill/content-research-writer-12s8d4v/)** — 面向博客文章、长文和简报的写作伙伴，负责调研、列提纲、撰写钩子、引用和章节反馈。
+  `npx skills add composiohq/awesome-claude-skills@content-research-writer`
+
+- **[humanizer](https://skillpicker.xyz/zh/skill/humanizer-1xr98jr/)** — 重写听起来像 AI 的文本，使其读起来像作者本人，同时不改变原意。在编辑或审阅文章以发现 AI 痕迹时使用：不是 X 而是 Y 的对比、单行收尾、套路化开头…
+  `npx skills add blader/humanizer@humanizer`
+
+- **[no-ai-slop](https://skillpicker.xyz/zh/skill/no-ai-slop-1obdsa8/)** — 将草稿编辑得更精炼、更像人写的，同时保留作者的个人风格；或在不重写的情况下检测 AI 味模式。适用于用户希望草稿更清晰、更直接、更有观点，或更少 AI 感，或…
+  `npx skills add petergyang/no-ai-slop@no-ai-slop`
+
+- **[doc-coauthoring](https://skillpicker.xyz/zh/skill/doc-coauthoring-1uje9wh/)** — 引导用户通过结构化工作流共同撰写文档。当用户想要撰写文档、提案、技术规格、决策文档或类似结构化内容时使用。此工作流帮助用户高效传递上下文、通过迭代完善内容，并…
+  `npx skills add anthropics/skills@doc-coauthoring`
+
+- **[copy-editing](https://skillpicker.xyz/zh/skill/copy-editing-qkt1d8/)** — 当用户想要编辑、审阅或改进现有营销文案，或更新过时内容时使用。也适用于用户提到“编辑这段文案”“审阅我的文案”“文案反馈”“校对”“润色一下”“让它更好”“文…
+  `npx skills add coreyhaines31/marketingskills@copy-editing`
+
 ## 按产出
 
 面向你要交付的东西。
+
+### Excel 电子表格
+
+面向「Excel 电子表格」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/excel/)**
+
+- **[xlsx](https://skillpicker.xyz/zh/skill/xlsx-19o7j8k/)** — 当电子表格文件是主要输入或输出时使用此 skill。这意味着任何用户想要：打开、读取、编辑或修复现有 .xlsx、.xlsm、.xltx、.csv 或 .ts…
+  `npx skills add anthropics/skills@xlsx`
+
+- **[excel-automation](https://skillpicker.xyz/zh/skill/excel-automation-1pixg5k/)** — 通过 xlwings 实现 Excel 自动化，涵盖公式、图表、表格和实时工作簿控制。
+  `npx skills add claude-office-skills/skills@excel-automation`
+
+- **[excel analysis](https://skillpicker.xyz/zh/skill/excel-analysis-pocp7f/)** — 分析 Excel 电子表格、创建数据透视表、生成图表并执行数据分析。在分析 Excel 文件、电子表格、表格数据或 .xlsx 文件时使用。
+  `npx skills add "davila7/claude-code-templates@excel analysis"`
+
+- **[audit-xls](https://skillpicker.xyz/zh/skill/audit-xls-pmv2a1/)** — 审计电子表格的公式准确性、错误和常见错误。范围可限定为选定区域、单个工作表或整个模型（包括资产负债表平衡、现金勾稽和逻辑合理性等财务模型完整性检查）。触发词包…
+  `npx skills add anthropics/financial-services@audit-xls`
+
+- **[clean-data-xls](https://skillpicker.xyz/zh/skill/clean-data-xls-9x5ppq/)** — 清理杂乱的电子表格数据——去除空白、修正大小写不一致、将存储为文本的数字转换、标准化日期、删除重复项并标记混合类型列。当数据杂乱、不一致或需要在分析前准备时使…
+  `npx skills add anthropics/financial-services@clean-data-xls`
+
+### YouTube 视频
+
+面向「YouTube 视频」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/youtube-videos/)**
+
+- **[youtube-seo](https://skillpicker.xyz/zh/skill/youtube-seo-1rxe00s/)** — 指导 YouTube 视频和频道优化以提升搜索和发现，涵盖标题、描述、标签、缩略图和 Google/AI 引用。
+  `npx skills add kostja94/marketing-skills@youtube-seo`
+
+- **[youtube](https://skillpicker.xyz/zh/skill/youtube-l90xxq/)** — 终极 YouTube 创作者技能，涵盖频道审计、视频 SEO、留存脚本、钩子、缩略图简报、策略、日历、Shorts、分析和变现。
+  `npx skills add agricidaniel/claude-youtube@youtube`
+
+- **[youtube-pipeline](https://skillpicker.xyz/zh/skill/youtube-pipeline-1euxqlv/)** — 完整的 YouTube 视频制作流水线，从构思到分发，涵盖策略、包装、脚本、Shorts、制作和再利用。
+  `npx skills add j-star-films-studios/vibecode-protocol-suite@youtube-pipeline`
+
+- **[youtube automation](https://skillpicker.xyz/zh/skill/youtube-automation-1l88vta/)** — 自动化 YouTube 内容工作流，包括视频上传、元数据优化、分析跟踪、评论管理和 SEO 建议。
+  `npx skills add "claude-office-skills/skills@youtube automation"`
+
+- **[youtube-scriptwriting](https://skillpicker.xyz/zh/skill/youtube-scriptwriting-30jvnx/)** — 通过检查点工作流将原始创意转化为精良的YouTube脚本，涵盖调研、钩子、故事结构、正文内容和剪辑。
+  `npx skills add cdeistopened/skill-stack@youtube-scriptwriting`
 
 ### 简历与 CV
 
@@ -481,26 +523,26 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[baoyu-slide-deck](https://skillpicker.xyz/zh/skill/baoyu-slide-deck-1obnsw2/)** — 根据内容生成专业幻灯片图片：先创建带样式说明的大纲，再生成单张幻灯片图片以供阅读和分享。产出基于图片的演示文稿。
   `npx skills add jimliu/baoyu-skills@baoyu-slide-deck`
 
-### Excel 电子表格
+### LinkedIn 帖子
 
-面向「Excel 电子表格」的 Agent Skills。
+面向「LinkedIn 帖子」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/excel/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/linkedin-posts/)**
 
-- **[xlsx](https://skillpicker.xyz/zh/skill/xlsx-19o7j8k/)** — 当电子表格文件是主要输入或输出时使用此 skill。这意味着任何用户想要：打开、读取、编辑或修复现有 .xlsx、.xlsm、.xltx、.csv 或 .ts…
-  `npx skills add anthropics/skills@xlsx`
+- **[linkedin-posts](https://skillpicker.xyz/zh/skill/linkedin-posts-173o8gv/)** — 指导 LinkedIn 帖子文案的创作与优化，涵盖帖子类型、信息流排名信号、平台定位，以及可直接发布、聚焦互动的文案。
+  `npx skills add kostja94/marketing-skills@linkedin-posts`
 
-- **[excel-automation](https://skillpicker.xyz/zh/skill/excel-automation-1pixg5k/)** — 通过 xlwings 实现 Excel 自动化，涵盖公式、图表、表格和实时工作簿控制。
-  `npx skills add claude-office-skills/skills@excel-automation`
+- **[linkedin-ghostwriting](https://skillpicker.xyz/zh/skill/linkedin-ghostwriting-q05lv0/)** — B2B LinkedIn 代笔技能，涵盖策略性访谈、钩子设计、正文结构、排版以及以转化为导向的文案框架。
+  `npx skills add samber/cc-skills@linkedin-ghostwriting`
 
-- **[excel analysis](https://skillpicker.xyz/zh/skill/excel-analysis-pocp7f/)** — 分析 Excel 电子表格、创建数据透视表、生成图表并执行数据分析。在分析 Excel 文件、电子表格、表格数据或 .xlsx 文件时使用。
-  `npx skills add "davila7/claude-code-templates@excel analysis"`
+- **[writing-linkedin-posts](https://skillpicker.xyz/zh/skill/writing-linkedin-posts-f2ikgf/)** — 像 Top Voice 一样撰写引人入胜、真实的 LinkedIn 帖子，涵盖钩子类型、帖子结构、叙事框架和语气校准。
+  `npx skills add jamesgray007/hoai-course@writing-linkedin-posts`
 
-- **[audit-xls](https://skillpicker.xyz/zh/skill/audit-xls-pmv2a1/)** — 审计电子表格的公式准确性、错误和常见错误。范围可限定为选定区域、单个工作表或整个模型（包括资产负债表平衡、现金勾稽和逻辑合理性等财务模型完整性检查）。触发词包…
-  `npx skills add anthropics/financial-services@audit-xls`
+- **[linkedin-marketing](https://skillpicker.xyz/zh/skill/linkedin-marketing-1kzfeiw/)** — 包含 11 项 LinkedIn 内容技能的合集，涵盖爆款帖子写作、评论起草、钩子提取、人性化、内容规划和通过 Publora API 发布。
+  `npx skills add sergebulaev/linkedin-skills@linkedin-marketing`
 
-- **[clean-data-xls](https://skillpicker.xyz/zh/skill/clean-data-xls-9x5ppq/)** — 清理杂乱的电子表格数据——去除空白、修正大小写不一致、将存储为文本的数字转换、标准化日期、删除重复项并标记混合类型列。当数据杂乱、不一致或需要在分析前准备时使…
-  `npx skills add anthropics/financial-services@clean-data-xls`
+- **[linkedin-content](https://skillpicker.xyz/zh/skill/linkedin-content-15j341e/)** — 创建高表现 LinkedIn 帖子和内容策略，涵盖 2026 算法信号、钩子公式、按互动排序的帖子格式和写作规则。
+  `npx skills add openclaudia/openclaudia-skills@linkedin-content`
 
 ### 书籍写作
 
@@ -565,26 +607,26 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[grafana-dashboards](https://skillpicker.xyz/zh/skill/grafana-dashboards-1mnwsls/)** — 创建生产级 Grafana 仪表盘，实时可视化系统和应用指标，涵盖面板类型、RED/USE 方法和布局。
   `npx skills add wshobson/agents@grafana-dashboards`
 
-### LinkedIn 帖子
+### 徽标设计
 
-面向「LinkedIn 帖子」的 Agent Skills。
+面向「徽标设计」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/linkedin-posts/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/logo-design/)**
 
-- **[linkedin-posts](https://skillpicker.xyz/zh/skill/linkedin-posts-173o8gv/)** — 指导 LinkedIn 帖子文案的创作与优化，涵盖帖子类型、信息流排名信号、平台定位，以及可直接发布、聚焦互动的文案。
-  `npx skills add kostja94/marketing-skills@linkedin-posts`
+- **[svg logo designer](https://skillpicker.xyz/zh/skill/svg-logo-designer-biv0ma/)** — 根据描述创建专业 SVG 标志，跨布局、风格和概念（文字标志、字母标志、图形标志、抽象标志、徽章标志）生成多种变体，并提供导出选项。
+  `npx skills add "rknall/claude-skills@svg logo designer"`
 
-- **[linkedin-ghostwriting](https://skillpicker.xyz/zh/skill/linkedin-ghostwriting-q05lv0/)** — B2B LinkedIn 代笔技能，涵盖策略性访谈、钩子设计、正文结构、排版以及以转化为导向的文案框架。
-  `npx skills add samber/cc-skills@linkedin-ghostwriting`
+- **[logo-generator](https://skillpicker.xyz/zh/skill/logo-generator-12bq84e/)** — 生成专业的 SVG 标志和展示图片，根据产品信息产出 6 种以上设计变体，依据反馈迭代，并导出带样式展示的 SVG/PNG。
+  `npx skills add op7418/logo-generator-skill@logo-generator`
 
-- **[writing-linkedin-posts](https://skillpicker.xyz/zh/skill/writing-linkedin-posts-f2ikgf/)** — 像 Top Voice 一样撰写引人入胜、真实的 LinkedIn 帖子，涵盖钩子类型、帖子结构、叙事框架和语气校准。
-  `npx skills add jamesgray007/hoai-course@writing-linkedin-posts`
+- **[brand-identity](https://skillpicker.xyz/zh/skill/brand-identity-r1hb8a/)** — 品牌战略与识别设计的全面指南，涵盖品牌宗旨、定位、原型、logo 设计原则和视觉识别系统。
+  `npx skills add travisjneuman/.claude@brand-identity`
 
-- **[linkedin-marketing](https://skillpicker.xyz/zh/skill/linkedin-marketing-1kzfeiw/)** — 包含 11 项 LinkedIn 内容技能的合集，涵盖爆款帖子写作、评论起草、钩子提取、人性化、内容规划和通过 Publora API 发布。
-  `npx skills add sergebulaev/linkedin-skills@linkedin-marketing`
+- **[muapi-logo-branding](https://skillpicker.xyz/zh/skill/muapi-logo-branding-1nvtaju/)** — 设计专业 logo 及完整品牌包：主 logo、深色/浅色/图标变体、配色方案，以及通过图像生成实现的真实应用场景样机。
+  `npx skills add samuraigpt/generative-media-skills@muapi-logo-branding`
 
-- **[linkedin-content](https://skillpicker.xyz/zh/skill/linkedin-content-15j341e/)** — 创建高表现 LinkedIn 帖子和内容策略，涵盖 2026 算法信号、钩子公式、按互动排序的帖子格式和写作规则。
-  `npx skills add openclaudia/openclaudia-skills@linkedin-content`
+- **[ip-as-logo](https://skillpicker.xyz/zh/skill/ip-as-logo-1y19o7g/)** — 生成极简、可爱的拟人化方形角色标志作为 logo/IP 符号，提出方向并产出多个候选方案，色彩与构图可控。
+  `npx skills add s1dashu/ip-as-logo-skill@ip-as-logo`
 
 ### 文档
 
@@ -607,93 +649,9 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[api-documentation-generator](https://skillpicker.xyz/zh/skill/api-documentation-generator-qjblsw/)** — 从代码生成开发者友好的 API 文档，涵盖端点、参数、示例、认证、错误和 OpenAPI 规范。
   `npx skills add sickn33/agentic-awesome-skills@api-documentation-generator`
 
-### 徽标设计
-
-面向「徽标设计」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/logo-design/)**
-
-- **[svg logo designer](https://skillpicker.xyz/zh/skill/svg-logo-designer-biv0ma/)** — 根据描述创建专业 SVG 标志，跨布局、风格和概念（文字标志、字母标志、图形标志、抽象标志、徽章标志）生成多种变体，并提供导出选项。
-  `npx skills add "rknall/claude-skills@svg logo designer"`
-
-- **[logo-generator](https://skillpicker.xyz/zh/skill/logo-generator-12bq84e/)** — 生成专业的 SVG 标志和展示图片，根据产品信息产出 6 种以上设计变体，依据反馈迭代，并导出带样式展示的 SVG/PNG。
-  `npx skills add op7418/logo-generator-skill@logo-generator`
-
-- **[brand-identity](https://skillpicker.xyz/zh/skill/brand-identity-r1hb8a/)** — 品牌战略与识别设计的全面指南，涵盖品牌宗旨、定位、原型、logo 设计原则和视觉识别系统。
-  `npx skills add travisjneuman/.claude@brand-identity`
-
-- **[muapi-logo-branding](https://skillpicker.xyz/zh/skill/muapi-logo-branding-1nvtaju/)** — 设计专业 logo 及完整品牌包：主 logo、深色/浅色/图标变体、配色方案，以及通过图像生成实现的真实应用场景样机。
-  `npx skills add samuraigpt/generative-media-skills@muapi-logo-branding`
-
-- **[ip-as-logo](https://skillpicker.xyz/zh/skill/ip-as-logo-1y19o7g/)** — 生成极简、可爱的拟人化方形角色标志作为 logo/IP 符号，提出方向并产出多个候选方案，色彩与构图可控。
-  `npx skills add s1dashu/ip-as-logo-skill@ip-as-logo`
-
-### 论文写作
-
-面向「论文写作」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/essay-writing/)**
-
-- **[essay](https://skillpicker.xyz/zh/skill/essay-pcekni/)** — 专业文章写作流水线，引导作者完成六个步骤：简报、大纲、初稿、修改、评审和润色，各阶段之间传递产物。专为文章起草打造。
-  `npx skills add clyderankin/essay-skills@essay`
-
-- **[document-writing](https://skillpicker.xyz/zh/skill/document-writing-55k6qf/)** — 提供英语、日语和繁体中文的文档与论文写作专家规范，涵盖修辞结构、组织模式和文体特征。专为论文和正式文档写作而构建。
-  `npx skills add shino369/claude-code-personal-workspace@document-writing`
-
-- **[doc-coauthoring](https://skillpicker.xyz/zh/skill/doc-coauthoring-1uje9wh/)** — 引导用户通过结构化工作流共同撰写文档。当用户想要撰写文档、提案、技术规格、决策文档或类似结构化内容时使用。此工作流帮助用户高效传递上下文、通过迭代完善内容，并…
-  `npx skills add anthropics/skills@doc-coauthoring`
-
-- **[no-ai-slop](https://skillpicker.xyz/zh/skill/no-ai-slop-1obdsa8/)** — 将草稿编辑得更精炼、更像人写的，同时保留作者的个人风格；或在不重写的情况下检测 AI 味模式。适用于用户希望草稿更清晰、更直接、更有观点，或更少 AI 感，或…
-  `npx skills add petergyang/no-ai-slop@no-ai-slop`
-
-- **[writing-beats](https://skillpicker.xyz/zh/skill/writing-beats-1ss05/)** — 写作，开发；将原始素材组装成节拍旅程，在每个节拍依赖某个术语之前先为其打好基础。
-  `npx skills add mattpocock/skills@writing-beats`
-
 ## 按任务
 
 面向一件要完成的工作。
-
-### 交易
-
-面向「交易」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/trading/)**
-
-- **[breakout-trade-planner](https://skillpicker.xyz/zh/skill/breakout-trade-planner-11c80dy/)** — 根据 VCP 筛选器输出生成 Minervini 风格的突破交易计划，包含最坏情况风险计算、组合热度管理、仓位规模和兼容 Alpaca 的订单模板。
-  `npx skills add tradermonty/claude-trading-skills@breakout-trade-planner`
-
-- **[trade-hypothesis-ideator](https://skillpicker.xyz/zh/skill/trade-hypothesis-ideator-1rgb87b/)** — 从市场数据、交易日志和日志中生成可证伪的交易策略假设，产出带实验设计、终止标准和可选 strategy.yaml 导出的排序假设卡片。
-  `npx skills add tradermonty/claude-trading-skills@trade-hypothesis-ideator`
-
-- **[trading-plan-generator](https://skillpicker.xyz/zh/skill/trading-plan-generator-o8py4c/)** — 生成全面的交易计划，涵盖风险管理、仓位规模、进出场规则、交易管理、心理和绩效跟踪，以实现有纪律的交易。
-  `npx skills add jamesrochabrun/skills@trading-plan-generator`
-
-- **[thesis-tracker](https://skillpicker.xyz/zh/skill/thesis-tracker-4w7gf/)** — 维护并更新持仓和观察名单标的的投资论点，跟踪数据点、催化剂、论点里程碑，以及包含信心水平的评分卡。
-  `npx skills add anthropics/financial-services@thesis-tracker`
-
-- **[trading-analysis](https://skillpicker.xyz/zh/skill/trading-analysis-ib8386/)** — 为股票和 ETF 生成机构级投资报告，包含实时数据、10+ 技术指标、AI 洞察、图表以及入场/离场建议。
-  `npx skills add gracefullight/stock-checker@trading-analysis`
-
-### 测试
-
-面向「测试」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/testing/)**
-
-- **[playwright-best-practices](https://skillpicker.xyz/zh/skill/playwright-best-practices-qk2wk9/)** — 在编写 Playwright 测试、修复不稳定测试、调试失败、实现 Page Object Model、配置 CI/CD、优化性能、模拟 API、处理身份验证…
-  `npx skills add currents-dev/playwright-best-practices-skill@playwright-best-practices`
-
-- **[golang-testing](https://skillpicker.xyz/zh/skill/golang-testing-ewyn2q/)** — 生产级 Go 测试：表驱动测试、testify、并行测试、模糊测试、goleak、快照、覆盖率和集成测试。
-  `npx skills add samber/cc-skills-golang@golang-testing`
-
-- **[vitest](https://skillpicker.xyz/zh/skill/vitest-mljxx7/)** — 由 Vite 驱动的 Vitest 快速单元测试框架，具有 Jest 兼容 API。适用于编写测试、模拟、配置覆盖率或处理测试过滤和夹具。
-  `npx skills add antfu/skills@vitest`
-
-- **[unit-testing](https://skillpicker.xyz/zh/skill/unit-testing-dwe540/)** — 使用 Jest、Vitest 或 pytest 编写单元测试，涵盖测试替身、AAA、覆盖率门禁、快照和变异测试。
-  `npx skills add petrkindlmann/qa-skills@unit-testing`
-
-- **[qa-testing-playwright](https://skillpicker.xyz/zh/skill/qa-testing-playwright-1c5zl9h/)** — 构建并调试 Playwright E2E 测试套件，涵盖定位器策略、不稳定测试排查、CI 加固和分片。
-  `npx skills add vasilyu1983/ai-agents-public@qa-testing-playwright`
 
 ### Web 设计
 
@@ -716,110 +674,173 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[high-end-visual-design](https://skillpicker.xyz/zh/skill/high-end-visual-design-4qtqbc/)** — 教授高端 agency 风格的网页设计，涉及特定字体、间距、阴影、卡片结构和动效，避免通用的 AI 默认样式。
   `npx skills add leonxlnx/taste-skill@high-end-visual-design`
 
-### 内容创作
+### 视频剪辑
 
-面向「内容写作」的 Agent Skills。
+面向「视频剪辑」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/content-writing/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/video-editing/)**
 
-- **[content-writing](https://skillpicker.xyz/zh/skill/content-writing-12ykdx4/)** — 使用 Ann Handley 的《Everybody Writes》方法论指导内容写作：博客文章、电子邮件、社交媒体、网站文案和思想领导力，并以读者为中心的编…
-  `npx skills add guia-matthieu/clawfu-skills@content-writing`
+- **[video-editing](https://skillpicker.xyz/zh/skill/video-editing-1ngk1oj/)** — AI 辅助视频编辑工作流，通过 FFmpeg、Remotion、ElevenLabs 和最终润色来剪切、构建和增强真实素材。
+  `npx skills add affaan-m/ecc@video-editing`
 
-- **[content-creation](https://skillpicker.xyz/zh/skill/content-creation-16qkrec/)** — 跨渠道创建营销内容的指南和模板：博客文章、社交媒体、电子邮件简报、落地页、新闻稿和案例研究，并附 SEO 和 CTA 指导。
-  `npx skills add anthropics/knowledge-work-plugins@content-creation`
+- **[claude-video](https://skillpicker.xyz/zh/skill/claude-video-wyrivb/)** — AI驱动的视频制作套件，涵盖剪辑、转码、字幕、分析、短视频流水线和生成，使用FFmpeg、Whisper和Remotion。
+  `npx skills add agricidaniel/claude-video@claude-video`
 
-- **[blog](https://skillpicker.xyz/zh/skill/blog-m3yc40/)** — 全生命周期博客引擎，包含 31 个子技能，涵盖写作、改写、分析、大纲、审计、schema、内容再利用和多语言发布，针对排名和 AI 引用进行优化。
-  `npx skills add agricidaniel/claude-blog@blog`
+- **[ffmpeg-video-editor](https://skillpicker.xyz/zh/skill/ffmpeg-video-editor-drgs0f/)** — 将自然语言视频编辑请求转化为 FFmpeg 命令，用于剪切、裁剪、转换、压缩和更改宽高比。
+  `npx skills add sundial-org/awesome-openclaw-skills@ffmpeg-video-editor`
 
-- **[blog-write](https://skillpicker.xyz/zh/skill/blog-write-1674hqi/)** — 根据主题或简报撰写完整博客文章，涵盖模板选择、答案优先排版、带来源的统计数据、图片、SVG 图表和内部链接。
-  `npx skills add agricidaniel/claude-blog@blog-write`
+- **[video-processing-editing](https://skillpicker.xyz/zh/skill/video-processing-editing-1v1w11n/)** — 基于 FFmpeg 的视频编辑自动化，涵盖剪切、修剪、拼接、转场、音频混合、字幕和导出优化。
+  `npx skills add curiositech/some_claude_skills@video-processing-editing`
 
-- **[blog-post](https://skillpicker.xyz/zh/skill/blog-post-17jf590/)** — 撰写并组织长篇博客文章和教程，支持研究委派、SEO 优化，并必须生成封面图。
-  `npx skills add langchain-ai/deepagents@blog-post`
+- **[editor](https://skillpicker.xyz/zh/skill/editor-17vn025/)** — AI 原生本地视频编辑器，将 FFmpeg 封装为 19 个确定性工具，用于裁剪、拼接、字幕、缩放和渲染。
+  `npx skills add makemyclip/editor@editor`
 
-### 股票分析
+### 3D 建模
 
-面向「股票分析」的 Agent Skills。
+面向「3D 建模」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/stock-analysis/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/3d-modeling/)**
 
-- **[stock-analysis](https://skillpicker.xyz/zh/skill/stock-analysis-1kxbxhb/)** — 通过 Yahoo Finance 分析美股和加密货币，涵盖财报、基本面、分析师情绪和投资组合管理，并定期生成业绩报告。
-  `npx skills add gracefullight/stock-checker@stock-analysis`
+- **[3d-modeling](https://skillpicker.xyz/zh/skill/3d-modeling-m0f5rw/)** — 资深3D美术师关于生产拓扑、UV映射、重拓扑、LOD、雕刻和DCC工作流的指导，涵盖Blender、Maya、ZBrush和Houdini。
+  `npx skills add omer-metin/skills-for-antigravity@3d-modeling`
 
-- **[equity-research](https://skillpicker.xyz/zh/skill/equity-research-1angzxl/)** — 基于 IBES 一致预期、公司基本面、历史价格和宏观数据构建股票研究快照，综合生成估值表和投资论点。
-  `npx skills add anthropics/financial-services@equity-research`
+- **[blender](https://skillpicker.xyz/zh/skill/blender-18wnm12/)** — 通过 MCP 在 Blender 中创建专业 3D 模型、参数化设计、家具和建筑元素，并包含材质、灯光、渲染和多角度验证。
+  `npx skills add jithinolickal/blender@blender`
 
-- **[stock-research-executor](https://skillpicker.xyz/zh/skill/stock-research-executor-1feac9m/)** — 执行 8 个阶段的股票投资尽职调查流程，涵盖业务基础、行业、财务、治理、市场情绪、估值，以及最终附引用的研究报告。
-  `npx skills add liangdabiao/claude-code-stock-deep-research-agent@stock-research-executor`
+- **[modeling](https://skillpicker.xyz/zh/skill/modeling-17va8b2/)** — 涵盖 3D 建模基础、硬表面与有机工作流、细分、雕刻、拓扑、边流和 UV 最佳实践。
+  `npx skills add monumentalsystems/atlas-agent-teams@modeling`
 
-- **[company-valuation](https://skillpicker.xyz/zh/skill/company-valuation-eo2hfo/)** — 通过 DCF、可比倍数和分部估值估算上市公司内在价值，融合为隐含股价，并附敏感性和情景表。
-  `npx skills add himself65/finance-skills@company-valuation`
+- **[3d-asset-production](https://skillpicker.xyz/zh/skill/3d-asset-production-1pt9ouz/)** — 将生成的、扫描的或建模的 3D 输出转化为可用于生产的资产：拓扑修复、缩放/轴、UV、PBR 烘焙、LOD、绑定交接、优化以及 glTF/USD/FBX 交付。
+  `npx skills add calesthio/generative-media-skills@3d-asset-production`
 
-- **[daily-stock-analysis](https://skillpicker.xyz/zh/skill/daily-stock-analysis-12imrex/)** — 由 LLM 驱动的股票分析系统，覆盖 A 股、港股和美股市场，获取行情、新闻和基本面，生成包含买卖目标和推送通知的 AI 决策仪表盘。
-  `npx skills add reason-machines/trending-skills@daily-stock-analysis`
+- **[blender-3d-modeling](https://skillpicker.xyz/zh/skill/blender-3d-modeling-f309uj/)** — 使用 Blender 的 Python API 程序化创建 3D 几何体：从顶点数据生成网格、bmesh 编辑、修改器、曲线和参数化形状。
+  `npx skills add andrew1326/dominations@blender-3d-modeling`
 
-### Web 开发
+### 音频与语音
 
-面向「Web 开发」的 Agent Skills。
+面向「音频与语音」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/web-development/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/audio-voice/)**
 
-- **[web-development](https://skillpicker.xyz/zh/skill/web-development-1822no1/)** — Web 开发指南，涵盖 Bootstrap、Django、HTMX 以及包括性能和安全性在内的一般 Web 最佳实践。
-  `npx skills add mindrally/skills@web-development`
+- **[text-to-speech](https://skillpicker.xyz/zh/skill/text-to-speech-12uj8x6/)** — 使用 ElevenLabs 语音 AI 将文本转换为语音，支持 70+ 种语言、多种模型、语音设置和配音。
+  `npx skills add elevenlabs/skills@text-to-speech`
 
-- **[aspnet-core](https://skillpicker.xyz/zh/skill/aspnet-core-lh6mdg/)** — 使用 .NET Web 开发的当前官方指南构建、审查、重构或架构 ASP.NET Core Web 应用。适用于处理 Blazor Web…
-  `npx skills add openai/skills@aspnet-core`
+- **[speech](https://skillpicker.xyz/zh/skill/speech-nol9xh/)** — 当用户要求文本转语音旁白或配音、无障碍朗读、音频提示，或通过 OpenAI Audio API 批量生成语音时使用；运行捆绑的…
+  `npx skills add openai/skills@speech`
 
-- **[fullstack-dev](https://skillpicker.xyz/zh/skill/fullstack-dev-mjjna4/)** — 全栈后端架构与前后端集成指南，涵盖 REST API、服务层、认证、实时通信和生产加固。
-  `npx skills add minimax-ai/skills@fullstack-dev`
+- **[transcribe](https://skillpicker.xyz/zh/skill/transcribe-1iidhue/)** — 将音频文件转录为文本，支持可选的说话人分离和已知说话人提示。当用户要求从音频/视频转录语音、从录音中提取文本，或标记访谈或会议中的说话人时使用。
+  `npx skills add openai/skills@transcribe`
 
-- **[vue-best-practices](https://skillpicker.xyz/zh/skill/vue-best-practices-t91b6m/)** — 必须用于 Vue.js 任务。强烈推荐将 Composition API 与 `<script setup>` 和 TypeScript 作为标准方案。涵盖…
-  `npx skills add vuejs-ai/skills@vue-best-practices`
+- **[qianwen-audio-tts](https://skillpicker.xyz/zh/skill/qianwen-audio-tts-1l99s3x/)** — 使用 Qwen TTS 模型从文本合成语音，通过 HTTP API 和 CosyVoice 支持旁白、解说和 TTS 应用。
+  `npx skills add qianwen-ai/qianwen-ai@qianwen-audio-tts`
 
-- **[fullstack-guardian](https://skillpicker.xyz/zh/skill/fullstack-guardian-1lf62ru/)** — 构建以安全为核心的全栈 Web 应用，在整个技术栈中集成前端、后端和分层安全防护。
-  `npx skills add jeffallan/claude-skills@fullstack-guardian`
+- **[qwencloud-audio-tts](https://skillpicker.xyz/zh/skill/qwencloud-audio-tts-1tqhwjn/)** — 使用 Qwen TTS 模型从文本合成语音，通过 HTTP 和 WebSocket 支持配音、旁白和 TTS 应用。
+  `npx skills add qwencloud/qwencloud-ai@qwencloud-audio-tts`
 
-### 数据分析
+### 图像生成
 
-面向「数据分析」的 Agent Skills。
+面向「图像生成」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/data-analysis/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/image-generation/)**
 
-- **[data-analysis](https://skillpicker.xyz/zh/skill/data-analysis-1obfi9m/)** — 使用 DuckDB 分析上传的 Excel/CSV 文件，支持 schema 检查、SQL 查询、统计摘要和结果导出。
-  `npx skills add bytedance/deer-flow@data-analysis`
+- **[imagegen](https://skillpicker.xyz/zh/skill/imagegen-72r05t/)** — 当任务需要 AI 生成的位图视觉素材（如照片、插图、纹理、精灵图、样机或透明背景抠图）时，生成或编辑栅格图像。适用于 Codex 应创建全新图像、转换现有图像…
+  `npx skills add openai/skills@imagegen`
 
-- **[data-analysis-jupyter](https://skillpicker.xyz/zh/skill/data-analysis-jupyter-1pfay7u/)** — 为数据分析、可视化和 Jupyter Notebook 开发提供专家指导，使用 pandas、matplotlib、seaborn 和 numpy。
-  `npx skills add mindrally/skills@data-analysis-jupyter`
+- **[ai-image-generation](https://skillpicker.xyz/zh/skill/ai-image-generation-1kj3iri/)** — 通过 inference.sh CLI 使用 GPT-Image-2、FLUX、Gemini、Grok、Seedream、Reve 及 50+ 模型生成 AI…
+  `npx skills add 101-skills/superpowers@ai-image-generation`
 
-- **[analyzing-data](https://skillpicker.xyz/zh/skill/analyzing-data-10tpojh/)** — 通过 SQL 查询数据仓库来回答业务问题，具备模式/概念缓存和持久化分析内核。
-  `npx skills add astronomer/agents@analyzing-data`
+- **[image-edit](https://skillpicker.xyz/zh/skill/image-edit-1qccjw9/)** — 在 RunComfy 上将图像编辑路由到合适的模型（Nano Banana Edit、GPT Image 2 Edit、Flux…
+  `npx skills add prime-skills/runcomfy-agent-skills@image-edit`
 
-- **[pandas data analysis](https://skillpicker.xyz/zh/skill/pandas-data-analysis-1wi5bxx/)** — 教授使用 Pandas、NumPy 和 Matplotlib 进行数据操作、分析和可视化，涵盖清洗、聚合和 EDA。
-  `npx skills add "pluginagentmarketplace/custom-plugin-python@pandas data analysis"`
+- **[image](https://skillpicker.xyz/zh/skill/image-3lgful/)** — 当用户想要为营销创建、生成、编辑或优化图像时——博客主图、社交图形、产品样机、个人资料横幅、商品列表视觉或品牌资产。也适用于用户提到 'AI image…
+  `npx skills add coreyhaines31/marketingskills@image`
 
-- **[analytics-data-analysis](https://skillpicker.xyz/zh/skill/analytics-data-analysis-18qe5mn/)** — 提供使用 pandas、matplotlib、seaborn 和 Jupyter 进行分析、数据分析和可视化的指南，强调 EDA 和可复现性。
-  `npx skills add mindrally/skills@analytics-data-analysis`
+- **[qianwen-image-generation](https://skillpicker.xyz/zh/skill/qianwen-image-generation-1giwxf3/)** — 使用 Wan 和 Qwen Image 模型生成和编辑图像，支持文生图、风格迁移、主体一致性、多图合成和文字渲染。
+  `npx skills add qianwen-ai/qianwen-ai@qianwen-image-generation`
 
-### 市场调研
+### 测试
 
-面向「市场调研」的 Agent Skills。
+面向「测试」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/market-research/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/testing/)**
 
-- **[market-research](https://skillpicker.xyz/zh/skill/market-research-1edqgnv/)** — 开展市场调研、竞争分析、投资者尽调和市场规模测算，附来源标注和面向决策的摘要。
-  `npx skills add affaan-m/ecc@market-research`
+- **[playwright-best-practices](https://skillpicker.xyz/zh/skill/playwright-best-practices-qk2wk9/)** — 在编写 Playwright 测试、修复不稳定测试、调试失败、实现 Page Object Model、配置 CI/CD、优化性能、模拟 API、处理身份验证…
+  `npx skills add currents-dev/playwright-best-practices-skill@playwright-best-practices`
 
-- **[market-research-reports](https://skillpicker.xyz/zh/skill/market-research-reports-1qlvpy5/)** — 构建可追溯证据的市场研究报告，以及由假设驱动的市场规模测算或预测情景，并提供可审计的论断到来源映射。
-  `npx skills add k-dense-ai/scientific-agent-skills@market-research-reports`
+- **[golang-testing](https://skillpicker.xyz/zh/skill/golang-testing-ewyn2q/)** — 生产级 Go 测试：表驱动测试、testify、并行测试、模糊测试、goleak、快照、覆盖率和集成测试。
+  `npx skills add samber/cc-skills-golang@golang-testing`
 
-- **[firecrawl-market-research](https://skillpicker.xyz/zh/skill/firecrawl-market-research-ub7dly/)** — 通过 Firecrawl 提取市场、财务、收益和公司指标，生成带来源的市场研究报告，包含对比表格和趋势。
-  `npx skills add firecrawl/firecrawl-workflows@firecrawl-market-research`
+- **[vitest](https://skillpicker.xyz/zh/skill/vitest-mljxx7/)** — 由 Vite 驱动的 Vitest 快速单元测试框架，具有 Jest 兼容 API。适用于编写测试、模拟、配置覆盖率或处理测试过滤和夹具。
+  `npx skills add antfu/skills@vitest`
 
-- **[market-sizing-analysis](https://skillpicker.xyz/zh/skill/market-sizing-analysis-1rvs1k0/)** — 运用自上而下、自下而上和价值理论方法计算TAM/SAM/SOM市场机会，用于面向投资者的分析。
-  `npx skills add wshobson/agents@market-sizing-analysis`
+- **[unit-testing](https://skillpicker.xyz/zh/skill/unit-testing-dwe540/)** — 使用 Jest、Vitest 或 pytest 编写单元测试，涵盖测试替身、AAA、覆盖率门禁、快照和变异测试。
+  `npx skills add petrkindlmann/qa-skills@unit-testing`
 
-- **[competitor-analysis](https://skillpicker.xyz/zh/skill/competitor-analysis-b9k4m4/)** — 分析竞争对手的优势、劣势和差异化机会，为产品或市场绘制竞争格局。
-  `npx skills add phuryn/pm-skills@competitor-analysis`
+- **[qa-testing-playwright](https://skillpicker.xyz/zh/skill/qa-testing-playwright-1c5zl9h/)** — 构建并调试 Playwright E2E 测试套件，涵盖定位器策略、不稳定测试排查、CI 加固和分片。
+  `npx skills add vasilyu1983/ai-agents-public@qa-testing-playwright`
+
+### 交易
+
+面向「交易」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/trading/)**
+
+- **[breakout-trade-planner](https://skillpicker.xyz/zh/skill/breakout-trade-planner-11c80dy/)** — 根据 VCP 筛选器输出生成 Minervini 风格的突破交易计划，包含最坏情况风险计算、组合热度管理、仓位规模和兼容 Alpaca 的订单模板。
+  `npx skills add tradermonty/claude-trading-skills@breakout-trade-planner`
+
+- **[trade-hypothesis-ideator](https://skillpicker.xyz/zh/skill/trade-hypothesis-ideator-1rgb87b/)** — 从市场数据、交易日志和日志中生成可证伪的交易策略假设，产出带实验设计、终止标准和可选 strategy.yaml 导出的排序假设卡片。
+  `npx skills add tradermonty/claude-trading-skills@trade-hypothesis-ideator`
+
+- **[trading-plan-generator](https://skillpicker.xyz/zh/skill/trading-plan-generator-o8py4c/)** — 生成全面的交易计划，涵盖风险管理、仓位规模、进出场规则、交易管理、心理和绩效跟踪，以实现有纪律的交易。
+  `npx skills add jamesrochabrun/skills@trading-plan-generator`
+
+- **[thesis-tracker](https://skillpicker.xyz/zh/skill/thesis-tracker-4w7gf/)** — 维护并更新持仓和观察名单标的的投资论点，跟踪数据点、催化剂、论点里程碑，以及包含信心水平的评分卡。
+  `npx skills add anthropics/financial-services@thesis-tracker`
+
+- **[trading-analysis](https://skillpicker.xyz/zh/skill/trading-analysis-ib8386/)** — 为股票和 ETF 生成机构级投资报告，包含实时数据、10+ 技术指标、AI 洞察、图表以及入场/离场建议。
+  `npx skills add gracefullight/stock-checker@trading-analysis`
+
+### 视频生成
+
+面向「视频生成」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/video-generation/)**
+
+- **[kling-cli](https://skillpicker.xyz/zh/skill/kling-cli-1ay9llh/)** — 官方 Kling CLI 技能，用于图像/视频生成、可复用 Elements 和通过 MCP 进行运动控制，支持区域感知安装和登录。
+  `npx skills add klingai-tech/skills@kling-cli`
+
+- **[ai-video-generation](https://skillpicker.xyz/zh/skill/ai-video-generation-178fbrm/)** — 通过 inference.sh CLI 使用 Google Veo、Seedance 2.0、HappyHorse、Wan、Grok 及 40+ 模型生成 A…
+  `npx skills add 101-skills/superpowers@ai-video-generation`
+
+- **[image-to-video](https://skillpicker.xyz/zh/skill/image-to-video-1uk89tj/)** — 在RunComfy模型（HappyHorse、Wan、Seedance）之间路由图像转视频动画，包含各模型的提示词模式和CLI调用。
+  `npx skills add genmedia-labs/skills@image-to-video`
+
+- **[kling-3-0](https://skillpicker.xyz/zh/skill/kling-3-0-2z8hr7/)** — 涵盖 RunComfy 上全部六个 Kling 3.0 端点，覆盖 Standard、Pro 和 4K 档位，用于文生视频和图生视频。
+  `npx skills add prime-skills/runcomfy-agent-skills@kling-3-0`
+
+- **[videoagent-video-studio](https://skillpicker.xyz/zh/skill/videoagent-video-studio-1q45fbv/)** — 从文本或图像生成短视频 AI 视频，覆盖 7 个后端（minimax、kling、veo、hunyuan、grok、seedance），无需设置 API 密钥。
+  `npx skills add pexoai/pexo-skills@videoagent-video-studio`
+
+### 音乐生成
+
+面向「音乐生成」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/music-generation/)**
+
+- **[music-generation](https://skillpicker.xyz/zh/skill/music-generation-pa2sfd/)** — 通过 MiniMax 音乐 API 根据风格/情绪提示词和可选歌词生成歌曲（人声或器乐），返回 MP3。
+  `npx skills add bytedance/deer-flow@music-generation`
+
+- **[ai-music](https://skillpicker.xyz/zh/skill/ai-music-2dzyba/)** — 通过 runcomfy CLI 在 RunComfy 音乐模型（ElevenLabs、ACE Step、ACE Step 1.5）之间路由，用于人声歌曲、器乐…
+  `npx skills add genmedia-labs/skills@ai-music`
+
+- **[elevenlabs-music-generation](https://skillpicker.xyz/zh/skill/elevenlabs-music-generation-ty96cl/)** — 通过 RunComfy CLI 使用 ElevenLabs Music 生成完整歌曲和纯音乐曲目，涵盖风格提示、结构化歌词、段落控制和 5 秒至 5 分钟输出。
+  `npx skills add prime-skills/runcomfy-agent-skills@elevenlabs-music-generation`
+
+- **[suno-music-creator](https://skillpicker.xyz/zh/skill/suno-music-creator-aa3sho/)** — 专业的 Suno AI V5 和 Suno Studio 工作流，用于歌曲、播放列表、广告曲和器乐，包含风格提示、BPM 指南和导出指导。
+  `npx skills add schwepps/skills@suno-music-creator`
+
+- **[music](https://skillpicker.xyz/zh/skill/music-6ogri4/)** — 由 Mureka 提供支持的 ListenHub 音乐工具包，用于生成、混音、扩展和分析音乐，包括器乐、配乐和分轨分离。
+  `npx skills add marswaveai/skills@music`
 
 ### 应用开发
 
@@ -842,26 +863,26 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[emil-design-eng](https://skillpicker.xyz/zh/skill/emil-design-eng-1pm1uxg/)** — 编码 Emil Kowalski 关于 UI 打磨、组件设计、动画决策以及让软件体验出色的隐形细节的理念。支持 Design 方面。
   `npx skills add emilkowalski/skills@emil-design-eng`
 
-### SEO
+### 股票分析
 
-面向「SEO」的 Agent Skills。
+面向「股票分析」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/seo/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/stock-analysis/)**
 
-- **[seo](https://skillpicker.xyz/zh/skill/seo-x95zmm/)** — 通用 SEO 分析技能，编排 24 个子技能和 18 个子 Agent，用于全面审计、技术 SEO、schema、内容质量、本地 SEO、GEO 和关键词聚类。
-  `npx skills add agricidaniel/claude-seo@seo`
+- **[stock-analysis](https://skillpicker.xyz/zh/skill/stock-analysis-1kxbxhb/)** — 通过 Yahoo Finance 分析美股和加密货币，涵盖财报、基本面、分析师情绪和投资组合管理，并定期生成业绩报告。
+  `npx skills add gracefullight/stock-checker@stock-analysis`
 
-- **[seo-audit](https://skillpicker.xyz/zh/skill/seo-audit-1y4wn3r/)** — 当用户想要审计、审查或诊断其站点的 SEO 问题时使用。也适用于用户提到“SEO 审计”“技术 SEO”“为什么我排名不高”“SEO 问题”“页面 SEO”“…
-  `npx skills add coreyhaines31/marketingskills@seo-audit`
+- **[equity-research](https://skillpicker.xyz/zh/skill/equity-research-1angzxl/)** — 基于 IBES 一致预期、公司基本面、历史价格和宏观数据构建股票研究快照，综合生成估值表和投资论点。
+  `npx skills add anthropics/financial-services@equity-research`
 
-- **[seo-geo](https://skillpicker.xyz/zh/skill/seo-geo-k20wt3/)** — SEO/GEO 优化 Skill，涵盖网站审计、关键词研究、schema 标记和 AI 搜索引擎优化，采用 Princeton GEO 方法。
-  `npx skills add resciencelab/opc-skills@seo-geo`
+- **[stock-research-executor](https://skillpicker.xyz/zh/skill/stock-research-executor-1feac9m/)** — 执行 8 个阶段的股票投资尽职调查流程，涵盖业务基础、行业、财务、治理、市场情绪、估值，以及最终附引用的研究报告。
+  `npx skills add liangdabiao/claude-code-stock-deep-research-agent@stock-research-executor`
 
-- **[seo-technical](https://skillpicker.xyz/zh/skill/seo-technical-1alolb8/)** — 技术 SEO 审计 skill，涵盖可抓取性、可索引性、安全性、URL 结构、移动端、Core Web Vitals、结构化数据、JS 渲染和 AI 爬虫管理。
-  `npx skills add agricidaniel/claude-seo@seo-technical`
+- **[company-valuation](https://skillpicker.xyz/zh/skill/company-valuation-eo2hfo/)** — 通过 DCF、可比倍数和分部估值估算上市公司内在价值，融合为隐含股价，并附敏感性和情景表。
+  `npx skills add himself65/finance-skills@company-valuation`
 
-- **[programmatic-seo](https://skillpicker.xyz/zh/skill/programmatic-seo-tdbdya/)** — 当用户想要使用模板和数据大规模创建 SEO 驱动页面时使用。也适用于用户提到“程序化 SEO”“模板页面”“大规模页面”“目录页面”“位置页面”“[关键词]…
-  `npx skills add coreyhaines31/marketingskills@programmatic-seo`
+- **[daily-stock-analysis](https://skillpicker.xyz/zh/skill/daily-stock-analysis-12imrex/)** — 由 LLM 驱动的股票分析系统，覆盖 A 股、港股和美股市场，获取行情、新闻和基本面，生成包含买卖目标和推送通知的 AI 决策仪表盘。
+  `npx skills add reason-machines/trending-skills@daily-stock-analysis`
 
 ### 学术研究
 
@@ -884,47 +905,26 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[academic-researcher](https://skillpicker.xyz/zh/skill/academic-researcher-k7l8yg/)** — 创建同行评审研究论文、文献综述和学位论文，支持来源发现、IMRaD 结构、IEEE/APA 引用和 LaTeX 输出。
   `npx skills add silupanda/academic-researcher@academic-researcher`
 
-### 应用设计
+### SEO
 
-面向「应用设计」的 Agent Skills。
+面向「SEO」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/app-design/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/seo/)**
 
-- **[frontend-design](https://skillpicker.xyz/zh/skill/frontend-design-bruzsa/)** — 在构建新 UI 或重塑现有 UI 时，提供打造独特、有意图的视觉设计的指导。帮助确定美学方向、排版，并做出不显得像模板化默认选项的选择。
-  `npx skills add anthropics/skills@frontend-design`
+- **[seo](https://skillpicker.xyz/zh/skill/seo-x95zmm/)** — 通用 SEO 分析技能，编排 24 个子技能和 18 个子 Agent，用于全面审计、技术 SEO、schema、内容质量、本地 SEO、GEO 和关键词聚类。
+  `npx skills add agricidaniel/claude-seo@seo`
 
-- **[design-mobile-apps](https://skillpicker.xyz/zh/skill/design-mobile-apps-10x6ydh/)** — 通过 Sleek API 设计移动应用 UI 屏幕，根据自然语言描述创建项目并返回渲染后的屏幕，支持 HTML、React Native 或 SwiftUI…
-  `npx skills add designed-by-ai/skills@design-mobile-apps`
+- **[seo-audit](https://skillpicker.xyz/zh/skill/seo-audit-1y4wn3r/)** — 当用户想要审计、审查或诊断其站点的 SEO 问题时使用。也适用于用户提到“SEO 审计”“技术 SEO”“为什么我排名不高”“SEO 问题”“页面 SEO”“…
+  `npx skills add coreyhaines31/marketingskills@seo-audit`
 
-- **[penpot-build-screen](https://skillpicker.xyz/zh/skill/penpot-build-screen-1snsqt4/)** — 像资深视觉设计师一样，根据简要说明在 Penpot 中设计生产级界面——复用现有设计系统（tokens + 组件），逐区块组装，绝不一次性完成。用于根据描述创…
-  `npx skills add penpot/penpot-ai-kit@penpot-build-screen`
+- **[seo-geo](https://skillpicker.xyz/zh/skill/seo-geo-k20wt3/)** — SEO/GEO 优化 Skill，涵盖网站审计、关键词研究、schema 标记和 AI 搜索引擎优化，采用 Princeton GEO 方法。
+  `npx skills add resciencelab/opc-skills@seo-geo`
 
-- **[figma-implement-design](https://skillpicker.xyz/zh/skill/figma-implement-design-1mnitrk/)** — 将 Figma 设计转化为生产级应用代码，实现 1:1 视觉还原。适用于根据 Figma 文件实现 UI 代码、用户提到“实现设计”“生成代码”“实现组件”…
-  `npx skills add openai/skills@figma-implement-design`
+- **[seo-technical](https://skillpicker.xyz/zh/skill/seo-technical-1alolb8/)** — 技术 SEO 审计 skill，涵盖可抓取性、可索引性、安全性、URL 结构、移动端、Core Web Vitals、结构化数据、JS 渲染和 AI 爬虫管理。
+  `npx skills add agricidaniel/claude-seo@seo-technical`
 
-- **[ui-ux-pro-max](https://skillpicker.xyz/zh/skill/ui-ux-pro-max-q40x27/)** — 可搜索的 Web、移动端和桌面端 UI/UX 设计智能，涵盖风格、配色、字体搭配、UX 指南、图标、图表和特定技术栈的实现。
-  `npx skills add nextlevelbuilder/ui-ux-pro-max-skill@ui-ux-pro-max`
-
-### 头脑风暴
-
-面向「头脑风暴」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/brainstorming/)**
-
-- **[brainstorming](https://skillpicker.xyz/zh/skill/brainstorming-94u45g/)** — 通过逃逸速度和种子扩展协议、轴映射与功能提取，在任意领域扩展种子并跳出趋同思维。
-  `npx skills add jwynia/agent-skills@brainstorming`
-
-- **[product-brainstorming](https://skillpicker.xyz/zh/skill/product-brainstorming-10w7q8e/)** — 充当敏锐的产品思维伙伴，运行问题探索、方案构思和假设检验模式，在收敛前对想法进行压力测试。
-  `npx skills add anthropics/knowledge-work-plugins@product-brainstorming`
-
-- **[bmad-brainstorming](https://skillpicker.xyz/zh/skill/bmad-brainstorming-8zc1ik/)** — 运行完整的头脑风暴会话，包含三种立场（引导者、创意伙伴、替我构思）、多样化的创意技巧和 memlog，以突破显而易见的想法。
-  `npx skills add bmad-code-org/bmad-method@bmad-brainstorming`
-
-- **[brainstorm-ideas-new](https://skillpicker.xyz/zh/skill/brainstorm-ideas-new-y1sl52/)** — 从 PM、设计师和工程师视角为新产品的功能创意进行头脑风暴，然后按优先级选出前五个，并给出理由和假设。
-  `npx skills add phuryn/pm-skills@brainstorm-ideas-new`
-
-- **[brainstorm-ideas-existing](https://skillpicker.xyz/zh/skill/brainstorm-ideas-existing-1bwz93h/)** — 从 PM、设计师和工程师的视角为现有产品头脑风暴产品创意，然后按优先级选出最佳五个，并列出待验证的假设。
-  `npx skills add phuryn/pm-skills@brainstorm-ideas-existing`
+- **[programmatic-seo](https://skillpicker.xyz/zh/skill/programmatic-seo-tdbdya/)** — 当用户想要使用模板和数据大规模创建 SEO 驱动页面时使用。也适用于用户提到“程序化 SEO”“模板页面”“大规模页面”“目录页面”“位置页面”“[关键词]…
+  `npx skills add coreyhaines31/marketingskills@programmatic-seo`
 
 ### 代码审查
 
@@ -1014,6 +1014,48 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[obsidian-notes-creator](https://skillpicker.xyz/zh/skill/obsidian-notes-creator-1xpa9cm/)** — 创建高质量的 Obsidian 学习笔记，包含类比、图表和结构化讲解，使用 Obsidian 组件处理单篇笔记和多文件主题集。
   `npx skills add szeyu/vibe-study-skills@obsidian-notes-creator`
 
+### LinkedIn
+
+面向「LinkedIn」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/tool/linkedin/)**
+
+- **[linkedin-posts](https://skillpicker.xyz/zh/skill/linkedin-posts-173o8gv/)** — 指导 LinkedIn 帖子文案的创作与优化，涵盖帖子类型（图片、视频、文章、文档、投票、newsletter）、信息流排名信号，以及可直接发布的文案结构。
+  `npx skills add kostja94/marketing-skills@linkedin-posts`
+
+- **[linkedin automation](https://skillpicker.xyz/zh/skill/linkedin-automation-m46csx/)** — 自动化 LinkedIn 营销和 B2B 潜在客户开发：内容发布流水线、潜在客户开发搜索和外联序列、互动模板，以及通过社交 MCP 服务器进行分析跟踪。
+  `npx skills add "claude-office-skills/skills@linkedin automation"`
+
+- **[linkedin-profile-optimizer](https://skillpicker.xyz/zh/skill/linkedin-profile-optimizer-11w3w7u/)** — 优化 LinkedIn 个人资料的可搜索性、招聘方可见度和互动，涵盖标题、About、Experience、关键词和资料完整度。
+  `npx skills add paramchoudhary/resumeskills@linkedin-profile-optimizer`
+
+- **[ads-linkedin](https://skillpicker.xyz/zh/skill/ads-linkedin-19gzu9b/)** — 从衡量、Insight Tag 与转化、职业受众、线索生成、ABM、创意、竞价、预算、投放节奏、自动化和政策等方面审计 LinkedIn Ads 账户。
+  `npx skills add agricidaniel/claude-ads@ads-linkedin`
+
+- **[social](https://skillpicker.xyz/zh/skill/social-zzyift/)** — 当用户需要帮助创建、排期或优化 LinkedIn、Twitter/X、Instagram、TikTok、Facebook 或其他平台的社交媒体内容，或想进行社…
+  `npx skills add coreyhaines31/marketingskills@social`
+
+### Blender
+
+面向「Blender」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/tool/blender/)**
+
+- **[blender](https://skillpicker.xyz/zh/skill/blender-9cek2k/)** — 让 Agent 通过 Flue 的 shell 到应用桥接来操作 Blender，将 Python 管道传入 bpy，以检查场景、对象、网格和材质并进行有界编…
+  `npx skills add sfkislev/flue@blender`
+
+- **[blender-modeling](https://skillpicker.xyz/zh/skill/blender-modeling-b1i0u1/)** — 通过自然语言和 bpy 代码在 Blender 中创建和编辑 3D 网格：基础体、硬表面建模、网格操作符、修改器堆栈、bmesh 编辑和重拓扑基础。
+  `npx skills add roble3/cc-blender-skill@blender-modeling`
+
+- **[blender-animation](https://skillpicker.xyz/zh/skill/blender-animation-1gw02kw/)** — 在 Blender 中为对象、摄像机、灯光和属性制作动画：关键帧、F-curves、缓动、形态键、驱动器和 NLA 动作，用于复用和分层。
+  `npx skills add roble3/cc-blender-skill@blender-animation`
+
+- **[blender-mcp](https://skillpicker.xyz/zh/skill/blender-mcp-2vnzs/)** — 通过 MCP 工具驱动 Blender 的专家指导：场景检查、bpy 脚本编写、GLTF/GLB 导出、材质与动画提取以及资产集成，并包含导出注意事项和无头…
+  `npx skills add vladmdgolam/agent-skills@blender-mcp`
+
+- **[blender-motion-state-inspection](https://skillpicker.xyz/zh/skill/blender-motion-state-inspection-1g8s1fr/)** — 通过提取结构化的 bpy 事实（骨骼、边界框、接触、朝向）来检查 Blender 角色、绑定、姿势和重定向动作，而不是仅依赖截图。
+  `npx skills add affaan-m/ecc@blender-motion-state-inspection`
+
 ### Higgsfield
 
 面向「Higgsfield」的 Agent Skills。
@@ -1034,27 +1076,6 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 
 - **[video-inpainting](https://skillpicker.xyz/zh/skill/video-inpainting-n6kgic/)** — 通过 `runcomfy` CLI 在 RunComfy 上跨视频帧进行区域编辑——移除出现在多帧中的物体、清理电线或水印、用匹配的运动替换某个区域。在 Wa…
   `npx skills add prime-skills/runcomfy-agent-skills@video-inpainting`
-
-### Meta 广告
-
-面向「Meta 广告」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/tool/meta-ads/)**
-
-- **[meta-ads](https://skillpicker.xyz/zh/skill/meta-ads-krurah/)** — 通过 Marketing API 拉取、分析、管理并创建 Meta…
-  `npx skills add hoodini/ai-agents-skills@meta-ads`
-
-- **[meta-ads-strategy](https://skillpicker.xyz/zh/skill/meta-ads-strategy-19undnv/)** — 端到端投放 Facebook 和 Instagram 广告——策略、创意、文案、广告系列结构、定向、预算、ROAS 跟踪和 Pixel 设置，并内置广告简报工…
-  `npx skills add adkit/ads-skills@meta-ads-strategy`
-
-- **[metaads](https://skillpicker.xyz/zh/skill/metaads-1y50j6j/)** — Meta 媒体购买 skill，通过 Marketing API 发布、管理和分析 Facebook/Instagram 广告活动，包含引导式设置和效果分析。
-  `npx skills add mfwarren/entrepreneur-claude-skills@metaads`
-
-- **[facebook-ads](https://skillpicker.xyz/zh/skill/facebook-ads-1iiuvyl/)** — Meta Ads 专家指导，用于审计、搭建和优化广告系列——目标、受众、创意策略、Pixel、CAPI 和归因。
-  `npx skills add thatrebeccarae/claude-marketing@facebook-ads`
-
-- **[meta-ads-campaign-builder](https://skillpicker.xyz/zh/skill/meta-ads-campaign-builder-1et4d7c/)** — 构建完整的 Meta Ads 广告系列架构——目标选择、受众定向、广告组结构、版位、文案框架和预算分配。
-  `npx skills add gooseworks-ai/goose-skills@meta-ads-campaign-builder`
 
 ### Home Assistant
 
@@ -1077,47 +1098,26 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[homeassistant-config](https://skillpicker.xyz/zh/skill/homeassistant-config-1wmtf5d/)** — 创建和管理 Home Assistant YAML 配置，包括自动化、脚本、模板、蓝图和 Lovelace 仪表盘，并提供验证脚本和重复检测。
   `npx skills add esjavadex/claude-homeassistant-plugins@homeassistant-config`
 
-### LinkedIn
+### Meta 广告
 
-面向「LinkedIn」的 Agent Skills。
+面向「Meta 广告」的 Agent Skills。
 
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/tool/linkedin/)**
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/tool/meta-ads/)**
 
-- **[linkedin-posts](https://skillpicker.xyz/zh/skill/linkedin-posts-173o8gv/)** — 指导 LinkedIn 帖子文案的创作与优化，涵盖帖子类型（图片、视频、文章、文档、投票、newsletter）、信息流排名信号，以及可直接发布的文案结构。
-  `npx skills add kostja94/marketing-skills@linkedin-posts`
+- **[meta-ads](https://skillpicker.xyz/zh/skill/meta-ads-krurah/)** — 通过 Marketing API 拉取、分析、管理并创建 Meta…
+  `npx skills add hoodini/ai-agents-skills@meta-ads`
 
-- **[linkedin automation](https://skillpicker.xyz/zh/skill/linkedin-automation-m46csx/)** — 自动化 LinkedIn 营销和 B2B 潜在客户开发：内容发布流水线、潜在客户开发搜索和外联序列、互动模板，以及通过社交 MCP 服务器进行分析跟踪。
-  `npx skills add "claude-office-skills/skills@linkedin automation"`
+- **[meta-ads-strategy](https://skillpicker.xyz/zh/skill/meta-ads-strategy-19undnv/)** — 端到端投放 Facebook 和 Instagram 广告——策略、创意、文案、广告系列结构、定向、预算、ROAS 跟踪和 Pixel 设置，并内置广告简报工…
+  `npx skills add adkit/ads-skills@meta-ads-strategy`
 
-- **[linkedin-profile-optimizer](https://skillpicker.xyz/zh/skill/linkedin-profile-optimizer-11w3w7u/)** — 优化 LinkedIn 个人资料的可搜索性、招聘方可见度和互动，涵盖标题、About、Experience、关键词和资料完整度。
-  `npx skills add paramchoudhary/resumeskills@linkedin-profile-optimizer`
+- **[metaads](https://skillpicker.xyz/zh/skill/metaads-1y50j6j/)** — Meta 媒体购买 skill，通过 Marketing API 发布、管理和分析 Facebook/Instagram 广告活动，包含引导式设置和效果分析。
+  `npx skills add mfwarren/entrepreneur-claude-skills@metaads`
 
-- **[ads-linkedin](https://skillpicker.xyz/zh/skill/ads-linkedin-19gzu9b/)** — 从衡量、Insight Tag 与转化、职业受众、线索生成、ABM、创意、竞价、预算、投放节奏、自动化和政策等方面审计 LinkedIn Ads 账户。
-  `npx skills add agricidaniel/claude-ads@ads-linkedin`
+- **[facebook-ads](https://skillpicker.xyz/zh/skill/facebook-ads-1iiuvyl/)** — Meta Ads 专家指导，用于审计、搭建和优化广告系列——目标、受众、创意策略、Pixel、CAPI 和归因。
+  `npx skills add thatrebeccarae/claude-marketing@facebook-ads`
 
-- **[social](https://skillpicker.xyz/zh/skill/social-zzyift/)** — 当用户需要帮助创建、排期或优化 LinkedIn、Twitter/X、Instagram、TikTok、Facebook 或其他平台的社交媒体内容，或想进行社…
-  `npx skills add coreyhaines31/marketingskills@social`
-
-### HubSpot
-
-面向「HubSpot」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/tool/hubspot/)**
-
-- **[hubspot](https://skillpicker.xyz/zh/skill/hubspot-kj6z7z/)** — 通过 HubSpot API 管理 HubSpot CRM 联系人、公司、交易、负责人、关联、属性和 CMS 内容，并提供 curl 示例。
-  `npx skills add openclaudia/openclaudia-skills@hubspot`
-
-- **[ticket-resolution](https://skillpicker.xyz/zh/skill/ticket-resolution-kzotz2/)** — 通过 hubspot CLI 创建、分诊、推进和关闭 HubSpot 支持工单——管道发现、联系人/公司关联、优先级队列、批量阶段移动和解决关闭。
-  `npx skills add hubspot/agent-cli-skills@ticket-resolution`
-
-- **[crm-lookup](https://skillpicker.xyz/zh/skill/crm-lookup-1nhlkx0/)** — 通过 ID、邮箱、域名或名称片段查找特定的 HubSpot CRM 记录，并遍历关联关系以构建完整客户画像。
-  `npx skills add hubspot/agent-cli-skills@crm-lookup`
-
-- **[hubspot-integration](https://skillpicker.xyz/zh/skill/hubspot-integration-m52dnb/)** — HubSpot CRM 集成的专家模式，涵盖 OAuth 认证、CRM 对象、关联、批量操作、webhooks 和自定义对象，支持 Node.js 和 Pyt…
-  `npx skills add sickn33/agentic-awesome-skills@hubspot-integration`
-
-- **[crm-automation](https://skillpicker.xyz/zh/skill/crm-automation-1qz3tix/)** — 为 HubSpot、Salesforce 和 Pipedrive 自动化 CRM 工作流——线索捕获、数据丰富、评分、交易阶段推进、多 CRM 同步以及跟进序…
-  `npx skills add claude-office-skills/skills@crm-automation`
+- **[meta-ads-campaign-builder](https://skillpicker.xyz/zh/skill/meta-ads-campaign-builder-1et4d7c/)** — 构建完整的 Meta Ads 广告系列架构——目标选择、受众定向、广告组结构、版位、文案框架和预算分配。
+  `npx skills add gooseworks-ai/goose-skills@meta-ads-campaign-builder`
 
 ### Etsy
 
@@ -1140,6 +1140,27 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[etsy-shop-setup](https://skillpicker.xyz/zh/skill/etsy-shop-setup-15h86fq/)** — Etsy 店铺开业指南，涵盖政策、品牌塑造、首批商品上架、SEO 基础和收款设置。专为新 Etsy 卖家打造。
   `npx skills add nexscope-ai/ecommerce-skills@etsy-shop-setup`
 
+### HubSpot
+
+面向「HubSpot」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/tool/hubspot/)**
+
+- **[hubspot](https://skillpicker.xyz/zh/skill/hubspot-kj6z7z/)** — 通过 HubSpot API 管理 HubSpot CRM 联系人、公司、交易、负责人、关联、属性和 CMS 内容，并提供 curl 示例。
+  `npx skills add openclaudia/openclaudia-skills@hubspot`
+
+- **[ticket-resolution](https://skillpicker.xyz/zh/skill/ticket-resolution-kzotz2/)** — 通过 hubspot CLI 创建、分诊、推进和关闭 HubSpot 支持工单——管道发现、联系人/公司关联、优先级队列、批量阶段移动和解决关闭。
+  `npx skills add hubspot/agent-cli-skills@ticket-resolution`
+
+- **[crm-lookup](https://skillpicker.xyz/zh/skill/crm-lookup-1nhlkx0/)** — 通过 ID、邮箱、域名或名称片段查找特定的 HubSpot CRM 记录，并遍历关联关系以构建完整客户画像。
+  `npx skills add hubspot/agent-cli-skills@crm-lookup`
+
+- **[hubspot-integration](https://skillpicker.xyz/zh/skill/hubspot-integration-m52dnb/)** — HubSpot CRM 集成的专家模式，涵盖 OAuth 认证、CRM 对象、关联、批量操作、webhooks 和自定义对象，支持 Node.js 和 Pyt…
+  `npx skills add sickn33/agentic-awesome-skills@hubspot-integration`
+
+- **[crm-automation](https://skillpicker.xyz/zh/skill/crm-automation-1qz3tix/)** — 为 HubSpot、Salesforce 和 Pipedrive 自动化 CRM 工作流——线索捕获、数据丰富、评分、交易阶段推进、多 CRM 同步以及跟进序…
+  `npx skills add claude-office-skills/skills@crm-automation`
+
 ### TikTok
 
 面向「TikTok」的 Agent Skills。
@@ -1160,27 +1181,6 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 
 - **[tiktok-scraper](https://skillpicker.xyz/zh/skill/tiktok-scraper-1ct0edy/)** — 基于 Apify 的 TikTok 抓取器，包含四个 actor，覆盖帖子、个人资料、评论和位置信息流，通过同步或异步运行返回 JSON 数据集。
   `npx skills add apidojo-io/social-media-skills@tiktok-scraper`
-
-### Blender
-
-面向「Blender」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/tool/blender/)**
-
-- **[blender](https://skillpicker.xyz/zh/skill/blender-9cek2k/)** — 让 Agent 通过 Flue 的 shell 到应用桥接来操作 Blender，将 Python 管道传入 bpy，以检查场景、对象、网格和材质并进行有界编…
-  `npx skills add sfkislev/flue@blender`
-
-- **[blender-modeling](https://skillpicker.xyz/zh/skill/blender-modeling-b1i0u1/)** — 通过自然语言和 bpy 代码在 Blender 中创建和编辑 3D 网格：基础体、硬表面建模、网格操作符、修改器堆栈、bmesh 编辑和重拓扑基础。
-  `npx skills add roble3/cc-blender-skill@blender-modeling`
-
-- **[blender-animation](https://skillpicker.xyz/zh/skill/blender-animation-1gw02kw/)** — 在 Blender 中为对象、摄像机、灯光和属性制作动画：关键帧、F-curves、缓动、形态键、驱动器和 NLA 动作，用于复用和分层。
-  `npx skills add roble3/cc-blender-skill@blender-animation`
-
-- **[blender-mcp](https://skillpicker.xyz/zh/skill/blender-mcp-2vnzs/)** — 通过 MCP 工具驱动 Blender 的专家指导：场景检查、bpy 脚本编写、GLTF/GLB 导出、材质与动画提取以及资产集成，并包含导出注意事项和无头…
-  `npx skills add vladmdgolam/agent-skills@blender-mcp`
-
-- **[blender-motion-state-inspection](https://skillpicker.xyz/zh/skill/blender-motion-state-inspection-1g8s1fr/)** — 通过提取结构化的 bpy 事实（骨骼、边界框、接触、朝向）来检查 Blender 角色、绑定、姿势和重定向动作，而不是仅依赖截图。
-  `npx skills add affaan-m/ecc@blender-motion-state-inspection`
 
 ## 按 Agent
 
@@ -1206,6 +1206,27 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 
 - **[skill development](https://skillpicker.xyz/zh/skill/skill-development-1r3bxl3/)** — 为 Claude Code 插件创建有效技能的指导，涵盖技能结构、渐进式披露和捆绑资源。
   `npx skills add "anthropics/claude-code@skill development"`
+
+### WorkBuddy
+
+面向「WorkBuddy」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/agent/workbuddy/)**
+
+- **[workbuddy-cli-model-bridge](https://skillpicker.xyz/zh/skill/workbuddy-cli-model-bridge-11ko89m/)** — 安装、审计、修复和管理回环 CLIProxyAPI 桥接，将基于订阅的 CLI 模型注册为 WorkBuddy 自定义模型条目，具备能力探测和幂等更新。
+  `npx skills add zjp1997720/zhijian-skills@workbuddy-cli-model-bridge`
+
+- **[international-ai-deploy](https://skillpicker.xyz/zh/skill/international-ai-deploy-1cr22fu/)** — 一个 WorkBuddy 技能，通过从 baseurl、provider 和 API key 生成模型配置文件来配置和部署国际 AI 模型（GPT、Claud…
+  `npx skills add hangtiger/international-ai-deploy-skill@international-ai-deploy`
+
+- **[openclaw-assets-to-workbuddy](https://skillpicker.xyz/zh/skill/openclaw-assets-to-workbuddy-l4g1gu/)** — 将 OpenClaw 个人资产迁移到 WorkBuddy 位置，涵盖 SOUL.md、IDENTITY.md、USER.md、记忆、技能、MCP 配置、渠道配…
+  `npx skills add bighardperson/computer-science-skills-collection@openclaw-assets-to-workbuddy`
+
+- **[soia-env-workbuddy-install](https://skillpicker.xyz/zh/skill/soia-env-workbuddy-install-c0l2r5/)** — 从官方来源安装、验证或更新 WorkBuddy 桌面客户端，包含签名校验、进度记录和首次登录验证指引。
+  `npx skills add soia-team/soia-open-env-skills@soia-env-workbuddy-install`
+
+- **[workbuddy-channel-setup](https://skillpicker.xyz/zh/skill/workbuddy-channel-setup-1hgyszp/)** — 使用 playwright-cli 自动化 WorkBuddy 的飞书和 QQ Bot 渠道集成设置，涵盖应用创建、权限、事件订阅、回调和发布。
+  `npx skills add fengjiehzi/skills@workbuddy-channel-setup`
 
 ### Antigravity
 
@@ -1299,7 +1320,7 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 
 这里列出的是 Agent Skills：带 `SKILL.md` 的文件夹，编程 Agent 会为某项工作加载它们。主题来自观察到的搜索需求。Skill 只有在与该工作直接匹配时才会出现在这里。排序先看相关性，再看报告的流行度——不代表安全性审查，也不代表推荐。
 
-本 README 是一份精选快照（2026-09-19）。重复的工作名称已合并，近名 Skill 已折叠，每个 Skill 最多只出现在少数几个章节。其余索引——搜索、筛选、证据摘录和完整排序列表——在 **[skillpicker.xyz/zh](https://skillpicker.xyz/zh/)**。
+本 README 是一份精选快照（2026-10-03）。重复的工作名称已合并，近名 Skill 已折叠，每个 Skill 最多只出现在少数几个章节。其余索引——搜索、筛选、证据摘录和完整排序列表——在 **[skillpicker.xyz/zh](https://skillpicker.xyz/zh/)**。
 
 > Agent Skill 只审核**相关性，不审核安全性**。运行前请阅读上游 `SKILL.md`。
 
