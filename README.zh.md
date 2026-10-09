@@ -54,13 +54,326 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 
 ## 目录
 
-- [按角色](#按角色) — 17 个工作
-- [按产出](#按产出) — 9 个工作
 - [按任务](#按任务) — 15 个工作
+- [按角色](#按角色) — 17 个工作
 - [按工具](#按工具) — 8 个工作
 - [按 Agent](#按-agent) — 4 个工作
+- [按产出](#按产出) — 9 个工作
 - [入门](#入门) — 2 个工作
 - [这份列表怎么来的](#这份列表怎么来的)
+
+## 按任务
+
+面向一件要完成的工作。
+
+### Web 设计
+
+面向「Web 设计」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/web-design/)**
+
+- **[impeccable](https://skillpicker.xyz/zh/skill/impeccable-xw7l38/)** — 前端界面设计技能，涵盖形状、评审、审计、打磨、布局、排版、颜色、动效、无障碍、响应式行为和设计系统，适用于网站、仪表板和产品 UI。
+  `npx skills add pbakaus/impeccable@impeccable`
+
+- **[ui-ux-pro-max](https://skillpicker.xyz/zh/skill/ui-ux-pro-max-q40x27/)** — 可搜索的 UI/UX 设计智能，涵盖样式、调色板、字体搭配、UX 指南、图标、图表以及针对 Web、移动和桌面界面的技术栈特定实现。
+  `npx skills add nextlevelbuilder/ui-ux-pro-max-skill@ui-ux-pro-max`
+
+- **[redesign-existing-projects](https://skillpicker.xyz/zh/skill/redesign-existing-projects-tsupt0/)** — 审计现有网站和应用中通用的 AI 设计模式，并在不破坏功能的前提下应用高端排版、色彩、表面和布局升级。
+  `npx skills add leonxlnx/taste-skill@redesign-existing-projects`
+
+- **[interface-design](https://skillpicker.xyz/zh/skill/interface-design-1m4rbm1/)** — 面向仪表盘、管理后台、SaaS 应用、工具和数据界面的工艺优先界面设计技能，涵盖视觉层级、tokens、状态和设计系统一致性。
+  `npx skills add dammyjay93/interface-design@interface-design`
+
+- **[frontend-design-direction](https://skillpicker.xyz/zh/skill/frontend-design-direction-1jhp060/)** — 为网站、仪表盘、应用和组件设定产品专属的前端设计方向，涵盖用途、受众、基调、层级、排版、色彩、动效和响应式约束。
+  `npx skills add affaan-m/ecc@frontend-design-direction`
+
+### 视频剪辑
+
+面向「视频剪辑」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/video-editing/)**
+
+- **[video-editing](https://skillpicker.xyz/zh/skill/video-editing-1ngk1oj/)** — AI 辅助视频编辑工作流，跨 FFmpeg、Remotion、ElevenLabs 和 Descript/CapCut 对真实素材进行剪辑、结构化和增强。专为…
+  `npx skills add affaan-m/ecc@video-editing`
+
+- **[ffmpeg-video-editor](https://skillpicker.xyz/zh/skill/ffmpeg-video-editor-1ceiamu/)** — 完整的 FFmpeg 驱动视频编辑 Agent，涵盖裁剪、转码、调整尺寸、拼接、字幕、叠加、调色和音频标准化。专为视频编辑打造。
+  `npx skills add bryanwhl/ffmpeg-video-editor@ffmpeg-video-editor`
+
+- **[open-edit](https://skillpicker.xyz/zh/skill/open-edit-19wwjh/)** — 使用 VEED 托管服务和 CLI 进行视频工作：按词计时转录、剪辑、背景移除、唇形同步、混音以及 HTML 合成渲染。直接涵盖视频编辑。
+  `npx skills add veedstudio/open-edit@open-edit`
+
+- **[chatgpt-short-video-editor](https://skillpicker.xyz/zh/skill/chatgpt-short-video-editor-coxl1o/)** — 将用户提供的视频编辑为竖版 Reels/Shorts/TikToks，包含转录、剪辑、字幕、预览和导出。专为视频编辑打造。
+  `npx skills add jaycheng1103/chatgpt-video-editing-skills@chatgpt-short-video-editor`
+
+- **[pandastudio](https://skillpicker.xyz/zh/skill/pandastudio-dmexzf/)** — 在 PandaStudio 中为 YouTube、Shorts、TikTok 和 Reels 编辑视频：剪辑、缩放、下三分之一字幕条、字幕、动态图形、音效和调…
+  `npx skills add kamskans/pandastudio-skills@pandastudio`
+
+### 3D 建模
+
+面向「3D 建模」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/3d-modeling/)**
+
+- **[cad](https://skillpicker.xyz/zh/skill/cad-sct1qj/)** — 使用 cadgen 创建和编辑参数化 CAD 模型，组织 CAD 项目，导出 STEP/STL/3MF/GLB，解析提示词引用，并测量几何体。在 CAD Vi…
+  `npx skills add earthtojake/text-to-cad@cad`
+
+- **[meshy-3d-generation](https://skillpicker.xyz/zh/skill/meshy-3d-generation-j0j4wy/)** — 使用 Meshy CLI 创建或编辑数字 3D 资产：模型、纹理、绑定、动画和参考图像，并提供生成、纹理、绑定、动画和转换流水线。
+  `npx skills add meshy-dev/meshy-3d-agent@meshy-3d-generation`
+
+- **[layer-3d](https://skillpicker.xyz/zh/skill/layer-3d-1x68cit/)** — 使用 Layer 生成 3D 资产：文本到 3D 和图像到 3D 网格生成、重网格化、重贴图、绑定和动画，并提供拓扑、多边形预算和 PBR 纹理指导。
+  `npx skills add layerai/skills@layer-3d`
+
+- **[threejs-3d-generator](https://skillpicker.xyz/zh/skill/threejs-3d-generator-1c9510f/)** — 通过 Tripo API 为 Three.js 游戏生成、贴图、绑定骨骼、制作动画、风格化、转换和下载 3D 资产，涵盖文本转 3D、图像转 3D、游戏就绪的…
+  `npx skills add majidmanzarpour/threejs-game-skills@threejs-3d-generator`
+
+- **[blender-web-pipeline](https://skillpicker.xyz/zh/skill/blender-web-pipeline-1q86sm6/)** — Blender 到 Web 的 3D 模型和动画导出工作流，涵盖 glTF 导出、bpy 脚本、纹理烘焙、LOD 生成、批处理，以及针对 Three.js 或…
+  `npx skills add freshtechbro/claudedesignskills@blender-web-pipeline`
+
+### 音频与语音
+
+面向「音频与语音」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/audio-voice/)**
+
+- **[transcribe](https://skillpicker.xyz/zh/skill/transcribe-1iidhue/)** — 将音频文件转录为文本，支持可选的说话人分离和已知说话人提示。当用户要求从音频/视频转录语音、从录音中提取文本，或标记访谈或会议中的说话人时使用。
+  `npx skills add openai/skills@transcribe`
+
+- **[speech-to-text](https://skillpicker.xyz/zh/skill/speech-to-text-1at0n16/)** — 使用 ElevenLabs Scribe v2 将音频转录为文本，支持 90 多种语言、说话人分离和词级时间戳。
+  `npx skills add elevenlabs/skills@speech-to-text`
+
+- **[speech](https://skillpicker.xyz/zh/skill/speech-nol9xh/)** — 当用户要求文本转语音旁白或配音、无障碍朗读、音频提示，或通过 OpenAI Audio API 批量生成语音时使用；运行捆绑的…
+  `npx skills add openai/skills@speech`
+
+- **[azure-ai-transcription-py](https://skillpicker.xyz/zh/skill/azure-ai-transcription-py-1naf0ls/)** — | 面向 Python 的 Azure AI Transcription SDK。用于带时间戳和说话人分离的实时和批量语音转文本转录。触发词："transcr…
+  `npx skills add microsoft/skills@azure-ai-transcription-py`
+
+- **[openai-whisper-api](https://skillpicker.xyz/zh/skill/openai-whisper-api-746c5b/)** — 通过 curl 使用 OpenAI Audio Transcriptions API 转录音频，支持…
+  `npx skills add openclaw/openclaw@openai-whisper-api`
+
+### 图像生成
+
+面向「图像生成」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/image-generation/)**
+
+- **[image-generation](https://skillpicker.xyz/zh/skill/image-generation-y8p8hj/)** — 通过捆绑的 Python 脚本，从结构化 JSON 提示生成图像，并可选用参考图像来控制风格和构图。
+  `npx skills add bytedance/deer-flow@image-generation`
+
+- **[imagegen](https://skillpicker.xyz/zh/skill/imagegen-72r05t/)** — 当任务需要 AI 生成的位图视觉素材（如照片、插图、纹理、精灵图、样机或透明背景抠图）时，生成或编辑栅格图像。适用于 Codex 应创建全新图像、转换现有图像…
+  `npx skills add openai/skills@imagegen`
+
+- **[ai-image-generation](https://skillpicker.xyz/zh/skill/ai-image-generation-1kj3iri/)** — 通过 inference.sh CLI 使用 GPT-Image-2、FLUX、Gemini、Grok、Seedream、Reve 及 50+ 模型生成 AI…
+  `npx skills add 101-skills/superpowers@ai-image-generation`
+
+- **[baoyu-image-gen](https://skillpicker.xyz/zh/skill/baoyu-image-gen-hfwe27/)** — 通过多个提供商（OpenAI GPT Image、Azure、Google、OpenRouter、DashScope、Seedream、Replicate）生…
+  `npx skills add jimliu/baoyu-skills@baoyu-image-gen`
+
+- **[gpt-image-2](https://skillpicker.xyz/zh/skill/gpt-image-2-1obn3j1/)** — GPT Image 2 生成/编辑技能，提供 80+ 个结构化提示词模板，覆盖海报、UI、产品、信息图、漫画和故事板，可在本地、宿主原生或顾问模式下运行。
+  `npx skills add conardli/garden-skills@gpt-image-2`
+
+### 测试
+
+面向「测试」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/testing/)**
+
+- **[vue-testing-best-practices](https://skillpicker.xyz/zh/skill/vue-testing-best-practices-1cgxb6n/)** — 用于 Vue.js 测试。涵盖 Vitest、Vue Test Utils、组件测试、模拟、测试模式，以及用于 E2E 测试的 Playwright。
+  `npx skills add vuejs-ai/skills@vue-testing-best-practices`
+
+- **[webapp-testing](https://skillpicker.xyz/zh/skill/webapp-testing-gzbwvd/)** — 使用 Playwright 交互和测试本地 Web 应用的工具包。支持验证前端功能、调试 UI 行为、捕获浏览器截图和查看浏览器日志。
+  `npx skills add anthropics/skills@webapp-testing`
+
+- **[tdd](https://skillpicker.xyz/zh/skill/tdd-u0q9mg/)** — 测试驱动开发。当用户希望以测试优先的方式构建功能或修复缺陷、提到“红-绿-重构”，或需要集成测试时使用。
+  `npx skills add mattpocock/skills@tdd`
+
+- **[playwright-cli](https://skillpicker.xyz/zh/skill/playwright-cli-redym3/)** — 自动化浏览器交互、测试网页并使用 Playwright 测试。
+  `npx skills add microsoft/playwright-cli@playwright-cli`
+
+- **[playwright-best-practices](https://skillpicker.xyz/zh/skill/playwright-best-practices-qk2wk9/)** — 在编写 Playwright 测试、修复不稳定测试、调试失败、实现 Page Object Model、配置 CI/CD、优化性能、模拟 API、处理身份验证…
+  `npx skills add currents-dev/playwright-best-practices-skill@playwright-best-practices`
+
+### 交易
+
+面向「交易」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/trading/)**
+
+- **[backtesting-frameworks](https://skillpicker.xyz/zh/skill/backtesting-frameworks-l2rwzb/)** — 为交易策略构建稳健的回测系统，涵盖前视偏差和幸存者偏差、交易成本、滚动前向分析和样本外验证。
+  `npx skills add wshobson/agents@backtesting-frameworks`
+
+- **[okx-cex-trade](https://skillpicker.xyz/zh/skill/okx-cex-trade-1y32s95/)** — 在 OKX 上下单、取消和修改现货、永续合约、期货、期权和事件合约订单，包括 TP/SL、追踪止损、杠杆和持仓管理。
+  `npx skills add okx/agent-skills@okx-cex-trade`
+
+- **[hyperliquid](https://skillpicker.xyz/zh/skill/hyperliquid-1l10cgw/)** — 在 Hyperliquid DEX 上交易永续合约、现货和 RWA，支持 EIP-712 签名订单、TP/SL、充值，以及只读的账户、盈亏和市场查询。
+  `npx skills add starchild-ai-agent/official-skills@hyperliquid`
+
+### 视频生成
+
+面向「视频生成」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/video-generation/)**
+
+- **[ai-video-generation](https://skillpicker.xyz/zh/skill/ai-video-generation-178fbrm/)** — 通过 inference.sh CLI 使用 Google Veo、Seedance 2.0、HappyHorse、Wan、Grok 及 40+ 模型生成 A…
+  `npx skills add 101-skills/superpowers@ai-video-generation`
+
+- **[kling-cli](https://skillpicker.xyz/zh/skill/kling-cli-1ay9llh/)** — 官方 Kling AI CLI 技能，用于图像和视频生成、可复用 Element 主体，以及通过 MCP 进行运动控制，涵盖文生视频、图生视频和 motion…
+  `npx skills add klingai-tech/skills@kling-cli`
+
+- **[image-to-video](https://skillpicker.xyz/zh/skill/image-to-video-1uk89tj/)** — 通过 runcomfy CLI 在 RunComfy 目录（HappyHorse I2V、Wan 2.7、Seedance 2.0 Pro）中路由图生视频动画…
+  `npx skills add genmedia-labs/skills@image-to-video`
+
+- **[kling-3-0](https://skillpicker.xyz/zh/skill/kling-3-0-2z8hr7/)** — 涵盖 RunComfy 上全部六个 Kling 3.0 端点，横跨 Standard、Pro 和 4K 档位，覆盖文生视频和图生视频模式，并提供定价和档位指导。
+  `npx skills add prime-skills/runcomfy-agent-skills@kling-3-0`
+
+- **[seedance](https://skillpicker.xyz/zh/skill/seedance-qm3n8k/)** — 通过 inference.sh CLI 使用字节跳动 Seedance 2.0 生成视频，涵盖文生视频、图生视频、参考生视频和同步音频，提供 Pro 和 Fa…
+  `npx skills add inference-sh/skills@seedance`
+
+### 音乐生成
+
+面向「音乐生成」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/music-generation/)**
+
+- **[music](https://skillpicker.xyz/zh/skill/music-1qmio8d/)** — 官方 ElevenLabs Music API 技能，通过 compose、composition plans、streaming、finetunes 和 v…
+  `npx skills add elevenlabs/skills@music`
+
+- **[ai-music](https://skillpicker.xyz/zh/skill/ai-music-2dzyba/)** — 在 RunComfy 音乐模型（ElevenLabs Music、ACE Step 1.5、ACE Step base）之间路由以进行文本转音乐，另含用于编辑…
+  `npx skills add genmedia-labs/skills@ai-music`
+
+- **[elevenlabs-music-generation](https://skillpicker.xyz/zh/skill/elevenlabs-music-generation-ty96cl/)** — 通过 RunComfy CLI 使用 ElevenLabs Music 生成完整歌曲和器乐曲目，涵盖风格提示词、带段落标记的结构化歌词、多语言人声和 5 秒至…
+  `npx skills add prime-skills/runcomfy-agent-skills@elevenlabs-music-generation`
+
+- **[suno-music-creator](https://skillpicker.xyz/zh/skill/suno-music-creator-aa3sho/)** — 专业 Suno AI V5 和 Suno Studio 工作流，用于创作歌曲、播放列表、广告歌和环境音轨，包含风格提示、BPM 指南、元标签和后处理。
+  `npx skills add schwepps/skills@suno-music-creator`
+
+- **[audiocraft-audio-generation](https://skillpicker.xyz/zh/skill/audiocraft-audio-generation-xbgvtj/)** — Meta AudioCraft指南，使用MusicGen进行文生音乐，使用AudioGen进行文生音效，涵盖模型规模、旋律条件和立体声输出。
+  `npx skills add orchestra-research/ai-research-skills@audiocraft-audio-generation`
+
+### 应用开发
+
+面向「应用开发」的 Agent Skills。同时覆盖Android 开发。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/app-development/)**
+
+- **[vercel-react-native-skills](https://skillpicker.xyz/zh/skill/vercel-react-native-skills-gtowdb/)** — React Native 和 Expo 高性能移动应用最佳实践：列表虚拟化、使用 Reanimated 的动画、导航、UI 模式、状态管理和 monorepo…
+  `npx skills add vercel-labs/agent-skills@vercel-react-native-skills`
+
+- **[ui-ux-pro-max](https://skillpicker.xyz/zh/skill/ui-ux-pro-max-q40x27/)** — 可搜索的 Web、移动端和桌面端 UI/UX 设计智能：风格、配色、字体搭配、UX 指南、图标、动画预设、图表，以及特定技术栈的实现指导。
+  `npx skills add nextlevelbuilder/ui-ux-pro-max-skill@ui-ux-pro-max`
+
+- **[animate-expo](https://skillpicker.xyz/zh/skill/animate-expo-1890bzt/)** — 使用 Reanimated、Gesture Handler、Expo Router 和触觉反馈在 React Native 和 Expo 中构建动画，涵盖线程…
+  `npx skills add emilkowalski/skills@animate-expo`
+
+- **[tdd](https://skillpicker.xyz/zh/skill/tdd-u0q9mg/)** — 测试驱动开发参考：红绿循环、什么是好的测试、接缝、反模式和循环规则。直接支持应用开发的测试维度。
+  `npx skills add mattpocock/skills@tdd`
+
+- **[playwright-best-practices](https://skillpicker.xyz/zh/skill/playwright-best-practices-b1960v/)** — 全面的 Playwright 指导，涵盖 E2E、组件、API、视觉、无障碍和安全测试，以及不稳定测试调试、POM、CI/CD 和认证流程。
+  `npx skills add currents-dev/playwright-best-practices-skill@playwright-best-practices`
+
+### 学术研究
+
+面向「学术研究」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/academic-research/)**
+
+- **[nature-academic-search](https://skillpicker.xyz/zh/skill/nature-academic-search-yff54w/)** — 跨来源搜索文献，验证和管理引用，构建 MeSH/PubMed 策略，并审计引用影响力，服务于学术研究工作流。
+  `npx skills add yuan1z0825/nature-skills@nature-academic-search`
+
+- **[academic-paper](https://skillpicker.xyz/zh/skill/academic-paper-19qhit2/)** — 一个 12 个 Agent 的学术论文写作流水线，包含 11 种模式，涵盖规划、列大纲、起草、修订、引用检查和 LaTeX/DOCX/PDF 输出，适用于各学…
+  `npx skills add imbad0202/academic-research-skills@academic-paper`
+
+- **[firecrawl-research-papers](https://skillpicker.xyz/zh/skill/firecrawl-research-papers-1osy8d7/)** — 通过 Firecrawl 的论文索引查找并综合研究论文、白皮书和学术来源，使用语义论文搜索、相关论文扩展和正文内验证来生成有来源的文献综述。
+  `npx skills add firecrawl/firecrawl-workflows@firecrawl-research-papers`
+
+- **[academic-pipeline](https://skillpicker.xyz/zh/skill/academic-pipeline-mdat76/)** — 编排从研究到写作、诚信检查、两阶段同行评审、修订和定稿的完整学术研究流程，涵盖 10 阶段工作流。
+  `npx skills add imbad0202/academic-research-skills@academic-pipeline`
+
+- **[literature-review](https://skillpicker.xyz/zh/skill/literature-review-14cd5lj/)** — 系统化文献综述工作流，涵盖检索规划、来源筛选、去重、数据提取、综合和引用验证，并附证据日志。
+  `npx skills add affaan-m/ecc@literature-review`
+
+### SEO
+
+面向「SEO」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/seo/)**
+
+- **[seo](https://skillpicker.xyz/zh/skill/seo-58n03o/)** — 针对搜索引擎可见性和排名进行优化。适用于被要求“改善 SEO”、“优化搜索”、“修复 meta 标签”、“添加结构化数据”、“站点地图优化”或“搜索引擎优化”…
+  `npx skills add addyosmani/web-quality-skills@seo`
+
+- **[seo-audit](https://skillpicker.xyz/zh/skill/seo-audit-1y4wn3r/)** — 当用户想要审计、审查或诊断其站点的 SEO 问题时使用。也适用于用户提到“SEO 审计”“技术 SEO”“为什么我排名不高”“SEO 问题”“页面 SEO”“…
+  `npx skills add coreyhaines31/marketingskills@seo-audit`
+
+- **[programmatic-seo](https://skillpicker.xyz/zh/skill/programmatic-seo-tdbdya/)** — 当用户想要使用模板和数据大规模创建 SEO 驱动页面时使用。也适用于用户提到“程序化 SEO”“模板页面”“大规模页面”“目录页面”“位置页面”“[关键词]…
+  `npx skills add coreyhaines31/marketingskills@programmatic-seo`
+
+- **[audit-website](https://skillpicker.xyz/zh/skill/audit-website-1k98lat/)** — 使用 squirrelscan CLI 审计网站并在代码中修复发现的问题。运行 SEO、性能、安全、技术、内容、无障碍以及另外 15 个规则类别（260+ 条…
+  `npx skills add squirrelscan/skills@audit-website`
+
+- **[seo-content](https://skillpicker.xyz/zh/skill/seo-content-1kssswe/)** — 内容质量和 E-E-A-T 分析，包含 AI 引用就绪度评估，以及最后一公里草稿清理（AI 典型措辞和不可见 Unicode 水印字符）。适用于用户说“con…
+  `npx skills add agricidaniel/claude-seo@seo-content`
+
+### 代码审查
+
+面向「代码审查」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/code-review/)**
+
+- **[code-review](https://skillpicker.xyz/zh/skill/code-review-1w5v1ur/)** — 从固定点（commit、branch、tag 或 merge-base）起，沿两个维度审查变更：Standards（代码是否遵循本仓库有文档记录的编码规范？）…
+  `npx skills add mattpocock/skills@code-review`
+
+- **[code-review-and-quality](https://skillpicker.xyz/zh/skill/code-review-and-quality-1jqxkxv/)** — 进行多维度代码审查。在合并任何变更之前使用。在审查自己、其他 agent 或人类编写的代码时使用。当你需要在代码进入主分支之前从多个维度评估代码质量时使用。
+  `npx skills add addyosmani/agent-skills@code-review-and-quality`
+
+- **[code-review-excellence](https://skillpicker.xyz/zh/skill/code-review-excellence-1yvrgmj/)** — 掌握高效的代码审查实践，提供建设性反馈、尽早发现 bug，并在维护团队士气的同时促进知识共享。适用于审查拉取请求、制定审查标准或指导开发者时。
+  `npx skills add wshobson/agents@code-review-excellence`
+
+- **[review-pr](https://skillpicker.xyz/zh/skill/review-pr-1wwc164/)** — 审查拉取请求 diff 并将结构化反馈写入 review.json 供工作流发布。适用于从 pr_diff.txt 和 pr_description.txt…
+  `npx skills add warpdotdev/common-skills@review-pr`
+
+- **[open-code-review](https://skillpicker.xyz/zh/skill/open-code-review-b6s8ih/)** — 运行 ocr CLI 对 Git 变更执行 AI 驱动的代码审查，生成针对 bug、安全、性能和质量问题的行级评论。
+  `npx skills add alibaba/open-code-review@open-code-review`
+
+### 文案写作
+
+面向「文案写作」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/copywriting/)**
+
+- **[copywriting](https://skillpicker.xyz/zh/skill/copywriting-1dho2a7/)** — 当用户想要为任何页面撰写、重写或改进营销文案时——包括首页、落地页、定价页、功能页、关于页或产品页。也适用于用户说“为……写文案”“改进这段文案”“重写这个页…
+  `npx skills add coreyhaines31/marketingskills@copywriting`
+
+- **[copy-editing](https://skillpicker.xyz/zh/skill/copy-editing-qkt1d8/)** — 当用户想要编辑、审阅或改进现有营销文案，或更新过时内容时使用。也适用于用户提到“编辑这段文案”“审阅我的文案”“文案反馈”“校对”“润色一下”“让它更好”“文…
+  `npx skills add coreyhaines31/marketingskills@copy-editing`
+
+- **[landing-page-copywriter](https://skillpicker.xyz/zh/skill/landing-page-copywriter-pvj25o/)** — 使用 PAS（问题-激化-解决方案）、AIDA 和 StoryBrand 等成熟框架撰写高转化率的落地页文案。创建标题、价值主张、CTA 和完整的页面板块，并…
+  `npx skills add onewave-ai/claude-skills@landing-page-copywriter`
+
+- **[ad-copy-variants](https://skillpicker.xyz/zh/skill/ad-copy-variants-1j08okk/)** — 将一个核心价值主张转化为真正不同的广告文案变体——标题、正文、描述和 CTA 组合——每个都标注角度、认知阶段、公式和版本，让测试结果保持可归因。真正的变体是…
+  `npx skills add mbfinotti/advertising-skills@ad-copy-variants`
+
+- **[ads-copywriter](https://skillpicker.xyz/zh/skill/ads-copywriter-1r91pr2/)** — 为 Google Ads、Meta/Facebook、TikTok、LinkedIn 生成多平台广告文案，并提供 A/B 测试变体
+  `npx skills add claude-office-skills/skills@ads-copywriter`
+
+### 深度研究
+
+面向「深度研究」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/deep-research/)**
+
+- **[deep-research](https://skillpicker.xyz/zh/skill/deep-research-1wq93ai/)** — 当用户需要带引文追踪、证据留存和结构化报告生成的多来源研究时使用。触发词包括“deep research”、“comprehensive…
+  `npx skills add 199-biotechnologies/claude-deep-research-skill@deep-research`
+
+- **[parallel-web](https://skillpicker.xyz/zh/skill/parallel-web-1l9ez47/)** — 统一的 Parallel CLI 工具包，用于网络搜索、URL 提取、深度研究、数据丰富、实体发现和定期监控，优先使用学术来源并提供引用指导。
+  `npx skills add k-dense-ai/scientific-agent-skills@parallel-web`
+
+- **[firecrawl](https://skillpicker.xyz/zh/skill/firecrawl-1rdvuxu/)** — 通过 Firecrawl CLI 完成任何实时网页任务——包括普通网页研究：搜索网页、读取或提取页面、收集来源、发现站点 URL、批量提取、下载站点、变更提醒…
+  `npx skills add firecrawl/cli@firecrawl`
+
+- **[firecrawl-search](https://skillpicker.xyz/zh/skill/firecrawl-search-l1zhat/)** — 查找与查询相关的网页摘录和可选整页内容的网络来源，并发现工作流、数据 API 和索引。用于网络研究或查找结构化记录、列表、转录和数据集。支持语义工具发现、域名…
+  `npx skills add firecrawl/cli@firecrawl-search`
+
+- **[research](https://skillpicker.xyz/zh/skill/research-1vg9t2w/)** — 针对高可信度的一手来源调查某个问题，并将发现以 Markdown 文件形式保存到仓库中。适用于用户希望研究某个主题、收集文档或 API 事实，或将阅读工作委托…
+  `npx skills add mattpocock/skills@research`
 
 ## 按角色
 
@@ -408,494 +721,6 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 - **[doc-coauthoring](https://skillpicker.xyz/zh/skill/doc-coauthoring-1uje9wh/)** — 引导用户通过结构化工作流共同撰写文档。当用户想要撰写文档、提案、技术规格、决策文档或类似结构化内容时使用。此工作流帮助用户高效传递上下文、通过迭代完善内容，并…
   `npx skills add anthropics/skills@doc-coauthoring`
 
-## 按产出
-
-面向你要交付的东西。
-
-### Excel 电子表格
-
-面向「Excel 电子表格」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/excel/)**
-
-- **[xlsx](https://skillpicker.xyz/zh/skill/xlsx-19o7j8k/)** — 当电子表格文件是主要输入或输出时使用此 skill。这意味着任何用户想要：打开、读取、编辑或修复现有 .xlsx、.xlsm、.xltx、.csv 或 .ts…
-  `npx skills add anthropics/skills@xlsx`
-
-- **[xlsx-manipulation](https://skillpicker.xyz/zh/skill/xlsx-manipulation-1fqvrb0/)** — 使用 openpyxl 以编程方式创建、编辑和操作 Excel 电子表格
-  `npx skills add claude-office-skills/skills@xlsx-manipulation`
-
-- **[excel-automation](https://skillpicker.xyz/zh/skill/excel-automation-1pixg5k/)** — 通过 xlwings 实现 Excel 自动化，涵盖实时工作簿、公式、图表、表格和 VBA。
-  `npx skills add claude-office-skills/skills@excel-automation`
-
-- **[clean-data-xls](https://skillpicker.xyz/zh/skill/clean-data-xls-9x5ppq/)** — 清理杂乱的电子表格数据——去除空白、修正大小写不一致、将存储为文本的数字转换、标准化日期、删除重复项并标记混合类型列。当数据杂乱、不一致或需要在分析前准备时使…
-  `npx skills add anthropics/financial-services@clean-data-xls`
-
-- **[audit-xls](https://skillpicker.xyz/zh/skill/audit-xls-pmv2a1/)** — 审计电子表格的公式准确性、错误和常见错误。范围可限定为选定区域、单个工作表或整个模型（包括资产负债表平衡、现金勾稽和逻辑合理性等财务模型完整性检查）。触发词包…
-  `npx skills add anthropics/financial-services@audit-xls`
-
-### YouTube 视频
-
-面向「YouTube 视频」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/youtube-videos/)**
-
-- **[youtube-seo](https://skillpicker.xyz/zh/skill/youtube-seo-1rxe00s/)** — 指导 YouTube 视频和频道优化，以提升搜索和发现，涵盖标题、描述、标签、缩略图和 AI Overview 引用策略。
-  `npx skills add kostja94/marketing-skills@youtube-seo`
-
-- **[higgsfield-youtube-thumbnail](https://skillpicker.xyz/zh/skill/higgsfield-youtube-thumbnail-1ufy9ip/)** — 通过 Higgsfield CLI 创建高点击率 YouTube 缩略图和竖版视频封面，构建真实的信息差概念，保留参考身份，并使用 Nano Banana…
-  `npx skills add higgsfield-ai/skills@higgsfield-youtube-thumbnail`
-
-- **[youtube-thumbnail-design](https://skillpicker.xyz/zh/skill/youtube-thumbnail-design-1h48u5c/)** — 设计高点击率 YouTube 缩略图，包含具体尺寸、对比度规则、移动端预览优化、安全区域、文字放置和 A/B 测试指导。
-  `npx skills add 101-skills/superpowers@youtube-thumbnail-design`
-
-- **[script-writer](https://skillpicker.xyz/zh/skill/script-writer-xlaly3/)** — 专业 YouTube 编剧，收集风格偏好并生成完整、可直接制作的脚本，针对留存和互动进行优化。
-  `npx skills add ailabs-393/ai-labs-claude-skills@script-writer`
-
-- **[youtube-scriptwriting](https://skillpicker.xyz/zh/skill/youtube-scriptwriting-30jvnx/)** — 通过包含研究、钩子、故事结构、正文内容和为留存而编辑的检查点工作流，将原始想法转化为精炼的 YouTube 脚本。
-  `npx skills add cdeistopened/skill-stack@youtube-scriptwriting`
-
-### 简历与 CV
-
-面向「简历」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/resume/)**
-
-- **[resume-tailor](https://skillpicker.xyz/zh/skill/resume-tailor-1oorrzf/)** — 针对特定职位发布定制简历，通过重排经历、调整摘要、添加关键词和修改要点，同时保持真实性。直接解决简历定制问题。
-  `npx skills add paramchoudhary/resumeskills@resume-tailor`
-
-- **[resume-ats-optimizer](https://skillpicker.xyz/zh/skill/resume-ats-optimizer-a7yzs/)** — 为申请人跟踪系统优化简历，检查 ATS 兼容性，并分析关键词与职位描述的匹配度。涵盖格式修复、关键词放置和匹配评分。
-  `npx skills add paramchoudhary/resumeskills@resume-ats-optimizer`
-
-- **[tailored-resume-generator](https://skillpicker.xyz/zh/skill/tailored-resume-generator-1ccyava/)** — 分析职位描述并生成定制简历，突出相关经验、技能和成就，附 ATS 友好的关键词优化和专业格式。
-  `npx skills add composiohq/awesome-claude-skills@tailored-resume-generator`
-
-- **[review-resume](https://skillpicker.xyz/zh/skill/review-resume-xtag7n/)** — 根据 10 项最佳实践审查 PM 简历，包括 XYZ+S 公式、关键词优化、针对职位的定制和结构，并提供可操作的反馈和示例。
-  `npx skills add phuryn/pm-skills@review-resume`
-
-- **[career-ops](https://skillpicker.xyz/zh/skill/career-ops-1flnrpi/)** — AI 求职指挥中心——评估 offer、生成简历、扫描招聘门户、跟踪申请。适用于用户粘贴职位 URL 或 JD、要求扫描门户、生成 CV/PDF、跟踪申请、准…
-  `npx skills add career-ops-hq/career-ops@career-ops`
-
-### PowerPoint 与演示文稿
-
-面向「PowerPoint 演示文稿」的 Agent Skills。同时覆盖HTML 演示文稿。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/powerpoint/)**
-
-- **[powerpoint](https://skillpicker.xyz/zh/skill/powerpoint-17ug45w/)** — 通过五个辅助脚本使用 python-pptx 创建、读取和编辑 .pptx 演示文稿，涵盖从 JSON 创建、回读、编辑、模板演示文稿和渲染。
-  `npx skills add nousresearch/hermes-agent@powerpoint`
-
-- **[lark-slides](https://skillpicker.xyz/zh/skill/lark-slides-1sk624f/)** — 飞书幻灯片：创建和编辑幻灯片。创建演示文稿、读取幻灯片内容、管理幻灯片页面（创建、删除、读取、局部替换）。当用户需要创建或编辑幻灯片、读取或修改单个页面时使用…
-  `npx skills add larksuite/cli@lark-slides`
-
-- **[guizang-ppt-skill](https://skillpicker.xyz/zh/skill/guizang-ppt-skill-pxyqki/)** — 生成带 WebGL 背景、演示者视图、演讲者备注和两种视觉风格（杂志风和瑞士风）的水平翻转单文件 HTML PPT 演示文稿。
-  `npx skills add op7418/guizang-ppt-skill@guizang-ppt-skill`
-
-- **[html-ppt](https://skillpicker.xyz/zh/skill/html-ppt-sd7193/)** — HTML PPT Studio 创作专业的静态 HTML 演示文稿，包含 36 个主题、15 个整套模板、36 种布局、动画和演讲者模式。
-  `npx skills add lewislulu/html-ppt-skill@html-ppt`
-
-- **[ppt-master](https://skillpicker.xyz/zh/skill/ppt-master-1h1vopy/)** — AI 驱动的演示工作流，生成可编辑的 PPTX 幻灯片，重建页面视觉效果，填充原生模板，并增强已完成的 PPTX 文件。
-  `npx skills add hugohe3/ppt-master@ppt-master`
-
-### LinkedIn 帖子
-
-面向「LinkedIn 帖子」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/linkedin-posts/)**
-
-- **[social](https://skillpicker.xyz/zh/skill/social-zzyift/)** — 当用户需要帮助创建、排期或优化 LinkedIn、Twitter/X、Instagram、TikTok、Facebook 或其他平台的社交媒体内容，或想进行社…
-  `npx skills add coreyhaines31/marketingskills@social`
-
-- **[crosspost](https://skillpicker.xyz/zh/skill/crosspost-1wokt5f/)** — 在 X、LinkedIn、Threads 和 Bluesky 上分发内容，按平台调整文案同时保持语气。直接涵盖基于源内容撰写 LinkedIn 帖子变体。
-  `npx skills add affaan-m/ecc@crosspost`
-
-### 学术写作
-
-面向「学术写作」的 Agent Skills。同时覆盖研究论文撰写、文献综述。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/academic-writing/)**
-
-- **[nature-writing](https://skillpicker.xyz/zh/skill/nature-writing-1170l3e/)** — 根据作者提供的证据起草或重构科学手稿各部分和首次投稿材料，遵循论文类型、章节和期刊特定规则。
-  `npx skills add yuan1z0825/nature-skills@nature-writing`
-
-- **[academic-paper](https://skillpicker.xyz/zh/skill/academic-paper-19qhit2/)** — 运行多 Agent 学术论文流水线，涵盖规划、提纲、起草、修订、摘要、文献综述、引用检查和反驳审计等模式，适配多种论文类型和引用格式。
-  `npx skills add imbad0202/academic-research-skills@academic-paper`
-
-- **[nature-polishing](https://skillpicker.xyz/zh/skill/nature-polishing-ltmszp/)** — 按论文类型、章节、语言和期刊润色、翻译或精简现有学术文本，保留事实、术语和证据边界。
-  `npx skills add yuan1z0825/nature-skills@nature-polishing`
-
-- **[nature-citation](https://skillpicker.xyz/zh/skill/nature-citation-1ji6ka3/)** — 对稿件中的论断进行分段，搜索并保守评级 Nature/CNS 系列支持文献，验证作者元数据，并导出参考文献管理器文件。
-  `npx skills add yuan1z0825/nature-skills@nature-citation`
-
-- **[nature-academic-search](https://skillpicker.xyz/zh/skill/nature-academic-search-yff54w/)** — 跨来源搜索文献，验证和管理引用，构建 MeSH/PubMed 策略，并通过参考文献文件转换运行引用影响审计。
-  `npx skills add yuan1z0825/nature-skills@nature-academic-search`
-
-### 仪表板设计
-
-面向「仪表板设计」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/dashboard-design/)**
-
-- **[kpi-dashboard-design](https://skillpicker.xyz/zh/skill/kpi-dashboard-design-1l7wb3y/)** — 设计有效的 KPI 仪表盘，包括指标选择、可视化最佳实践、层级和实时监控模式，涵盖指标治理和故障排查。直接涵盖仪表盘指标、布局和图表选择。
-  `npx skills add wshobson/agents@kpi-dashboard-design`
-
-- **[dashboarding](https://skillpicker.xyz/zh/skill/dashboarding-1gl42o1/)** — 通过 HTTP API 以 JSON 形式构建、修改和发布 Grafana 仪表板，涵盖面板类型、gridPos 布局、单位、阈值、模板变量、转换和注释。直接…
-  `npx skills add grafana/skills@dashboarding`
-
-- **[build-dashboard](https://skillpicker.xyz/zh/skill/build-dashboard-1ej36pu/)** — 构建带 KPI 卡片、图表、筛选器和表格的交互式 HTML 仪表板，作为可独立在浏览器中打开的文件。直接涵盖仪表板布局、图表选择和交互。
-  `npx skills add anthropics/knowledge-work-plugins@build-dashboard`
-
-- **[interface-design](https://skillpicker.xyz/zh/skill/interface-design-1m4rbm1/)** — 面向仪表盘、管理面板、SaaS 应用和数据界面的工艺优先界面设计，涵盖视觉层级、令牌、状态和设计系统一致性。明确限定于仪表盘和数据界面设计。
-  `npx skills add dammyjay93/interface-design@interface-design`
-
-- **[grafana-dashboards](https://skillpicker.xyz/zh/skill/grafana-dashboards-1mnwsls/)** — 创建和管理用于实时系统和应用指标的生产级 Grafana 仪表盘，涵盖层级、RED/USE 方法、面板类型和告警。直接关于用于监控的仪表盘设计。
-  `npx skills add wshobson/agents@grafana-dashboards`
-
-### 徽标设计
-
-面向「徽标设计」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/logo-design/)**
-
-- **[logo-design](https://skillpicker.xyz/zh/skill/logo-design-6gk7q0/)** — 专业 logo 和品牌标志设计，从需求简报到生产文件。指导探索和设计简报、概念生成、选择标志类型（文字标志、字母组合、字母造型、具象、抽象、徽章、吉祥物、组合…
-  `npx skills add kaankiziltug/logo-design-skill@logo-design`
-
-- **[brandkit](https://skillpicker.xyz/zh/skill/brandkit-xj8dyj/)** — 高端品牌套件图像生成技能，用于品牌指南板、logo 系统、识别视觉册和视觉世界展示，包含 logo 概念设计和象征意义。
-  `npx skills add leonxlnx/taste-skill@brandkit`
-
-### 文档
-
-面向「文档」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/documentation/)**
-
-- **[doc-coauthoring](https://skillpicker.xyz/zh/skill/doc-coauthoring-1uje9wh/)** — 引导用户通过结构化工作流共同撰写文档。当用户想要撰写文档、提案、技术规格、决策文档或类似结构化内容时使用。此工作流帮助用户高效传递上下文、通过迭代完善内容，并…
-  `npx skills add anthropics/skills@doc-coauthoring`
-
-- **[wiki-architect](https://skillpicker.xyz/zh/skill/wiki-architect-1ni2akz/)** — 分析代码仓库并生成带入门指南的分层文档结构。当用户想创建 wiki、生成文档、梳理代码库结构，或从高层理解项目架构时使用。
-  `npx skills add microsoft/skills@wiki-architect`
-
-- **[documentation-and-adrs](https://skillpicker.xyz/zh/skill/documentation-and-adrs-1azbdju/)** — 记录决策和文档。当你需要记录架构决策（ADR）或设计选择背后的理由时，在更改公共 API、发布功能时，或当你需要记录未来工程师和 agent 理解代码库所需的…
-  `npx skills add addyosmani/agent-skills@documentation-and-adrs`
-
-- **[golang-swagger](https://skillpicker.xyz/zh/skill/golang-swagger-1kssa76/)** — 使用 swaggo/swag 编写 Golang OpenAPI/Swagger 文档：注解注释、swag init 代码生成、框架集成、安全定义和结构体标签。
-  `npx skills add samber/cc-skills-golang@golang-swagger`
-
-- **[golang-documentation](https://skillpicker.xyz/zh/skill/golang-documentation-63kaqo/)** — Go 项目综合文档指南，涵盖 godoc 注释、README、CONTRIBUTING、CHANGELOG、Example 测试、API 文档和 llms.t…
-  `npx skills add samber/cc-skills-golang@golang-documentation`
-
-## 按任务
-
-面向一件要完成的工作。
-
-### Web 设计
-
-面向「Web 设计」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/web-design/)**
-
-- **[impeccable](https://skillpicker.xyz/zh/skill/impeccable-xw7l38/)** — 前端界面设计技能，涵盖形状、评审、审计、打磨、布局、排版、颜色、动效、无障碍、响应式行为和设计系统，适用于网站、仪表板和产品 UI。
-  `npx skills add pbakaus/impeccable@impeccable`
-
-- **[ui-ux-pro-max](https://skillpicker.xyz/zh/skill/ui-ux-pro-max-q40x27/)** — 可搜索的 UI/UX 设计智能，涵盖样式、调色板、字体搭配、UX 指南、图标、图表以及针对 Web、移动和桌面界面的技术栈特定实现。
-  `npx skills add nextlevelbuilder/ui-ux-pro-max-skill@ui-ux-pro-max`
-
-- **[redesign-existing-projects](https://skillpicker.xyz/zh/skill/redesign-existing-projects-tsupt0/)** — 审计现有网站和应用中通用的 AI 设计模式，并在不破坏功能的前提下应用高端排版、色彩、表面和布局升级。
-  `npx skills add leonxlnx/taste-skill@redesign-existing-projects`
-
-- **[interface-design](https://skillpicker.xyz/zh/skill/interface-design-1m4rbm1/)** — 面向仪表盘、管理后台、SaaS 应用、工具和数据界面的工艺优先界面设计技能，涵盖视觉层级、tokens、状态和设计系统一致性。
-  `npx skills add dammyjay93/interface-design@interface-design`
-
-- **[frontend-design-direction](https://skillpicker.xyz/zh/skill/frontend-design-direction-1jhp060/)** — 为网站、仪表盘、应用和组件设定产品专属的前端设计方向，涵盖用途、受众、基调、层级、排版、色彩、动效和响应式约束。
-  `npx skills add affaan-m/ecc@frontend-design-direction`
-
-### 视频剪辑
-
-面向「视频剪辑」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/video-editing/)**
-
-- **[video-editing](https://skillpicker.xyz/zh/skill/video-editing-1ngk1oj/)** — AI 辅助视频编辑工作流，跨 FFmpeg、Remotion、ElevenLabs 和 Descript/CapCut 对真实素材进行剪辑、结构化和增强。专为…
-  `npx skills add affaan-m/ecc@video-editing`
-
-- **[ffmpeg-video-editor](https://skillpicker.xyz/zh/skill/ffmpeg-video-editor-1ceiamu/)** — 完整的 FFmpeg 驱动视频编辑 Agent，涵盖裁剪、转码、调整尺寸、拼接、字幕、叠加、调色和音频标准化。专为视频编辑打造。
-  `npx skills add bryanwhl/ffmpeg-video-editor@ffmpeg-video-editor`
-
-- **[open-edit](https://skillpicker.xyz/zh/skill/open-edit-19wwjh/)** — 使用 VEED 托管服务和 CLI 进行视频工作：按词计时转录、剪辑、背景移除、唇形同步、混音以及 HTML 合成渲染。直接涵盖视频编辑。
-  `npx skills add veedstudio/open-edit@open-edit`
-
-- **[chatgpt-short-video-editor](https://skillpicker.xyz/zh/skill/chatgpt-short-video-editor-coxl1o/)** — 将用户提供的视频编辑为竖版 Reels/Shorts/TikToks，包含转录、剪辑、字幕、预览和导出。专为视频编辑打造。
-  `npx skills add jaycheng1103/chatgpt-video-editing-skills@chatgpt-short-video-editor`
-
-- **[pandastudio](https://skillpicker.xyz/zh/skill/pandastudio-dmexzf/)** — 在 PandaStudio 中为 YouTube、Shorts、TikTok 和 Reels 编辑视频：剪辑、缩放、下三分之一字幕条、字幕、动态图形、音效和调…
-  `npx skills add kamskans/pandastudio-skills@pandastudio`
-
-### 3D 建模
-
-面向「3D 建模」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/3d-modeling/)**
-
-- **[cad](https://skillpicker.xyz/zh/skill/cad-sct1qj/)** — 使用 cadgen 创建和编辑参数化 CAD 模型，组织 CAD 项目，导出 STEP/STL/3MF/GLB，解析提示词引用，并测量几何体。在 CAD Vi…
-  `npx skills add earthtojake/text-to-cad@cad`
-
-- **[meshy-3d-generation](https://skillpicker.xyz/zh/skill/meshy-3d-generation-j0j4wy/)** — 使用 Meshy CLI 创建或编辑数字 3D 资产：模型、纹理、绑定、动画和参考图像，并提供生成、纹理、绑定、动画和转换流水线。
-  `npx skills add meshy-dev/meshy-3d-agent@meshy-3d-generation`
-
-- **[layer-3d](https://skillpicker.xyz/zh/skill/layer-3d-1x68cit/)** — 使用 Layer 生成 3D 资产：文本到 3D 和图像到 3D 网格生成、重网格化、重贴图、绑定和动画，并提供拓扑、多边形预算和 PBR 纹理指导。
-  `npx skills add layerai/skills@layer-3d`
-
-- **[threejs-3d-generator](https://skillpicker.xyz/zh/skill/threejs-3d-generator-1c9510f/)** — 通过 Tripo API 为 Three.js 游戏生成、贴图、绑定骨骼、制作动画、风格化、转换和下载 3D 资产，涵盖文本转 3D、图像转 3D、游戏就绪的…
-  `npx skills add majidmanzarpour/threejs-game-skills@threejs-3d-generator`
-
-- **[blender-web-pipeline](https://skillpicker.xyz/zh/skill/blender-web-pipeline-1q86sm6/)** — Blender 到 Web 的 3D 模型和动画导出工作流，涵盖 glTF 导出、bpy 脚本、纹理烘焙、LOD 生成、批处理，以及针对 Three.js 或…
-  `npx skills add freshtechbro/claudedesignskills@blender-web-pipeline`
-
-### 音频与语音
-
-面向「音频与语音」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/audio-voice/)**
-
-- **[transcribe](https://skillpicker.xyz/zh/skill/transcribe-1iidhue/)** — 将音频文件转录为文本，支持可选的说话人分离和已知说话人提示。当用户要求从音频/视频转录语音、从录音中提取文本，或标记访谈或会议中的说话人时使用。
-  `npx skills add openai/skills@transcribe`
-
-- **[speech-to-text](https://skillpicker.xyz/zh/skill/speech-to-text-1at0n16/)** — 使用 ElevenLabs Scribe v2 将音频转录为文本，支持 90 多种语言、说话人分离和词级时间戳。
-  `npx skills add elevenlabs/skills@speech-to-text`
-
-- **[speech](https://skillpicker.xyz/zh/skill/speech-nol9xh/)** — 当用户要求文本转语音旁白或配音、无障碍朗读、音频提示，或通过 OpenAI Audio API 批量生成语音时使用；运行捆绑的…
-  `npx skills add openai/skills@speech`
-
-- **[azure-ai-transcription-py](https://skillpicker.xyz/zh/skill/azure-ai-transcription-py-1naf0ls/)** — | 面向 Python 的 Azure AI Transcription SDK。用于带时间戳和说话人分离的实时和批量语音转文本转录。触发词："transcr…
-  `npx skills add microsoft/skills@azure-ai-transcription-py`
-
-- **[openai-whisper-api](https://skillpicker.xyz/zh/skill/openai-whisper-api-746c5b/)** — 通过 curl 使用 OpenAI Audio Transcriptions API 转录音频，支持…
-  `npx skills add openclaw/openclaw@openai-whisper-api`
-
-### 图像生成
-
-面向「图像生成」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/image-generation/)**
-
-- **[image-generation](https://skillpicker.xyz/zh/skill/image-generation-y8p8hj/)** — 通过捆绑的 Python 脚本，从结构化 JSON 提示生成图像，并可选用参考图像来控制风格和构图。
-  `npx skills add bytedance/deer-flow@image-generation`
-
-- **[imagegen](https://skillpicker.xyz/zh/skill/imagegen-72r05t/)** — 当任务需要 AI 生成的位图视觉素材（如照片、插图、纹理、精灵图、样机或透明背景抠图）时，生成或编辑栅格图像。适用于 Codex 应创建全新图像、转换现有图像…
-  `npx skills add openai/skills@imagegen`
-
-- **[ai-image-generation](https://skillpicker.xyz/zh/skill/ai-image-generation-1kj3iri/)** — 通过 inference.sh CLI 使用 GPT-Image-2、FLUX、Gemini、Grok、Seedream、Reve 及 50+ 模型生成 AI…
-  `npx skills add 101-skills/superpowers@ai-image-generation`
-
-- **[baoyu-image-gen](https://skillpicker.xyz/zh/skill/baoyu-image-gen-hfwe27/)** — 通过多个提供商（OpenAI GPT Image、Azure、Google、OpenRouter、DashScope、Seedream、Replicate）生…
-  `npx skills add jimliu/baoyu-skills@baoyu-image-gen`
-
-- **[gpt-image-2](https://skillpicker.xyz/zh/skill/gpt-image-2-1obn3j1/)** — GPT Image 2 生成/编辑技能，提供 80+ 个结构化提示词模板，覆盖海报、UI、产品、信息图、漫画和故事板，可在本地、宿主原生或顾问模式下运行。
-  `npx skills add conardli/garden-skills@gpt-image-2`
-
-### 测试
-
-面向「测试」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/testing/)**
-
-- **[vue-testing-best-practices](https://skillpicker.xyz/zh/skill/vue-testing-best-practices-1cgxb6n/)** — 用于 Vue.js 测试。涵盖 Vitest、Vue Test Utils、组件测试、模拟、测试模式，以及用于 E2E 测试的 Playwright。
-  `npx skills add vuejs-ai/skills@vue-testing-best-practices`
-
-- **[webapp-testing](https://skillpicker.xyz/zh/skill/webapp-testing-gzbwvd/)** — 使用 Playwright 交互和测试本地 Web 应用的工具包。支持验证前端功能、调试 UI 行为、捕获浏览器截图和查看浏览器日志。
-  `npx skills add anthropics/skills@webapp-testing`
-
-- **[tdd](https://skillpicker.xyz/zh/skill/tdd-u0q9mg/)** — 测试驱动开发。当用户希望以测试优先的方式构建功能或修复缺陷、提到“红-绿-重构”，或需要集成测试时使用。
-  `npx skills add mattpocock/skills@tdd`
-
-- **[playwright-cli](https://skillpicker.xyz/zh/skill/playwright-cli-redym3/)** — 自动化浏览器交互、测试网页并使用 Playwright 测试。
-  `npx skills add microsoft/playwright-cli@playwright-cli`
-
-- **[playwright-best-practices](https://skillpicker.xyz/zh/skill/playwright-best-practices-qk2wk9/)** — 在编写 Playwright 测试、修复不稳定测试、调试失败、实现 Page Object Model、配置 CI/CD、优化性能、模拟 API、处理身份验证…
-  `npx skills add currents-dev/playwright-best-practices-skill@playwright-best-practices`
-
-### 交易
-
-面向「交易」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/trading/)**
-
-- **[backtesting-frameworks](https://skillpicker.xyz/zh/skill/backtesting-frameworks-l2rwzb/)** — 为交易策略构建稳健的回测系统，涵盖前视偏差和幸存者偏差、交易成本、滚动前向分析和样本外验证。
-  `npx skills add wshobson/agents@backtesting-frameworks`
-
-- **[okx-cex-trade](https://skillpicker.xyz/zh/skill/okx-cex-trade-1y32s95/)** — 在 OKX 上下单、取消和修改现货、永续合约、期货、期权和事件合约订单，包括 TP/SL、追踪止损、杠杆和持仓管理。
-  `npx skills add okx/agent-skills@okx-cex-trade`
-
-- **[hyperliquid](https://skillpicker.xyz/zh/skill/hyperliquid-1l10cgw/)** — 在 Hyperliquid DEX 上交易永续合约、现货和 RWA，支持 EIP-712 签名订单、TP/SL、充值，以及只读的账户、盈亏和市场查询。
-  `npx skills add starchild-ai-agent/official-skills@hyperliquid`
-
-### 视频生成
-
-面向「视频生成」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/video-generation/)**
-
-- **[ai-video-generation](https://skillpicker.xyz/zh/skill/ai-video-generation-178fbrm/)** — 通过 inference.sh CLI 使用 Google Veo、Seedance 2.0、HappyHorse、Wan、Grok 及 40+ 模型生成 A…
-  `npx skills add 101-skills/superpowers@ai-video-generation`
-
-- **[kling-cli](https://skillpicker.xyz/zh/skill/kling-cli-1ay9llh/)** — 官方 Kling AI CLI 技能，用于图像和视频生成、可复用 Element 主体，以及通过 MCP 进行运动控制，涵盖文生视频、图生视频和 motion…
-  `npx skills add klingai-tech/skills@kling-cli`
-
-- **[image-to-video](https://skillpicker.xyz/zh/skill/image-to-video-1uk89tj/)** — 通过 runcomfy CLI 在 RunComfy 目录（HappyHorse I2V、Wan 2.7、Seedance 2.0 Pro）中路由图生视频动画…
-  `npx skills add genmedia-labs/skills@image-to-video`
-
-- **[kling-3-0](https://skillpicker.xyz/zh/skill/kling-3-0-2z8hr7/)** — 涵盖 RunComfy 上全部六个 Kling 3.0 端点，横跨 Standard、Pro 和 4K 档位，覆盖文生视频和图生视频模式，并提供定价和档位指导。
-  `npx skills add prime-skills/runcomfy-agent-skills@kling-3-0`
-
-- **[seedance](https://skillpicker.xyz/zh/skill/seedance-qm3n8k/)** — 通过 inference.sh CLI 使用字节跳动 Seedance 2.0 生成视频，涵盖文生视频、图生视频、参考生视频和同步音频，提供 Pro 和 Fa…
-  `npx skills add inference-sh/skills@seedance`
-
-### 音乐生成
-
-面向「音乐生成」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/music-generation/)**
-
-- **[music](https://skillpicker.xyz/zh/skill/music-1qmio8d/)** — 官方 ElevenLabs Music API 技能，通过 compose、composition plans、streaming、finetunes 和 v…
-  `npx skills add elevenlabs/skills@music`
-
-- **[ai-music](https://skillpicker.xyz/zh/skill/ai-music-2dzyba/)** — 在 RunComfy 音乐模型（ElevenLabs Music、ACE Step 1.5、ACE Step base）之间路由以进行文本转音乐，另含用于编辑…
-  `npx skills add genmedia-labs/skills@ai-music`
-
-- **[elevenlabs-music-generation](https://skillpicker.xyz/zh/skill/elevenlabs-music-generation-ty96cl/)** — 通过 RunComfy CLI 使用 ElevenLabs Music 生成完整歌曲和器乐曲目，涵盖风格提示词、带段落标记的结构化歌词、多语言人声和 5 秒至…
-  `npx skills add prime-skills/runcomfy-agent-skills@elevenlabs-music-generation`
-
-- **[suno-music-creator](https://skillpicker.xyz/zh/skill/suno-music-creator-aa3sho/)** — 专业 Suno AI V5 和 Suno Studio 工作流，用于创作歌曲、播放列表、广告歌和环境音轨，包含风格提示、BPM 指南、元标签和后处理。
-  `npx skills add schwepps/skills@suno-music-creator`
-
-- **[audiocraft-audio-generation](https://skillpicker.xyz/zh/skill/audiocraft-audio-generation-xbgvtj/)** — Meta AudioCraft指南，使用MusicGen进行文生音乐，使用AudioGen进行文生音效，涵盖模型规模、旋律条件和立体声输出。
-  `npx skills add orchestra-research/ai-research-skills@audiocraft-audio-generation`
-
-### 应用开发
-
-面向「应用开发」的 Agent Skills。同时覆盖Android 开发。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/app-development/)**
-
-- **[vercel-react-native-skills](https://skillpicker.xyz/zh/skill/vercel-react-native-skills-gtowdb/)** — React Native 和 Expo 高性能移动应用最佳实践：列表虚拟化、使用 Reanimated 的动画、导航、UI 模式、状态管理和 monorepo…
-  `npx skills add vercel-labs/agent-skills@vercel-react-native-skills`
-
-- **[ui-ux-pro-max](https://skillpicker.xyz/zh/skill/ui-ux-pro-max-q40x27/)** — 可搜索的 Web、移动端和桌面端 UI/UX 设计智能：风格、配色、字体搭配、UX 指南、图标、动画预设、图表，以及特定技术栈的实现指导。
-  `npx skills add nextlevelbuilder/ui-ux-pro-max-skill@ui-ux-pro-max`
-
-- **[animate-expo](https://skillpicker.xyz/zh/skill/animate-expo-1890bzt/)** — 使用 Reanimated、Gesture Handler、Expo Router 和触觉反馈在 React Native 和 Expo 中构建动画，涵盖线程…
-  `npx skills add emilkowalski/skills@animate-expo`
-
-- **[tdd](https://skillpicker.xyz/zh/skill/tdd-u0q9mg/)** — 测试驱动开发参考：红绿循环、什么是好的测试、接缝、反模式和循环规则。直接支持应用开发的测试维度。
-  `npx skills add mattpocock/skills@tdd`
-
-- **[playwright-best-practices](https://skillpicker.xyz/zh/skill/playwright-best-practices-b1960v/)** — 全面的 Playwright 指导，涵盖 E2E、组件、API、视觉、无障碍和安全测试，以及不稳定测试调试、POM、CI/CD 和认证流程。
-  `npx skills add currents-dev/playwright-best-practices-skill@playwright-best-practices`
-
-### 学术研究
-
-面向「学术研究」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/academic-research/)**
-
-- **[nature-academic-search](https://skillpicker.xyz/zh/skill/nature-academic-search-yff54w/)** — 跨来源搜索文献，验证和管理引用，构建 MeSH/PubMed 策略，并审计引用影响力，服务于学术研究工作流。
-  `npx skills add yuan1z0825/nature-skills@nature-academic-search`
-
-- **[academic-paper](https://skillpicker.xyz/zh/skill/academic-paper-19qhit2/)** — 一个 12 个 Agent 的学术论文写作流水线，包含 11 种模式，涵盖规划、列大纲、起草、修订、引用检查和 LaTeX/DOCX/PDF 输出，适用于各学…
-  `npx skills add imbad0202/academic-research-skills@academic-paper`
-
-- **[firecrawl-research-papers](https://skillpicker.xyz/zh/skill/firecrawl-research-papers-1osy8d7/)** — 通过 Firecrawl 的论文索引查找并综合研究论文、白皮书和学术来源，使用语义论文搜索、相关论文扩展和正文内验证来生成有来源的文献综述。
-  `npx skills add firecrawl/firecrawl-workflows@firecrawl-research-papers`
-
-- **[academic-pipeline](https://skillpicker.xyz/zh/skill/academic-pipeline-mdat76/)** — 编排从研究到写作、诚信检查、两阶段同行评审、修订和定稿的完整学术研究流程，涵盖 10 阶段工作流。
-  `npx skills add imbad0202/academic-research-skills@academic-pipeline`
-
-- **[literature-review](https://skillpicker.xyz/zh/skill/literature-review-14cd5lj/)** — 系统化文献综述工作流，涵盖检索规划、来源筛选、去重、数据提取、综合和引用验证，并附证据日志。
-  `npx skills add affaan-m/ecc@literature-review`
-
-### SEO
-
-面向「SEO」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/seo/)**
-
-- **[seo](https://skillpicker.xyz/zh/skill/seo-58n03o/)** — 针对搜索引擎可见性和排名进行优化。适用于被要求“改善 SEO”、“优化搜索”、“修复 meta 标签”、“添加结构化数据”、“站点地图优化”或“搜索引擎优化”…
-  `npx skills add addyosmani/web-quality-skills@seo`
-
-- **[seo-audit](https://skillpicker.xyz/zh/skill/seo-audit-1y4wn3r/)** — 当用户想要审计、审查或诊断其站点的 SEO 问题时使用。也适用于用户提到“SEO 审计”“技术 SEO”“为什么我排名不高”“SEO 问题”“页面 SEO”“…
-  `npx skills add coreyhaines31/marketingskills@seo-audit`
-
-- **[programmatic-seo](https://skillpicker.xyz/zh/skill/programmatic-seo-tdbdya/)** — 当用户想要使用模板和数据大规模创建 SEO 驱动页面时使用。也适用于用户提到“程序化 SEO”“模板页面”“大规模页面”“目录页面”“位置页面”“[关键词]…
-  `npx skills add coreyhaines31/marketingskills@programmatic-seo`
-
-- **[audit-website](https://skillpicker.xyz/zh/skill/audit-website-1k98lat/)** — 使用 squirrelscan CLI 审计网站并在代码中修复发现的问题。运行 SEO、性能、安全、技术、内容、无障碍以及另外 15 个规则类别（260+ 条…
-  `npx skills add squirrelscan/skills@audit-website`
-
-- **[seo-content](https://skillpicker.xyz/zh/skill/seo-content-1kssswe/)** — 内容质量和 E-E-A-T 分析，包含 AI 引用就绪度评估，以及最后一公里草稿清理（AI 典型措辞和不可见 Unicode 水印字符）。适用于用户说“con…
-  `npx skills add agricidaniel/claude-seo@seo-content`
-
-### 代码审查
-
-面向「代码审查」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/code-review/)**
-
-- **[code-review](https://skillpicker.xyz/zh/skill/code-review-1w5v1ur/)** — 从固定点（commit、branch、tag 或 merge-base）起，沿两个维度审查变更：Standards（代码是否遵循本仓库有文档记录的编码规范？）…
-  `npx skills add mattpocock/skills@code-review`
-
-- **[code-review-and-quality](https://skillpicker.xyz/zh/skill/code-review-and-quality-1jqxkxv/)** — 进行多维度代码审查。在合并任何变更之前使用。在审查自己、其他 agent 或人类编写的代码时使用。当你需要在代码进入主分支之前从多个维度评估代码质量时使用。
-  `npx skills add addyosmani/agent-skills@code-review-and-quality`
-
-- **[code-review-excellence](https://skillpicker.xyz/zh/skill/code-review-excellence-1yvrgmj/)** — 掌握高效的代码审查实践，提供建设性反馈、尽早发现 bug，并在维护团队士气的同时促进知识共享。适用于审查拉取请求、制定审查标准或指导开发者时。
-  `npx skills add wshobson/agents@code-review-excellence`
-
-- **[review-pr](https://skillpicker.xyz/zh/skill/review-pr-1wwc164/)** — 审查拉取请求 diff 并将结构化反馈写入 review.json 供工作流发布。适用于从 pr_diff.txt 和 pr_description.txt…
-  `npx skills add warpdotdev/common-skills@review-pr`
-
-- **[open-code-review](https://skillpicker.xyz/zh/skill/open-code-review-b6s8ih/)** — 运行 ocr CLI 对 Git 变更执行 AI 驱动的代码审查，生成针对 bug、安全、性能和质量问题的行级评论。
-  `npx skills add alibaba/open-code-review@open-code-review`
-
-### 文案写作
-
-面向「文案写作」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/copywriting/)**
-
-- **[copywriting](https://skillpicker.xyz/zh/skill/copywriting-1dho2a7/)** — 当用户想要为任何页面撰写、重写或改进营销文案时——包括首页、落地页、定价页、功能页、关于页或产品页。也适用于用户说“为……写文案”“改进这段文案”“重写这个页…
-  `npx skills add coreyhaines31/marketingskills@copywriting`
-
-- **[copy-editing](https://skillpicker.xyz/zh/skill/copy-editing-qkt1d8/)** — 当用户想要编辑、审阅或改进现有营销文案，或更新过时内容时使用。也适用于用户提到“编辑这段文案”“审阅我的文案”“文案反馈”“校对”“润色一下”“让它更好”“文…
-  `npx skills add coreyhaines31/marketingskills@copy-editing`
-
-- **[landing-page-copywriter](https://skillpicker.xyz/zh/skill/landing-page-copywriter-pvj25o/)** — 使用 PAS（问题-激化-解决方案）、AIDA 和 StoryBrand 等成熟框架撰写高转化率的落地页文案。创建标题、价值主张、CTA 和完整的页面板块，并…
-  `npx skills add onewave-ai/claude-skills@landing-page-copywriter`
-
-- **[ad-copy-variants](https://skillpicker.xyz/zh/skill/ad-copy-variants-1j08okk/)** — 将一个核心价值主张转化为真正不同的广告文案变体——标题、正文、描述和 CTA 组合——每个都标注角度、认知阶段、公式和版本，让测试结果保持可归因。真正的变体是…
-  `npx skills add mbfinotti/advertising-skills@ad-copy-variants`
-
-- **[ads-copywriter](https://skillpicker.xyz/zh/skill/ads-copywriter-1r91pr2/)** — 为 Google Ads、Meta/Facebook、TikTok、LinkedIn 生成多平台广告文案，并提供 A/B 测试变体
-  `npx skills add claude-office-skills/skills@ads-copywriter`
-
-### 深度研究
-
-面向「深度研究」的 Agent Skills。
-
-**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/task/deep-research/)**
-
-- **[deep-research](https://skillpicker.xyz/zh/skill/deep-research-1wq93ai/)** — 当用户需要带引文追踪、证据留存和结构化报告生成的多来源研究时使用。触发词包括“deep research”、“comprehensive…
-  `npx skills add 199-biotechnologies/claude-deep-research-skill@deep-research`
-
-- **[parallel-web](https://skillpicker.xyz/zh/skill/parallel-web-1l9ez47/)** — 统一的 Parallel CLI 工具包，用于网络搜索、URL 提取、深度研究、数据丰富、实体发现和定期监控，优先使用学术来源并提供引用指导。
-  `npx skills add k-dense-ai/scientific-agent-skills@parallel-web`
-
-- **[firecrawl](https://skillpicker.xyz/zh/skill/firecrawl-1rdvuxu/)** — 通过 Firecrawl CLI 完成任何实时网页任务——包括普通网页研究：搜索网页、读取或提取页面、收集来源、发现站点 URL、批量提取、下载站点、变更提醒…
-  `npx skills add firecrawl/cli@firecrawl`
-
-- **[firecrawl-search](https://skillpicker.xyz/zh/skill/firecrawl-search-l1zhat/)** — 查找与查询相关的网页摘录和可选整页内容的网络来源，并发现工作流、数据 API 和索引。用于网络研究或查找结构化记录、列表、转录和数据集。支持语义工具发现、域名…
-  `npx skills add firecrawl/cli@firecrawl-search`
-
-- **[research](https://skillpicker.xyz/zh/skill/research-1vg9t2w/)** — 针对高可信度的一手来源调查某个问题，并将发现以 Markdown 文件形式保存到仓库中。适用于用户希望研究某个主题、收集文档或 API 事实，或将阅读工作委托…
-  `npx skills add mattpocock/skills@research`
-
 ## 按工具
 
 面向你已经在用的产品。
@@ -1146,6 +971,181 @@ Claude Code · Codex · Cursor · Gemini CLI · Copilot · OpenCode
 
 - **[analyze-project](https://skillpicker.xyz/zh/skill/analyze-project-1ymlw9z/)** — 针对 Antigravity 会话的取证式根因分析器，从 brain 产物中分类范围偏差、返工、根因和热点。
   `npx skills add sickn33/agentic-awesome-skills@analyze-project`
+
+## 按产出
+
+面向你要交付的东西。
+
+### Excel 电子表格
+
+面向「Excel 电子表格」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/excel/)**
+
+- **[xlsx](https://skillpicker.xyz/zh/skill/xlsx-19o7j8k/)** — 当电子表格文件是主要输入或输出时使用此 skill。这意味着任何用户想要：打开、读取、编辑或修复现有 .xlsx、.xlsm、.xltx、.csv 或 .ts…
+  `npx skills add anthropics/skills@xlsx`
+
+- **[xlsx-manipulation](https://skillpicker.xyz/zh/skill/xlsx-manipulation-1fqvrb0/)** — 使用 openpyxl 以编程方式创建、编辑和操作 Excel 电子表格
+  `npx skills add claude-office-skills/skills@xlsx-manipulation`
+
+- **[excel-automation](https://skillpicker.xyz/zh/skill/excel-automation-1pixg5k/)** — 通过 xlwings 实现 Excel 自动化，涵盖实时工作簿、公式、图表、表格和 VBA。
+  `npx skills add claude-office-skills/skills@excel-automation`
+
+- **[clean-data-xls](https://skillpicker.xyz/zh/skill/clean-data-xls-9x5ppq/)** — 清理杂乱的电子表格数据——去除空白、修正大小写不一致、将存储为文本的数字转换、标准化日期、删除重复项并标记混合类型列。当数据杂乱、不一致或需要在分析前准备时使…
+  `npx skills add anthropics/financial-services@clean-data-xls`
+
+- **[audit-xls](https://skillpicker.xyz/zh/skill/audit-xls-pmv2a1/)** — 审计电子表格的公式准确性、错误和常见错误。范围可限定为选定区域、单个工作表或整个模型（包括资产负债表平衡、现金勾稽和逻辑合理性等财务模型完整性检查）。触发词包…
+  `npx skills add anthropics/financial-services@audit-xls`
+
+### YouTube 视频
+
+面向「YouTube 视频」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/youtube-videos/)**
+
+- **[youtube-seo](https://skillpicker.xyz/zh/skill/youtube-seo-1rxe00s/)** — 指导 YouTube 视频和频道优化，以提升搜索和发现，涵盖标题、描述、标签、缩略图和 AI Overview 引用策略。
+  `npx skills add kostja94/marketing-skills@youtube-seo`
+
+- **[higgsfield-youtube-thumbnail](https://skillpicker.xyz/zh/skill/higgsfield-youtube-thumbnail-1ufy9ip/)** — 通过 Higgsfield CLI 创建高点击率 YouTube 缩略图和竖版视频封面，构建真实的信息差概念，保留参考身份，并使用 Nano Banana…
+  `npx skills add higgsfield-ai/skills@higgsfield-youtube-thumbnail`
+
+- **[youtube-thumbnail-design](https://skillpicker.xyz/zh/skill/youtube-thumbnail-design-1h48u5c/)** — 设计高点击率 YouTube 缩略图，包含具体尺寸、对比度规则、移动端预览优化、安全区域、文字放置和 A/B 测试指导。
+  `npx skills add 101-skills/superpowers@youtube-thumbnail-design`
+
+- **[script-writer](https://skillpicker.xyz/zh/skill/script-writer-xlaly3/)** — 专业 YouTube 编剧，收集风格偏好并生成完整、可直接制作的脚本，针对留存和互动进行优化。
+  `npx skills add ailabs-393/ai-labs-claude-skills@script-writer`
+
+- **[youtube-scriptwriting](https://skillpicker.xyz/zh/skill/youtube-scriptwriting-30jvnx/)** — 通过包含研究、钩子、故事结构、正文内容和为留存而编辑的检查点工作流，将原始想法转化为精炼的 YouTube 脚本。
+  `npx skills add cdeistopened/skill-stack@youtube-scriptwriting`
+
+### 简历与 CV
+
+面向「简历」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/resume/)**
+
+- **[resume-tailor](https://skillpicker.xyz/zh/skill/resume-tailor-1oorrzf/)** — 针对特定职位发布定制简历，通过重排经历、调整摘要、添加关键词和修改要点，同时保持真实性。直接解决简历定制问题。
+  `npx skills add paramchoudhary/resumeskills@resume-tailor`
+
+- **[resume-ats-optimizer](https://skillpicker.xyz/zh/skill/resume-ats-optimizer-a7yzs/)** — 为申请人跟踪系统优化简历，检查 ATS 兼容性，并分析关键词与职位描述的匹配度。涵盖格式修复、关键词放置和匹配评分。
+  `npx skills add paramchoudhary/resumeskills@resume-ats-optimizer`
+
+- **[tailored-resume-generator](https://skillpicker.xyz/zh/skill/tailored-resume-generator-1ccyava/)** — 分析职位描述并生成定制简历，突出相关经验、技能和成就，附 ATS 友好的关键词优化和专业格式。
+  `npx skills add composiohq/awesome-claude-skills@tailored-resume-generator`
+
+- **[review-resume](https://skillpicker.xyz/zh/skill/review-resume-xtag7n/)** — 根据 10 项最佳实践审查 PM 简历，包括 XYZ+S 公式、关键词优化、针对职位的定制和结构，并提供可操作的反馈和示例。
+  `npx skills add phuryn/pm-skills@review-resume`
+
+- **[career-ops](https://skillpicker.xyz/zh/skill/career-ops-1flnrpi/)** — AI 求职指挥中心——评估 offer、生成简历、扫描招聘门户、跟踪申请。适用于用户粘贴职位 URL 或 JD、要求扫描门户、生成 CV/PDF、跟踪申请、准…
+  `npx skills add career-ops-hq/career-ops@career-ops`
+
+### PowerPoint 与演示文稿
+
+面向「PowerPoint 演示文稿」的 Agent Skills。同时覆盖HTML 演示文稿。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/powerpoint/)**
+
+- **[powerpoint](https://skillpicker.xyz/zh/skill/powerpoint-17ug45w/)** — 通过五个辅助脚本使用 python-pptx 创建、读取和编辑 .pptx 演示文稿，涵盖从 JSON 创建、回读、编辑、模板演示文稿和渲染。
+  `npx skills add nousresearch/hermes-agent@powerpoint`
+
+- **[lark-slides](https://skillpicker.xyz/zh/skill/lark-slides-1sk624f/)** — 飞书幻灯片：创建和编辑幻灯片。创建演示文稿、读取幻灯片内容、管理幻灯片页面（创建、删除、读取、局部替换）。当用户需要创建或编辑幻灯片、读取或修改单个页面时使用…
+  `npx skills add larksuite/cli@lark-slides`
+
+- **[guizang-ppt-skill](https://skillpicker.xyz/zh/skill/guizang-ppt-skill-pxyqki/)** — 生成带 WebGL 背景、演示者视图、演讲者备注和两种视觉风格（杂志风和瑞士风）的水平翻转单文件 HTML PPT 演示文稿。
+  `npx skills add op7418/guizang-ppt-skill@guizang-ppt-skill`
+
+- **[html-ppt](https://skillpicker.xyz/zh/skill/html-ppt-sd7193/)** — HTML PPT Studio 创作专业的静态 HTML 演示文稿，包含 36 个主题、15 个整套模板、36 种布局、动画和演讲者模式。
+  `npx skills add lewislulu/html-ppt-skill@html-ppt`
+
+- **[ppt-master](https://skillpicker.xyz/zh/skill/ppt-master-1h1vopy/)** — AI 驱动的演示工作流，生成可编辑的 PPTX 幻灯片，重建页面视觉效果，填充原生模板，并增强已完成的 PPTX 文件。
+  `npx skills add hugohe3/ppt-master@ppt-master`
+
+### LinkedIn 帖子
+
+面向「LinkedIn 帖子」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/linkedin-posts/)**
+
+- **[social](https://skillpicker.xyz/zh/skill/social-zzyift/)** — 当用户需要帮助创建、排期或优化 LinkedIn、Twitter/X、Instagram、TikTok、Facebook 或其他平台的社交媒体内容，或想进行社…
+  `npx skills add coreyhaines31/marketingskills@social`
+
+- **[crosspost](https://skillpicker.xyz/zh/skill/crosspost-1wokt5f/)** — 在 X、LinkedIn、Threads 和 Bluesky 上分发内容，按平台调整文案同时保持语气。直接涵盖基于源内容撰写 LinkedIn 帖子变体。
+  `npx skills add affaan-m/ecc@crosspost`
+
+### 学术写作
+
+面向「学术写作」的 Agent Skills。同时覆盖研究论文撰写、文献综述。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/academic-writing/)**
+
+- **[nature-writing](https://skillpicker.xyz/zh/skill/nature-writing-1170l3e/)** — 根据作者提供的证据起草或重构科学手稿各部分和首次投稿材料，遵循论文类型、章节和期刊特定规则。
+  `npx skills add yuan1z0825/nature-skills@nature-writing`
+
+- **[academic-paper](https://skillpicker.xyz/zh/skill/academic-paper-19qhit2/)** — 运行多 Agent 学术论文流水线，涵盖规划、提纲、起草、修订、摘要、文献综述、引用检查和反驳审计等模式，适配多种论文类型和引用格式。
+  `npx skills add imbad0202/academic-research-skills@academic-paper`
+
+- **[nature-polishing](https://skillpicker.xyz/zh/skill/nature-polishing-ltmszp/)** — 按论文类型、章节、语言和期刊润色、翻译或精简现有学术文本，保留事实、术语和证据边界。
+  `npx skills add yuan1z0825/nature-skills@nature-polishing`
+
+- **[nature-citation](https://skillpicker.xyz/zh/skill/nature-citation-1ji6ka3/)** — 对稿件中的论断进行分段，搜索并保守评级 Nature/CNS 系列支持文献，验证作者元数据，并导出参考文献管理器文件。
+  `npx skills add yuan1z0825/nature-skills@nature-citation`
+
+- **[nature-academic-search](https://skillpicker.xyz/zh/skill/nature-academic-search-yff54w/)** — 跨来源搜索文献，验证和管理引用，构建 MeSH/PubMed 策略，并通过参考文献文件转换运行引用影响审计。
+  `npx skills add yuan1z0825/nature-skills@nature-academic-search`
+
+### 仪表板设计
+
+面向「仪表板设计」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/dashboard-design/)**
+
+- **[kpi-dashboard-design](https://skillpicker.xyz/zh/skill/kpi-dashboard-design-1l7wb3y/)** — 设计有效的 KPI 仪表盘，包括指标选择、可视化最佳实践、层级和实时监控模式，涵盖指标治理和故障排查。直接涵盖仪表盘指标、布局和图表选择。
+  `npx skills add wshobson/agents@kpi-dashboard-design`
+
+- **[dashboarding](https://skillpicker.xyz/zh/skill/dashboarding-1gl42o1/)** — 通过 HTTP API 以 JSON 形式构建、修改和发布 Grafana 仪表板，涵盖面板类型、gridPos 布局、单位、阈值、模板变量、转换和注释。直接…
+  `npx skills add grafana/skills@dashboarding`
+
+- **[build-dashboard](https://skillpicker.xyz/zh/skill/build-dashboard-1ej36pu/)** — 构建带 KPI 卡片、图表、筛选器和表格的交互式 HTML 仪表板，作为可独立在浏览器中打开的文件。直接涵盖仪表板布局、图表选择和交互。
+  `npx skills add anthropics/knowledge-work-plugins@build-dashboard`
+
+- **[interface-design](https://skillpicker.xyz/zh/skill/interface-design-1m4rbm1/)** — 面向仪表盘、管理面板、SaaS 应用和数据界面的工艺优先界面设计，涵盖视觉层级、令牌、状态和设计系统一致性。明确限定于仪表盘和数据界面设计。
+  `npx skills add dammyjay93/interface-design@interface-design`
+
+- **[grafana-dashboards](https://skillpicker.xyz/zh/skill/grafana-dashboards-1mnwsls/)** — 创建和管理用于实时系统和应用指标的生产级 Grafana 仪表盘，涵盖层级、RED/USE 方法、面板类型和告警。直接关于用于监控的仪表盘设计。
+  `npx skills add wshobson/agents@grafana-dashboards`
+
+### 徽标设计
+
+面向「徽标设计」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/logo-design/)**
+
+- **[logo-design](https://skillpicker.xyz/zh/skill/logo-design-6gk7q0/)** — 专业 logo 和品牌标志设计，从需求简报到生产文件。指导探索和设计简报、概念生成、选择标志类型（文字标志、字母组合、字母造型、具象、抽象、徽章、吉祥物、组合…
+  `npx skills add kaankiziltug/logo-design-skill@logo-design`
+
+- **[brandkit](https://skillpicker.xyz/zh/skill/brandkit-xj8dyj/)** — 高端品牌套件图像生成技能，用于品牌指南板、logo 系统、识别视觉册和视觉世界展示，包含 logo 概念设计和象征意义。
+  `npx skills add leonxlnx/taste-skill@brandkit`
+
+### 文档
+
+面向「文档」的 Agent Skills。
+
+**[在 SkillPicker 查看全部 →](https://skillpicker.xyz/zh/for/deliverable/documentation/)**
+
+- **[doc-coauthoring](https://skillpicker.xyz/zh/skill/doc-coauthoring-1uje9wh/)** — 引导用户通过结构化工作流共同撰写文档。当用户想要撰写文档、提案、技术规格、决策文档或类似结构化内容时使用。此工作流帮助用户高效传递上下文、通过迭代完善内容，并…
+  `npx skills add anthropics/skills@doc-coauthoring`
+
+- **[wiki-architect](https://skillpicker.xyz/zh/skill/wiki-architect-1ni2akz/)** — 分析代码仓库并生成带入门指南的分层文档结构。当用户想创建 wiki、生成文档、梳理代码库结构，或从高层理解项目架构时使用。
+  `npx skills add microsoft/skills@wiki-architect`
+
+- **[documentation-and-adrs](https://skillpicker.xyz/zh/skill/documentation-and-adrs-1azbdju/)** — 记录决策和文档。当你需要记录架构决策（ADR）或设计选择背后的理由时，在更改公共 API、发布功能时，或当你需要记录未来工程师和 agent 理解代码库所需的…
+  `npx skills add addyosmani/agent-skills@documentation-and-adrs`
+
+- **[golang-swagger](https://skillpicker.xyz/zh/skill/golang-swagger-1kssa76/)** — 使用 swaggo/swag 编写 Golang OpenAPI/Swagger 文档：注解注释、swag init 代码生成、框架集成、安全定义和结构体标签。
+  `npx skills add samber/cc-skills-golang@golang-swagger`
+
+- **[golang-documentation](https://skillpicker.xyz/zh/skill/golang-documentation-63kaqo/)** — Go 项目综合文档指南，涵盖 godoc 注释、README、CONTRIBUTING、CHANGELOG、Example 测试、API 文档和 llms.t…
+  `npx skills add samber/cc-skills-golang@golang-documentation`
 
 ## 入门
 

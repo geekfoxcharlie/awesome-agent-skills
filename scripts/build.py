@@ -18,7 +18,9 @@ DEFAULT_SOURCE = (
 )
 SITE_DEFAULT = "https://skillpicker.xyz"
 
-AXIS_ORDER = ["role", "deliverable", "task", "tool", "agent", "beginner"]
+# Job first, then who does it, the software, the agent that runs the skill,
+# the artifact, and getting started. Mirrors SkillPicker's homepage browse order.
+AXIS_ORDER = ["task", "role", "tool", "agent", "deliverable", "beginner"]
 
 COPY = {
     "en": {
